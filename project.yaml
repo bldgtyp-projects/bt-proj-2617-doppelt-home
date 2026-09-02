@@ -19,7 +19,7 @@ building:
   building_type: TBD
   total_num_occupants: null
 source_files:
-  phpp_path: ''
+  phpp_path: ../07_PHPP/2617_Doppelt_home_260902.xlsx
   cad_files_received_date: null
   data_dir: data
   assets_dir: public/assets

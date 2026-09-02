@@ -1,9 +1,55 @@
 {
-  "status": "pending",
-  "project": {
-    "slug": "0000-example-report",
-    "name": "Example Passive House Report"
-  },
-  "schema_version": "0.1.0",
-  "variants": []
+  "schema_version": "1.0.0",
+  "phpp_version": "10.6",
+  "generated_at": "2026-09-02T13:09:09.168541Z",
+  "generator": "btwr@0.0.1",
+  "status": "ok",
+  "variants": [
+    {
+      "id": "code_miniumum",
+      "name": "Code Miniumum",
+      "order": 0,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "G"
+    },
+    {
+      "id": "improved_envelope",
+      "name": "Improved Envelope",
+      "order": 1,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "H"
+    },
+    {
+      "id": "improved_mech",
+      "name": "Improved Mech.",
+      "order": 2,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "I"
+    },
+    {
+      "id": "recommended",
+      "name": "Recommended",
+      "order": 3,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "J"
+    },
+    {
+      "id": "enerphit_by_demand",
+      "name": "EnerPHit By Demand",
+      "order": 4,
+      "color": "auto",
+      "recommended": true,
+      "source_column": "K"
+    }
+  ],
+  "recommended_variant_id": "enerphit_by_demand",
+  "source_workbook": {
+    "path": "/Users/em/Dropbox/bldgtyp/2617 Doppelt Home/07_PHPP/2617_Doppelt_home_260902.xlsx",
+    "sha256": "cd353d574996113b1f94fb16ced0fe7df813f21a39c1dd7aed12fc465c6546d9",
+    "size_bytes": 13121700
+  }
 }
