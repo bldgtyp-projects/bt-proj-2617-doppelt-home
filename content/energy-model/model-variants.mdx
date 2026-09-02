@@ -4,27 +4,44 @@ title: "Model Variants"
 dek: "Compare the design options that define the energy-model decision space."
 ---
 
-As shown in the results below, in order to assess the building performance we have tested the building in five distinct
-configurations (variants):
+We tested the building in five configurations. Each variant changes only the inputs listed, so the difference between
+any two rows in the results below comes from those inputs alone.
 
-1. **Code-Minimum:** A version which meets but does not exceed the **<VarLink
-hrefKey="narrative.energy_code.code_base_url" target="_blank" rel="noopener noreferrer"><Var
-k="narrative.energy_code.name" /> / <Var k="narrative.energy_code.zone" /></VarLink>** code minimums for assembly
-R-values, window U-values, airtightness and equipment efficiencies. This variant assumes a typical residential
-"extract-only" (bath fan) ventilation system, and that the building uses all-electric appliances and equipment for
-heating, cooling, hot-water and cooking.
+1. **Code Minimum:** Meets the **<VarLink hrefKey="narrative.energy_code.code_base_url" target="_blank" rel="noopener noreferrer"><Var
+   k="narrative.energy_code.name" /> / <Var k="narrative.energy_code.zone" /></VarLink>** minimums for assembly
+   U-factors, window U-values, airtightness and equipment efficiencies, and goes no further. The building has more
+   than three stories above grade plane, so the Commercial Provisions of the code govern. This variant assumes a
+   typical "extract-only" (bath fan) ventilation system, an uninsulated party wall, an uninsulated basement slab, and
+   all-electric appliances and equipment for heating, cooling, hot water and cooking.
 
-2. **Improved Envelope:** This variant improves the window U-values, assembly R-values, and total airtightness of the
-building beyond the "code-minimum" levels, but not quite to full "Passive House" level. 
+2. **Improved Envelope:** Adds interior insulation at the masonry walls (R-20), a fully insulated new basement slab
+   (R-23), a partially insulated party wall (R-9), an improved roof (R-60), better glazing (U-0.24), and airtightness
+   at 2.0 ACH50. Ventilation stays extract-only, so this variant isolates the envelope contribution.
 
-3. **Improved HVAC:** This variant includes a dedicated fresh-air ventilation system with heat recovery (HRV). This 
-system is assumed to be a "basic" HRV with 70% heat-recovery (unit). This variant shows a slight increase in the overall 
-site-energy, due to the increased fan-energy needed.
+3. **Improved Mech.:** Adds a dedicated balanced fresh-air ventilation system with heat recovery to the improved
+   envelope. Heat recovery is modeled at 68% effective, representative of a mid-range unit. Fan energy rises slightly
+   while heating demand falls.
 
-4. **PHI EnerPHit 'By Component' [RECOMMENDED]:** A variant which meets the stringent Passive House Institute (PHI) EnerPHit
-(Energy Retrofit) standard's prescriptive targets for envelope U-values, airtightness, windows, and equipment efficiencies.
-This variant also includes a high performance ERV system for fresh-air ventilation.
+4. **Recommended:** The package we recommend. It carries the improved envelope forward, tightens airtightness to
+   <Var k="narrative.certification.ph_ach_limit" /> ACH50, upgrades the glazing to an installed U-value of
+   <Var k="narrative.windows.ph_window_u_value" /> Btu/hr-ft<sup>2</sup>-F at a
+   <Var k="narrative.user_defined.rec_window_shgc" /> SHGC, uses a high-performance ERV at
+   <Var k="narrative.user_defined.erv_heat_recovery_pct" />% effective heat recovery, and drops the thermal-bridge
+   allowance to 10% on the strength of the detailing work scheduled in the next phase.
 
-5. **PHI EnerPHit 'By Demand' :** A version which increases assembly R-values, window U-values, and mechanical system efficiencies 
-to meet the PHI-EnerPHit 'by Demand'  energy performance certification criteria. Due to the higher level of wall insulation required
-at the existing brick masonry, this variant is not recommended in this case.
+5. **EnerPHit by Demand:** Raises assembly R-values, window U-values and equipment efficiencies until the model meets
+   the PHI EnerPHit energy-demand criterion of <Var k="narrative.certification.enph_hd_limit" /> kWh/m<sup>2</sup>-yr
+   for heating. On this building that takes roughly R-60 at every assembly, including the interior face of the
+   existing brick and the party wall, together with a 0.55 SHGC glazing package. It is here to price the
+   certification target, and we do not recommend building it.
+
+<div class="btwr-callout btwr-callout--critical">
+  <strong>Why the EnerPHit demand variant is priced but not recommended</strong>
+  <span>
+    R-60 of interior insulation on a 21 ft wide row house is roughly 15 in. of assembly depth against every exterior
+    wall, which the floor plan cannot absorb. It also drives the embedded floor-joist ends colder and wetter, the
+    exact failure mode we are trying to avoid on an interior-insulated masonry building. The 0.55 SHGC glazing needed
+    to make the winter balance work then raises summer solar gain at the rear and penthouse glazing, where the model
+    already shows the highest overheating risk.
+  </span>
+</div>

@@ -4,24 +4,41 @@ title: "Window Thermal Comfort"
 dek: "Connect window package assumptions to occupant comfort near large glazed areas."
 ---
 
-In any high-performance building, both the energy and occupant comfort impacts of the glazing must be carefully
-assessed. For a building seeking any of the PHI or Phius certifications, a very stringent evaluation and quantification
-of this thermal comfort impact must be executed. This comfort evaluation looks at both the overall occupant comfort as a
-result of air-temperature and relative-humidity but also the localized thermal discomfort caused by cold-surfaces and
-drafts at the glazing surface.
+Glazing affects both energy and occupant comfort, and both have to be assessed on a high-performance building. A
+building going for any of the PHI or Phius certifications has to quantify the comfort impact under a stringent
+evaluation. That evaluation looks at overall comfort from air temperature and relative humidity, and at the localized
+discomfort caused by cold surfaces and drafts at the glazing.
 
-In particular, the localized discomfort which results from a radiant temperature asymmetry (a difference in the
-temperature of the surfaces surrounding the body) must be assessed in order to evaluate the possibility of eliminating
-perimeter heating. If the radiant temperature asymmetry exceeds a certain level, a compensating heat source may be
-required in order to offset the potential discomfort. Typically, this would mean a radiator of some form, installed
-beneath the window.
+Localized discomfort from radiant temperature asymmetry, a difference in the temperature of the surfaces around the
+body, decides whether perimeter heating can be eliminated. Where the asymmetry exceeds a certain level, a compensating
+heat source is needed to offset it, normally a radiator under the window.
 
-Many engineering reference standards suggests that ideal thermal comfort is found when there are temperature differences
-of less than 7.6°F [4.2°K] between all the surfaces around a person’s body. The windows are important in this respect,
-as this is where the coldest surface temperatures in the building will typically occur during the winter months.
+Many engineering reference standards put ideal thermal comfort at temperature differences below 7.6°F [4.2°K] between
+all the surfaces around a person's body. Windows matter most here, because they produce the coldest surface
+temperatures in the building during winter.
 
-For <Var k="narrative.energy_code.zone" />’s winter comfort-design weather conditions [ <Var k="narrative.climate.ashrae_winter_design_temp_F"/>°F (<Var k="narrative.climate.ashrae_winter_design_temp_C"/>°C) ], Passive House certification guidelines for
-this climate would recommend that as long as windows with an Installed R-Value higher than <Var k="narrative.windows.comfort_target_r_value" /> hr-ft2-F/Btu [ U-Value
-less than <Var k="narrative.windows.comfort_target_u_value" /> Btu/hr-ft2-F ] are used this will lead to surface temperatures which PHI finds acceptable for thermal
-comfort. Note, for smaller windows with a lower ‘view-factor’ (less visible to the occupants) slightly lower R-Values
-may still achieve the desired thermal comfort targets.
+For <Var k="narrative.energy_code.zone" />'s winter comfort-design weather conditions [ <Var k="narrative.climate.ashrae_winter_design_temp_F"/>°F (<Var k="narrative.climate.ashrae_winter_design_temp_C"/>°C) ], Passive House certification guidelines for
+this climate recommend windows with an installed R-value above <Var k="narrative.windows.comfort_target_r_value" /> hr-ft2-F/Btu [ U-value
+below <Var k="narrative.windows.comfort_target_u_value" /> Btu/hr-ft2-F ]. Those produce surface temperatures PHI finds acceptable for thermal
+comfort. For smaller windows with a lower 'view-factor', less visible to the occupants, slightly lower R-values may still hit the comfort target.
+
+The recommended variant is modeled at an installed U-value of <Var k="narrative.windows.ph_window_u_value" />
+Btu/hr-ft<sup>2</sup>-F, which sits just above the comfort threshold. Specify the package at
+<Var k="narrative.windows.comfort_target_u_value" /> Btu/hr-ft<sup>2</sup>-F installed or better. On this building
+that matters most at the rear extension and the penthouse, where the glazing runs close to full height and people sit
+right beside it. The small punched openings on the front elevation have a much lower view factor and are less
+sensitive.
+
+<div class="btwr-callout btwr-callout--critical">
+  <strong>Installed U-value, not glass U-value</strong>
+  <span>
+    Installed U-value includes the frame and the installation psi-value at the rough opening. On an interior-insulated
+    masonry wall the window sits in a deep, cold reveal, and a good unit installed badly loses most of its advantage.
+    Draw the reveal insulation, the frame overlap detail, and the air-seal line at the perimeter. Do not leave them to
+    the installer.
+  </span>
+</div>
+
+The landmarked front sash is a separate problem from the rest of the package. Restoring it with interior secondary
+glazing or replacing it outright gets resolved against Landmarks during the envelope phase, and we will report the
+performance and cost consequences of each option facade by facade at that point.

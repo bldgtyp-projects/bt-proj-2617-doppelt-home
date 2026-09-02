@@ -1,0 +1,75 @@
+---
+kicker: "03"
+title: "Winter Standard Effective Temperature"
+dek: "Evaluate the SET deficit below 54°F across the declared seven-day outage."
+---
+
+import winterSetTemperatureHtml from "./winter_SET_temperature.html?raw";
+import winterSetTemperatureEnhancement from "./winter_SET_temperature.js?raw";
+
+For winter resiliency the **Phius REVIVE** protocol uses the [Standard Effective Temperature (SET)](https://bigladdersoftware.com/epx/docs/9-5/engineering-reference/resilience-metrics.html#set-hour) metric to judge
+zone habitability during the stress-period. To comply with the **Phius REVIVE** standard, all zones must show:
+
+- 0 hours below 2 °C [36 °F] **SET**
+- < 216 °F-Hours below 12 °C [54 °F] **SET**
+
+<div class="btwr-callout btwr-callout--critical">
+  <strong>Result: first criterion met, second missed narrowly</strong>
+  <span>
+    Every zone records **0 hours** below 2 °C SET, so the life-safety criterion clears with a large margin. The
+    degree-hour criterion misses, but only just. Zones accumulate **219 to 241 °F-Hours** below 12 °C [54 °F] SET
+    against the 216 °F-Hour allowance, a shortfall of between 1% and 12%. The lowest SET reached in any zone over the
+    seven-day outage is 9.56 °C [49.2 °F], in the penthouse.
+  </span>
+</div>
+
+#### What the plots show
+
+Interior dry-bulb temperature falls from the 20 °C [68 °F] setpoint to a low of about **4.3 °C [39.8 °F]** by the
+seventh day, while outdoor air drops to **-16.3 °C [2.7 °F]**. The decline runs close to monotonic, because this
+building gets almost no winter solar gain to interrupt it. See
+[Winter Radiation](/windows/#winter-radiation) for why.
+
+The zones separate in the order the envelope predicts. The garden level holds up best, buffered by the ground and by
+the surrounding masonry. The penthouse does worst, exposed on all sides and at the top of the stack. Best to worst
+spans only about 22 °F-Hours, which says the building behaves as a single thermal mass and that improving any one
+level in isolation will not do much.
+
+#### What would close the gap
+
+The shortfall is small enough that ordinary refinement of the design would likely close it, and several measures
+recommended elsewhere in this report point the same way:
+
+1. **Windows at U-<Var k="narrative.windows.comfort_target_u_value" /> installed rather than U-<Var k="narrative.windows.ph_window_u_value" />.**
+   Glazing is the largest single heat-loss path in this building, so it is the strongest lever here.
+2. **Airtightness better than the <Var k="narrative.certification.ph_ach_limit" /> ACH50 target.** No control system
+   regulates infiltration loss during an outage, so every improvement translates directly.
+3. **Thermal-bridge resolution at the joist ends, the slab edge and the party-wall returns.** Already scheduled. The
+   model assumes a 10% allowance that the detailing work has to earn.
+4. **Freeze protection for plumbing.** At 4.3 °C [39.8 °F] interior, pipes in exterior wall cavities, in the penthouse
+   and at the terrace level sit close to freezing. Keep plumbing runs inboard of the insulation line and off exterior
+   walls. Decide this early and it costs nothing.
+
+<div class="btwr-callout">
+  <span>
+    A small resilient heat source, such as a sealed-combustion or battery-backed unit serving one level, would move
+    this result decisively. Given how close the building already sits to the threshold, we would treat that as a
+    comfort and insurance call for the owner.
+  </span>
+</div>
+
+<div
+  class="btwr-plotly-embed"
+  role="group"
+  aria-label="Winter Standard Effective Temperature, dry-bulb temperature, and relative humidity plots"
+  set:html={winterSetTemperatureHtml}
+/>
+
+<script is:inline set:html={winterSetTemperatureEnhancement}></script>
+
+### More Details for the Winter Period:
+- [SET Temperatures](/downloads/resilience/winter_SET_temperature.html)
+- [Outdoor Environment](/downloads/resilience/winter_outdoor_environment.html)
+- [Fresh Air Ventilation](/downloads/resilience/winter_ventilation.html)
+- [Energy Flow](/downloads/resilience/winter_energy_flow.html)
+- [Envelope Details](/downloads/resilience/winter_envelope_details.html)

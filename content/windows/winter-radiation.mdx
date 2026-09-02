@@ -5,19 +5,32 @@ dek: "Review heating-season solar gains and the orientations that support winter
 radiation_image: "/assets/windows/radiation/winter.optimized.png"
 radiation_image_full: "/assets/windows/radiation/winter.full.png"
 radiation_alt: "Winter solar radiation study on the modeled windows."
-radiation_caption: "Winter solar radiation by window orientation."
+radiation_caption: "Winter solar radiation by window orientation. Street elevation at left, garden elevation at right."
 ---
 
-Taking into account the climate, orientation, and shading, in the results below we have assessed the average seasonal
-(winter / summer) solar radiation falling upon the windows in the project. The radiation levels will vary by orientation
-and as can be observed, shading obstructions also have a strong effect on the final level of solar radiation any
-individual window receives.
+The results below give the average seasonal (winter / summer) solar radiation falling on the project's windows, taking
+climate, orientation and shading into account. Radiation levels vary by orientation, and shading obstructions have a
+strong effect on how much any individual window receives.
 
-- Very good solar radiation is observed along the south facade which will help to reduce the wintertime heating energy
-  need significantly.
-- Very limited solar gain observed on all north side glazing. Given the large amount of glazing and the limited solar radiation, 
-any small reduction in north-side glazing area (5% - 10%) would benefit the overall energy balance of the home.
-- While the high levels of solar gain on the south do help reduce heating energy demand, it is possible that at some
-  times this solar gain may be unwanted. It is recommended to ensure that all south-facing glazing, in particular the upper level
-  windows in the dormers, are outfitted with robust user-operable blinds / shades to ensure against any thermal discomfort. 
-  While external shades are preferred, internal shades are a good option as well and can still help with glare and overheating issues.
+This is the most important result in the report, because it explains why the recommendation is what it is.
+
+- **The glazing on this building loses far more than it gains.** Under the recommended package the windows lose
+  roughly 8,750 kWh over the heating season and return roughly 2,600 kWh of solar gain. The net loss of about 6,150
+  kWh is more than a third of the whole building's heating demand.
+- **The front elevation contributes almost nothing.** It faces north-northwest, it is the largest single glazed
+  orientation at <Var k="narrative.user_defined.window_area_north_ft2" /> ft<sup>2</sup>, and it returns roughly 550
+  kWh over the whole heating season. It is also the elevation that cannot change, since it is landmarked. The only
+  move available here is better glass.
+- **The west-facing glazing returns almost nothing.** About
+  <Var k="narrative.user_defined.window_area_west_ft2" /> ft<sup>2</sup> of glass, roughly a third of the total,
+  returns under 60 kWh across the entire heating season, because the adjoining construction blocks it. If any glazing
+  area gets reduced or reconsidered during design development, look here first.
+- **The useful winter gain sits at the top of the rear.** The penthouse glazing, the fourth-floor terrace doors and
+  the upper rear windows are the only openings receiving meaningful direct sun. Together they account for most of the
+  south and east gain.
+
+That distribution is why raising glazing SHGC does not rescue the winter balance. Pushing the solar-heat-gain
+coefficient up across the package to chase an energy-demand target adds gain mostly where the sun already reaches, at
+the top of the rear elevation, which is exactly where the summer results say to keep it out. The better response is to
+attack the loss side: better installed U-values, a tighter envelope, and disciplined installation detailing at every
+reveal.

@@ -5,14 +5,33 @@ dek: "Review cooling-season solar exposure and overheating risk by orientation."
 radiation_image: "/assets/windows/radiation/summer.optimized.png"
 radiation_image_full: "/assets/windows/radiation/summer.full.png"
 radiation_alt: "Summer solar radiation study on the modeled windows."
-radiation_caption: "Summer solar radiation by window orientation."
+radiation_caption: "Summer solar radiation by window orientation. Street elevation at left, garden elevation at right."
 ---
 
-- Even taking into account the street trees, fairly high solar radiation is observed along the 
-south facade's upper floors which will reduce thermal comfort.
-- The most radiation is apparent on the upper floors, which receive the least amount of shading from the 
-neighboring buildings or street trees. 
-- Coupled to the inevitable internal temperature stratification, this upper level solar radiation is 
-the are most likely to see low thermal comfort in summer and early fall. It is recommended to prioritize
-shading for the dormer windows at minimum, and the top two floors if possible. Use robust user-operable interior blinds
-with high opacity and solar reflectance. Specify glazing with low SHGC (g-Value) for all south facing glazing. 
+- **The penthouse is the hot spot.** Its glazing carries the highest summer radiation on the building by a wide
+  margin. It sits above the neighboring rooflines with nothing shading it, it is heavily glazed on two sides, and it
+  caps a full-height stair that feeds it warm air from every floor below. Shade it.
+- **The fourth-floor terrace glazing is next.** Those doors and windows see high summer radiation and serve the
+  primary bedroom suite, where night-time comfort matters most.
+- **The rear extension glazing at the lower levels is moderate.** Neighboring construction across the rear yards
+  shades the garden and parlor levels through most of the cooling season.
+- **The street elevation is shaded all summer.** North-northwest orientation plus street trees leaves the front sash
+  with almost no cooling load.
+
+#### Recommendations
+
+1. **Shade the penthouse from outside.** A fixed overhang, exterior blinds, or an operable exterior screen will all
+   beat anything mounted inside the glass. The drawing set already shows a canopy over the penthouse roof. Develop it
+   for solar control, not only for rain.
+2. **Fit user-operable shading at the fourth-floor terrace glazing.** External is better. Internal blinds with high
+   opacity and high solar reflectance work as a fallback and still cut glare.
+3. **Specify a low SHGC at the rear and penthouse glazing.** The recommended package uses
+   <Var k="narrative.user_defined.rec_window_shgc" /> throughout. Nothing in the winter results argues for going
+   higher, and the summer results argue hard against it.
+4. **Plan for stack effect.** A full-height stair with an occupied space at the top will stratify. Consider an
+   operable vent or window at the penthouse that opens on summer nights, and coordinate it with the security and
+   weather-tightness requirements.
+
+The [Resilience](/resilience/) page takes the overheating question further, testing the building through a seven-day
+summer power outage. That result is worse than the annual cooling numbers here suggest. Read it before the glazing
+package is fixed.

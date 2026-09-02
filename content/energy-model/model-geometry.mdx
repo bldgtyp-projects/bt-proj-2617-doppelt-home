@@ -4,7 +4,35 @@ title: "Model Geometry"
 dek: "Review the modeled building geometry used for the energy assessment."
 ---
 
-For all model results shown here, the following building geometry was used. This geometry is based on the
-drawings/models received on <Var k="source_files.cad_files_received_date" />. The model geometry used for this
-assessment includes both the building and the local shading context. For details on the context shading see the [windows
-site shading section](/windows/).
+All model results shown here use the building geometry below. It follows the schematic drawing set received
+<Var k="source_files.cad_files_received_date" /> and describes all seven levels of the proposed building, from the
+lowered basement through the new penthouse, including the rear extension at the garden and parlor levels and the
+fourth-floor terrace.
+
+The geometry includes both the building and the local shading context. For details on the context shading see the
+[windows site shading section](/windows/).
+
+Key modeled quantities:
+
+| Quantity | Value |
+| --- | --: |
+| Treated floor area (iCFA) | <Var k="narrative.user_defined.icfa_ft2" /> ft<sup>2</sup> |
+| Thermal envelope area | <Var k="narrative.user_defined.envelope_area_ft2" /> ft<sup>2</sup> |
+| Envelope area to floor area | <Var k="narrative.user_defined.envelope_to_icfa_ratio" /> |
+| Party wall to neighbor | <Var k="narrative.user_defined.party_wall_area_ft2" /> ft<sup>2</sup> |
+| Window area, total | <Var k="narrative.user_defined.window_area_total_ft2" /> ft<sup>2</sup> |
+| Window area, north (front) | <Var k="narrative.user_defined.window_area_north_ft2" /> ft<sup>2</sup> |
+| Window area, east | <Var k="narrative.user_defined.window_area_east_ft2" /> ft<sup>2</sup> |
+| Window area, south (rear) | <Var k="narrative.user_defined.window_area_south_ft2" /> ft<sup>2</sup> |
+| Window area, west | <Var k="narrative.user_defined.window_area_west_ft2" /> ft<sup>2</sup> |
+| Glazing as a share of envelope | <Var k="narrative.user_defined.window_to_envelope_ratio" />% |
+
+An envelope-to-floor-area ratio of <Var k="narrative.user_defined.envelope_to_icfa_ratio" /> is high for a row house
+this size. A tall, narrow building with a full-height stair and a small footprint carries more skin per square foot of
+living space than a wide one. That ratio is why envelope quality does more work here than equipment efficiency.
+
+<div class="btwr-callout">
+  Existing wall construction is noted on the drawing set as assumed. Confirm masonry thickness, backup construction,
+  and the bearing condition of the embedded floor joists by probe or demolition survey before the assembly design is
+  fixed.
+</div>

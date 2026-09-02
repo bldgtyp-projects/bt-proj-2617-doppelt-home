@@ -1,0 +1,77 @@
+---
+kicker: "02"
+title: "Summer Heat Index"
+dek: "Track the occupied-zone Heat Index through the declared seven-day outage."
+---
+
+import summerHeatIndexHtml from "./summer_heat_index.html?raw";
+import summerHeatIndexEnhancement from "./summer_heat_index.js?raw";
+
+The **Phius REVIVE** protocol uses the [Heat Index](https://bigladdersoftware.com/epx/docs/22-2/engineering-reference/resilience-metrics.html#heat-index) temperature to judge perceived thermal
+habitability during the test-period. The results below plot the Heat Index for each zone across the full summer week.
+Minimum compliance with the **Phius REVIVE** standard requires that the building demonstrate:
+
+- 0-hours of **Heat Index** in the 'Extreme Danger' zone ( > 52 °C [125 °F] ).
+
+<div class="btwr-callout btwr-callout--critical">
+  <strong>Result: does not comply</strong>
+  <span>
+Every zone breaks the 'Extreme Danger' threshold by a wide margin. Across the seven-day outage each level records
+**29 to 30 hours** in 'Extreme Danger' against an allowance of zero, plus roughly 36 hours in 'Danger', 22 hours in
+'Extreme Caution' and 56 hours in 'Caution'. Peak Heat Index reaches **55.7 °C [132.3 °F]** at the garden level and
+stays above 54.8 °C [130.7 °F] in every other zone. The house does not stay habitable through a week-long summer
+outage.
+  </span>
+</div>
+
+#### Humidity drives this, not temperature
+
+This is the part of the result that determines what to do about it.
+
+Interior dry-bulb temperature peaks at **32.7 °C [90.9 °F]**, which on its own would put the house in the 'Extreme
+Caution' band. Interior relative humidity is what pushes the Heat Index into 'Extreme Danger'. It sits between 94% and
+97% at the peak and touches saturation several times during the week. The REVIVE weather file carries outdoor
+dewpoints as high as 30 °C [86 °F] during the event, so ventilating the house, through open windows or through the
+recovery ventilator, brings in air that is already near saturated. Occupant moisture then has nowhere to go once the
+dehumidification equipment is off.
+
+The envelope does its job. Masonry mass and insulation hold interior dry-bulb 2 to 6 °C below outdoor peaks and
+flatten the daily swing, which is why the Heat Index falls back into the 'Caution' band each night. None of that
+touches a latent-load problem.
+
+#### What would actually change the result
+
+1. **Backup power sized for dehumidification only.** A small battery or generator circuit serving a single
+   dehumidifier, or the ventilation unit plus a dehumidifier, moves this result further than any envelope change.
+   Latent removal is the binding constraint, and it needs electricity. This is what we would carry forward.
+2. **Exterior shading at the penthouse and the fourth-floor terrace glazing.** It lowers the sensible peak, improves
+   the daytime result, and is worth doing on its own merits. See [Summer Radiation](/windows/#summer-radiation).
+3. **A designated refuge level.** The garden level runs the same Heat Index as the rest of the house here, but it has
+   the most thermal mass and the least solar exposure, so a targeted measure pays off there first.
+4. **Night flushing will not work.** Opening the house at night during this event pulls in air at a dewpoint above
+   the interior dewpoint for much of the week. That strategy suits a dry climate and fails here.
+
+<div class="btwr-callout">
+  <strong>Verify before this drives a design decision</strong>
+  <span>
+    The result depends on the modeled window-operation and infiltration assumptions during the outage, and on the
+    REVIVE occupancy and internal-moisture schedule. Confirm those inputs before this finding justifies equipment or
+    envelope spending. The direction of the result is solid. The exact count of 'Extreme Danger' hours is sensitive to
+    them.
+  </span>
+</div>
+
+<div
+  class="btwr-plotly-embed"
+  role="group"
+  aria-label="Summer Heat Index, dry-bulb temperature, and relative humidity plots"
+  set:html={summerHeatIndexHtml}
+/>
+
+<script is:inline set:html={summerHeatIndexEnhancement}></script>
+
+### More Details for the Summer Period:
+- [Heat Index](/downloads/resilience/summer_heat_index.html)
+- [Outdoor Environment](/downloads/resilience/summer_outdoor_environment.html)
+- [Fresh Air Ventilation](/downloads/resilience/summer_ventilation.html)
+- [Energy Flow](/downloads/resilience/summer_energy_flow.html)

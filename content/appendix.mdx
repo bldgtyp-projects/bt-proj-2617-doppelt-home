@@ -4,5 +4,49 @@ title: "Appendix"
 dek: "Keep traceability available, but out of the primary decision narrative."
 ---
 
-Appendix content should help reviewers connect report claims back to PHPP rows, source PDFs, and model assumptions
-without making the main client narrative too dense.
+#### Model basis
+
+| Item | Value |
+| --- | --- |
+| Energy model | PHPP 10.6 EN |
+| Climate data set | US0055c-New York, PHI climate zone 4 (warm-temperate) |
+| Resilience model | EnergyPlus via Honeybee, Phius REVIVE 2024 protocol |
+| Resilience weather | Phius REVIVE 2024, New York J.F.K. Intl. AP 744860 TMY3 |
+| Geometry source | Schematic drawing set, <Var k="source_files.cad_files_received_date" /> |
+| Treated floor area | <Var k="narrative.user_defined.icfa_ft2" /> ft<sup>2</sup> |
+| Thermal envelope area | <Var k="narrative.user_defined.envelope_area_ft2" /> ft<sup>2</sup> |
+| Occupancy, PHPP standard | 3.3 persons (PHI standard density for this floor area) |
+| Occupancy, CO<sub>2e</sub> benchmark | <Var k="narrative.co2.occupancy" /> persons |
+
+#### Assembly naming
+
+The variant tables carry the assembly names used in the energy model. They map to the physical assemblies as follows:
+
+| Model name | Physical assembly |
+| --- | --- |
+| Ext_Wall | Above-grade exterior masonry wall |
+| Ground_Wall | Below-grade foundation wall |
+| Ground_Floor | Basement slab on grade |
+| Ext_Floor | Floor exposed to outdoor air (rear extension soffit, terrace) |
+| Ext_Roof | Roof to outdoor air |
+| Generic Interior Wall | Party wall to the adjoining building |
+
+#### Open items carried into the next phase
+
+- Existing masonry thickness, backup construction and joist-bearing condition are noted as assumed on the drawing set
+  and need verification by probe or demolition survey.
+- Hygrothermal (WUFI-Pro) analysis of the front wall, the rear wall and a party wall, including the embedded
+  joist-end check, is not yet done. Assembly depths above are performance targets pending that work.
+- Thermal-bridge psi-values are carried as a 10% allowance. Two-dimensional simulation of the governing details will
+  replace that allowance with calculated values.
+- The penthouse-roof PV array shown on the drawing set is not yet in the model.
+- Mechanical equipment is modeled as generic all-electric heat-pump systems. Equipment selection, load calculations
+  and duct design are by others.
+- The window package for the landmarked front elevation is unresolved pending the Landmarks discussion.
+- Re-run the Phius REVIVE summer case once the glazing, shading and ventilation assumptions are fixed.
+
+#### Units
+
+Energy demand figures are reported in the units shown on each chart. To convert between the two conventions used in
+Passive House work: 1 kWh/m<sup>2</sup>-yr is about 0.317 kBtu/ft<sup>2</sup>-yr, and 1 W/(m<sup>2</sup>K) is about
+0.176 Btu/hr-ft<sup>2</sup>-F.

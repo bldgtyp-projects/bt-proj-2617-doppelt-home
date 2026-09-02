@@ -4,6 +4,18 @@ title: "Fresh-Air Flow Rates"
 dek: "Show the room-by-room fresh-air assumptions used by the model."
 ---
 
-The fresh-air system should be sized around the room-by-room supply, transfer, and extract strategy rather than around a
-single whole-building ventilation rate. The table below keeps the modeled airflow assumptions visible for design
+Size the fresh-air system around the room-by-room supply, transfer and extract strategy, not around a single
+whole-building ventilation rate. The table below keeps the modeled airflow assumptions visible for design
 coordination and commissioning.
+
+Design airflow for the whole house is approximately <Var k="narrative.user_defined.design_airflow_cfm" /> cfm at the
+maximum setting, with normal operation well below that. Supply is allocated to the bedrooms, the den, the playroom,
+the office, the sitting room and the dining room. Extract is drawn from the bathrooms, the kitchen, the pantry, the
+laundry, the mudroom and the powder rooms. The stair halls act as the transfer path, which suits a row house where
+the stair already connects every level.
+
+The kitchen extract hood is modeled separately and is not part of the balanced airflow. See
+[Appliances and Venting](#appliances-and-venting) for how it interacts with a tight envelope.
+
+The plans on this page mark the intended supply, transfer and extract locations for coordination with the mechanical
+designer. They are a design-intent layout, not a duct-routing drawing.

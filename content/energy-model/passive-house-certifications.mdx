@@ -1,5 +1,49 @@
 ---
 kicker: "07"
 title: "Passive House Certifications"
-dek: ""
+dek: "Recommend a certification target, or the absence of one."
 ---
+
+Our scope includes a recommendation on whether to pursue formal certification, and which standard to pursue if so.
+Here is where the model results land.
+
+#### We do not recommend certifying this project
+
+The recommended package delivers most of the comfort and durability benefit that a Passive House retrofit is bought
+for. It meets no PHI energy-demand threshold, and closing that gap costs floor area, wall depth and summer comfort in
+exchange for a certificate. No incentive or regulatory requirement here attaches to the plaque. Build the recommended
+package well, verify it with blower-door testing and commissioning, and skip the certification submission.
+
+#### If a certificate is still wanted, EnerPHit by Component is the route
+
+PHI's EnerPHit standard offers two paths. The **energy-demand method** requires a whole-building heating demand of
+<Var k="narrative.certification.enph_hd_limit" /> kWh/m<sup>2</sup>-yr, which as shown above needs roughly R-60
+everywhere plus high-solar-gain glazing. The **component method** sets a per-assembly requirement instead and ignores
+the whole-building demand number. For this climate zone the governing component limits are:
+
+| Component | EnerPHit component limit | Recommended package |
+| --- | --- | --- |
+| Opaque envelope to exterior air | R-<Var k="narrative.certification.enph_ag_ext_limit" /> minimum | R-<Var k="narrative.user_defined.rec_wall_r_value" /> walls, R-<Var k="narrative.user_defined.rec_roof_r_value" /> roof |
+| Wall with interior insulation | R-<Var k="narrative.certification.enph_ag_int_limit" /> minimum | R-<Var k="narrative.user_defined.rec_wall_r_value" /> |
+| Windows, installed | U-<Var k="narrative.certification.enph_uw_limit" /> maximum | U-<Var k="narrative.windows.ph_window_u_value" /> |
+| Airtightness | <Var k="narrative.certification.ph_ach_limit" /> ACH50 | <Var k="narrative.user_defined.rec_ach50" /> ACH50 |
+| Ventilation heat recovery | 75% minimum | <Var k="narrative.user_defined.erv_heat_recovery_pct" />% |
+
+The recommended package clears or nearly clears every line. The windows are the one item needing a step up, from
+U-<Var k="narrative.windows.ph_window_u_value" /> to U-<Var k="narrative.certification.enph_uw_limit" /> installed,
+which is a frame and installation-detail change within the same product class. The party wall drops out of the
+component requirements because it faces a conditioned neighbor.
+
+<div class="btwr-callout">
+  <strong>What this means for the decision</strong>
+  <span>
+    The certification decision can wait, and nothing in the recommended package forecloses it. If the owner wants to
+    revisit certification at the end of design development, the added work is a certification-grade model, a longer
+    thermal-bridge list, and the certifier submission. The building itself would barely change. We would want to run
+    the full component-method check against the final assemblies before committing.
+  </span>
+</div>
+
+The main Passive House certification levels and their thresholds are summarized below for reference. EnerPHit, the
+retrofit standard discussed above, is not among them. The Phius pathways are shown for comparison only and are not a
+realistic target for this building.

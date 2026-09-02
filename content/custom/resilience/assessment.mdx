@@ -1,0 +1,47 @@
+---
+kicker: "01"
+title: "Resilience Assessment"
+dek: "Frame the outage simulations, accepted criteria, and limits of the available outputs."
+---
+
+Alongside the whole-building annual-energy consumption model built in the
+[Passive House Planning Package (PHPP)](https://passivehouse.com/en/home/planning-tools/), the home was assessed with
+a detailed hourly model for 'resiliency' during two test-periods:
+
+1. The home was simulated during a **summer heat-wave event** along with a power-outage which lasts for a full week.
+2. The home was simulated during a **winter storm event** along with a power-outage which lasts for a full week.
+
+These 'stress-test' simulations measure whether the building can hold safe and healthy interior conditions on
+'Passive' measures alone, with all space conditioning equipment treated as inoperable. The test-periods follow the
+[Phius REVIVE protocol](https://www.phius.org/phius-revive-2024), including its rules for occupancy, weather and
+habitability thresholds. The REVIVE weather conditions shift the historical record toward a warmer future climate
+rather than reproducing a past event.
+
+- [Phius REVIVE 2024 Standard v24.1.1.pdf (7.7 MB)](https://www.phius.org/phius-revive-2024-standard-document)
+
+Each simulation window runs for nine days: one day of normal operation before the event, the seven-day outage itself,
+and one day of recovery after power is restored. The model splits into six zones, one for each occupied level:
+**Garden**, **Parlor**, **Second**, **Third**, **Fourth**, and **Penthouse**. Results are reported per zone.
+
+The envelope simulated is the **Recommended** package described in the rest of this report: R-20 interior insulation
+at the masonry walls, R-60 at the roof, R-23 under the new basement slab, R-9 at the party wall,
+<Var k="narrative.certification.ph_ach_limit" /> ACH50, and triple glazing at U-<Var k="narrative.windows.ph_window_u_value" />
+with a <Var k="narrative.user_defined.rec_window_shgc" /> SHGC.
+
+<div class="btwr-callout btwr-callout--critical">
+  <strong>Design implication</strong>
+  <span>
+    Neither test passes. The **summer Heat Index criterion fails decisively**, and the **winter SET criterion fails
+    marginally**. The two failures have different causes and different remedies. The winter result is close enough
+    that ordinary envelope refinement would close it. The summer result comes from indoor humidity during a week
+    without power in a New York heat wave, and no realistic amount of insulation or shading closes that. The two
+    sections that follow give the numbers and the recommended response.
+  </span>
+</div>
+
+#### How to read these results
+
+Phius REVIVE is a stress test rather than a design-condition analysis. A building that fails it is still safe under
+normal operation, and the recommended package delivers a large comfort and durability improvement over the existing
+house. What the test establishes is what happens when the power is out for a week, which is worth knowing for a house
+that will stand another century.

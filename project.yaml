@@ -4,23 +4,23 @@ project_title: Doppelt Home
 client_name: The Brooklyn Studio
 building_name: Doppelt Home
 phase: Design Analysis
-report_date: '2026-09-01'
+report_date: '2026-09-02'
 prepared_by: bldgtyp, llc
 contact_email: ed@bldgtyp.com
-target_standard: TBD
-certification_program: TBD
-certification_path: TBD
-recommended_variant_id: null
+target_standard: Improved Performance (no certification in base scope)
+certification_program: PHI (optional)
+certification_path: PHI EnerPHit, Component Method (optional)
+recommended_variant_id: recommended
 building:
-  address: TBD
-  city: TBD
-  state: TBD
-  climate_zone: TBD
-  building_type: TBD
-  total_num_occupants: null
+  address: 262 West 11th Street
+  city: New York
+  state: NY
+  climate_zone: ASHRAE 4A
+  building_type: single-family row house (gut retrofit)
+  total_num_occupants: 5
 source_files:
   phpp_path: ../07_PHPP/2617_Doppelt_home_260902.xlsx
-  cad_files_received_date: null
+  cad_files_received_date: July 28, 2026
   data_dir: data
   assets_dir: public/assets
 publishing:
@@ -29,17 +29,20 @@ publishing:
   access:
     mode: public
     allowed_emails: []
+custom_pages:
+- slug: resilience
+  label: Resilience
 narrative:
   certification:
-    target: null
-    ph_ach_limit: null
-    phi_lcd_limit: null
-    enph_hd_limit: null
-    enph_per_limit: null
+    target: PHI EnerPHit, Component Method (optional)
+    ph_ach_limit: '1.0'
+    phi_lcd_limit: '1.0'
+    enph_hd_limit: '20'
+    enph_per_limit: '68'
     enph_bg_limit: null
-    enph_ag_ext_limit: null
-    enph_ag_int_limit: null
-    enph_uw_limit: null
+    enph_ag_ext_limit: '18.9'
+    enph_ag_int_limit: '11.4'
+    enph_uw_limit: '0.185'
     phius_hd_limit: null
     phius_cd_limit: null
     phius_hl_limit: null
@@ -47,38 +50,61 @@ narrative:
     phius_nse_limit: null
     phius_cfm50_limit: null
   climate:
-    weather_station_name: null
-    weather_station_url: null
-    state_name: null
-    state_name_abbreviation: null
-    ashrae_location_name: null
-    ashrae_design_temps: null
-    ashrae_winter_design_temp_F: null
-    ashrae_winter_design_temp_C: null
+    weather_station_name: 'New_York_J_F_Kennedy_IntL_Ar :: 744860 :: TMY3'
+    weather_station_url: https://energyplus-weather.s3.amazonaws.com/north_and_central_america_wmo_region_4/USA/NY/USA_NY_New.York-J.F.Kennedy.Intl.AP.744860_TMY3/USA_NY_New.York-J.F.Kennedy.Intl.AP.744860_TMY3.zip
+    state_name: New York
+    state_name_abbreviation: NY
+    ashrae_location_name: Zone 4(A)
+    ashrae_design_temps: "10.4\xB0F (-12.0\xB0C)"
+    ashrae_winter_design_temp_F: '10.4'
+    ashrae_winter_design_temp_C: '-12.0'
   energy_code:
-    name: null
-    zone: null
-    link: null
-    code_base_url: null
-    code_airtightness_url: null
-    u_val_link: null
-    ach_link: null
+    name: 2025 NYC Energy Conservation Code (Commercial Provisions)
+    zone: Zone 4(A)
+    link: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025
+    code_base_url: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/ce-commercial-energy-efficiency
+    code_airtightness_url: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/ce-commercial-energy-efficiency#C402.5
+    u_val_link: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/ce-commercial-energy-efficiency#C402.1.4
+    ach_link: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/ce-commercial-energy-efficiency#C402.5
     ach_limit: null
     window_min_u_value: null
   co2:
-    subregion_name: null
-    epa_subgrid_name: null
-    occupancy: null
-    target_tons: null
-    taget_co2_per_person: null
+    subregion_name: NY (NYCW)
+    epa_subgrid_name: NY (NYCW)
+    occupancy: '5'
+    target_tons: '5'
+    taget_co2_per_person: '1.0'
   windows:
-    ph_window_u_value: null
-    ph_window_r_value: null
-    comfort_target_r_value: null
-    comfort_target_u_value: null
+    ph_window_u_value: '0.19'
+    ph_window_r_value: '5.2'
+    comfort_target_r_value: '5.6'
+    comfort_target_u_value: '0.18'
   mechanical:
     erv:
-      manufacturer_name: null
-      type_name: null
-      link: null
-  user_defined: {}
+      manufacturer_name: Zehnder America
+      type_name: ComfoAir Q600 ERV
+      link: https://zehnderamerica.com/products/ventilator/comfoair-q/
+  user_defined:
+    icfa_ft2: 3,933
+    envelope_area_ft2: 8,919
+    envelope_to_icfa_ratio: '2.27'
+    party_wall_area_ft2: 2,058
+    window_area_total_ft2: '1,173'
+    window_area_north_ft2: '383'
+    window_area_east_ft2: '134'
+    window_area_south_ft2: '298'
+    window_area_west_ft2: '359'
+    window_to_envelope_ratio: '13.1'
+    stories_above_grade: '5'
+    historic_district: Greenwich Village Historic District
+    lpc_designated: '1969'
+    nrhp_listed: 1979 (ref. 79001604)
+    design_airflow_cfm: '210'
+    erv_heat_recovery_pct: '83'
+    rec_wall_r_value: '20'
+    rec_roof_r_value: '60'
+    rec_slab_r_value: '23'
+    rec_party_wall_r_value: '9'
+    rec_window_u_value: '0.19'
+    rec_window_shgc: '0.40'
+    rec_ach50: '1.0'

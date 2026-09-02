@@ -2,16 +2,74 @@
 kicker: "00"
 title: "Executive summary"
 dek: "Executive Summary"
-callout_label: "Note"
+callout_label: "The headline recommendation"
 callout_body: >-
-  Keep high-stakes caveats here: overheating risk, airtightness assumptions, certification path uncertainty, or
-  cost/constructability tradeoffs that could change the recommendation.
+  Build the "Recommended" package: R-20 interior insulation at the masonry walls, R-60 at the roof, R-23 under the new
+  basement slab, R-9 at the party wall, 1.0 ACH50, triple glazing at U-0.19 with a 0.40 SHGC, and a dedicated ERV at
+  83% heat recovery. Do not chase the PHI EnerPHit energy-demand target. Reaching it takes roughly R-60 at every
+  assembly, including the interior face of the existing brick, plus high-solar-gain glazing that works against summer
+  comfort on this facade.
 hero_image: "/assets/cover/hero.optimized.png"
 hero_image_full: "/assets/cover/hero.full.png"
 hero_alt: "Isometric line rendering of the proposed building massing."
-hero_caption: "Design-phase building model."
+hero_caption: "Design-phase building model, 262 West 11th Street."
 ---
 
-This report evaluates the energy performance, thermal comfort, and long-term durability of the proposed building under
-multiple distinct design variants. We have outlined the details of this assessment modeling, the key results, and our
-recommendations within the following pages.
+This report covers the design-phase energy modeling for the gut renovation of 262 West 11th Street, a landmarked
+masonry row house in the Greenwich Village Historic District. The model describes all seven levels of the proposed
+building, from the lowered basement through the new penthouse, and includes the rear extension and the fourth-floor
+terrace. It was built from the schematic drawing set issued <Var k="source_files.cad_files_received_date" /> and
+carries a treated floor area of <Var k="narrative.user_defined.icfa_ft2" /> ft<sup>2</sup> against
+<Var k="narrative.user_defined.envelope_area_ft2" /> ft<sup>2</sup> of thermal envelope.
+
+We tested five variants, from a code-minimum baseline through the full PHI EnerPHit energy-demand target. The findings
+below drive the recommendations in the pages that follow.
+
+#### What the model shows
+
+1. **The envelope decides this building.** Moving from code-minimum assemblies to the recommended package cuts annual
+   heating demand roughly in half. Peak heating load drops from about 67,000 Btu/h to about 37,000 Btu/h, and peak
+   sensible cooling to roughly 1.4 tons. Those numbers are what let a single compact all-electric system serve the
+   whole house.
+
+2. **Airtightness is the best-value measure available.** The baseline assumes 3.0 ACH50. The recommended target is
+   <Var k="narrative.certification.ph_ach_limit" /> ACH50. On a building with
+   <Var k="narrative.user_defined.envelope_area_ft2" /> ft<sup>2</sup> of envelope and embedded floor joists on three
+   sides, hitting that costs drawing time and construction sequencing, and almost nothing in materials.
+
+3. **The glazing problem is area, and the area is fixed.** Total window area is about
+   <Var k="narrative.user_defined.window_area_total_ft2" /> ft<sup>2</sup>. The largest single orientation is the
+   landmarked north front at <Var k="narrative.user_defined.window_area_north_ft2" /> ft<sup>2</sup>, which collects
+   almost no useful winter sun and so runs at a net loss all season. That elevation cannot be reduced. What remains
+   available is glazing quality and installation detailing.
+
+4. **PHI EnerPHit by energy demand is the wrong target here.** The model reaches the 20 kWh/m<sup>2</sup>-yr
+   heating-demand limit only at roughly R-60 on every assembly, including the interior face of the existing brick,
+   with a 0.55 SHGC glazing package. On a 21 ft wide row house, R-60 of interior insulation eats a large share of the
+   floor plate and drives the embedded joist ends colder and wetter. The high-SHGC glazing then works against summer
+   comfort at the rear and penthouse glass. See
+   [Passive House Certifications](/energy_model/#passive-house-certifications) for the alternative if a certificate is
+   still wanted.
+
+5. **Summer resilience is the one result that argues for a design change.** Under the Phius REVIVE seven-day summer
+   outage, the modeled home does not stay habitable. See [Resilience](/resilience/) for the numbers and for what would
+   move them.
+
+#### What we recommend
+
+- Adopt the "Recommended" variant as the design basis for the envelope and for schematic HVAC sizing.
+- Carry <Var k="narrative.certification.ph_ach_limit" /> ACH50 as a contractual airtightness target, and test
+  mid-construction rather than once at completion.
+- Specify the window package at an installed U-value of <Var k="narrative.windows.comfort_target_u_value" />
+  Btu/hr-ft<sup>2</sup>-F or better, a small step past the <Var k="narrative.windows.ph_window_u_value" /> modeled
+  here. That value clears the PHI thermal-comfort threshold for this climate, which is what lets perimeter heating
+  come out.
+- Treat the front elevation as a separate glazing problem, to be resolved against Landmarks in the envelope phase.
+- Plan the fresh-air system as a dedicated ERV with its own ducting, sized for roughly
+  <Var k="narrative.user_defined.design_airflow_cfm" /> cfm at design.
+- Add fixed or operable shading at the rear and penthouse glazing. Confirm the summer resilience result before the
+  glazing package is fixed.
+
+This report covers Phase 01 of our scope. Assembly and hygrothermal design, thermal-bridge simulation, CD-phase model
+updates, and NYCECC compliance support follow in later phases. Several recommendations here are written to carry into
+that work without rework.
