@@ -44,7 +44,8 @@ does not offer it an opening.
 
 #### Where the heat actually comes from
 
-Over the governing 47-hour window, heat delivered to the occupied zones divides as follows:
+Over the 47-hour window that produces the 'Danger' hours, heat delivered to the occupied zones divides as follows
+(shares of the net gain, so the two negative paths are heat leaving the building):
 
 | Path | Share |
 | --- | --- |
@@ -72,9 +73,10 @@ gain is fixed by the protocol.
    building. A rooftop canopy over the penthouse, fixed or operable louvers at the fourth-floor terrace glazing, and
    deciduous planting at the rear are all worth carrying into the next phase. See
    [Summer Radiation](/windows/#summer-radiation).
-3. **Lower the glazing SHGC.** The package currently carries
-   <Var k="narrative.user_defined.rec_window_shgc" /> SHGC. Moving toward 0.35 or below cuts the largest single gain
-   path directly. It costs some winter solar gain, and the summer case governs here.
+3. **Hold the glazing SHGC down, and lower it further at the exposed glass.** The package carries
+   <Var k="narrative.user_defined.rec_window_shgc" /> SHGC throughout. Specifying a lower SHGC at the penthouse and
+   the fourth-floor terrace glazing, where the exposure is worst, cuts the largest single gain path directly. It
+   costs some winter solar gain at those openings, and the summer case governs there.
 4. **Backup power for cooling, which the protocol explicitly contemplates.** REVIVE §6.4.3(b) allows a compliance
    path in which a heat pump runs on on-site renewable power, falling back to a 27 °C [80.6 °F] setback when no
    renewable power is available. Paired with the penthouse-roof PV array already shown on the drawing set and a

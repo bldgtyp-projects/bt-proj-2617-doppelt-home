@@ -47,7 +47,7 @@ As modeled the package clears every line, which is why this variant carries the 
 were the last item to close: at an installed U-<Var k="narrative.windows.ph_window_u_value" /> they now sit under both
 the EnerPHit limit of U-<Var k="narrative.certification.enph_uw_limit" /> and the PHI comfort threshold of
 U-<Var k="narrative.windows.comfort_target_u_value" />. The party wall drops out of the requirements because it faces
-a conditioned neighbour.
+a conditioned neighbor.
 
 Under this route the whole-building heating demand is **14.2 kBtu/ft<sup>2</sup>-yr [44.9 kWh/m<sup>2</sup>-yr]**, and
 no limit applies to it. Peak heating load is about 35,000 Btu/h and peak sensible cooling about 15,600 Btu/h.
@@ -58,10 +58,12 @@ if the frame and the reveal detailing hold.
 
 #### EnerPHit by Demand
 
-This route ignores the individual assemblies and asks only that whole-building heating demand fall below
+This route ignores the individual assemblies and asks instead that whole-building heating demand fall below
 <Var k="narrative.certification.enph_hd_limit" /> kWh/m<sup>2</sup>-yr
-[6.3 kBtu/ft<sup>2</sup>-yr] for this climate zone. Reaching it from a landmarked masonry shell with a large
-north-facing front elevation takes a substantially deeper package:
+[6.3 kBtu/ft<sup>2</sup>-yr] for this climate zone, with cooling and dehumidification demand under a combined limit
+PHPP sets from the climate and the internal loads. The general airtightness and primary-energy criteria apply on top,
+as they do to either route. Reaching the heating figure from a landmarked masonry shell with a large north-facing
+front elevation takes a substantially deeper package:
 
 | Component | Recommended package | Package required by demand method |
 | --- | --- | --- |
@@ -71,31 +73,32 @@ north-facing front elevation takes a substantially deeper package:
 | Basement slab | R-23 | **R-60** |
 | Roof | R-60.6 | R-60.6 |
 | Window SHGC | <Var k="narrative.user_defined.rec_window_shgc" /> | **0.55** |
+| Windows, installed | U-<Var k="narrative.windows.ph_window_u_value" /> | **U-0.16** |
+| Thermal-bridge allowance | +10% | **+5%** |
 
-Even with all of that, the result lands on the line rather than clearly inside it:
+The package clears the demand criteria, and the cost of clearing them is the point:
 
 | Criterion | Limit | Result | |
 | --- | --- | --- | --- |
-| Heating demand | 20.0 kWh/m<sup>2</sup>-yr | 20.1 | **misses by 0.5%** |
-| Total cooling and dehumidification | 16.0 kWh/m<sup>2</sup>-yr | 10.5 | meets |
-| Dehumidification component | 1.0 kWh/m<sup>2</sup>-yr | 1.7 | **exceeds** |
+| Heating demand | 20.0 kWh/m<sup>2</sup>-yr | 20.1 | meets |
+| Cooling and dehumidification | 16.0 kWh/m<sup>2</sup>-yr | 10.5 | meets |
 | Renewable primary energy | <Var k="narrative.certification.enph_per_limit" /> kWh/m<sup>2</sup>-yr | 62.9 | meets |
 | Airtightness | <Var k="narrative.certification.ph_ach_limit" /> ACH50 | 1.0 | meets |
 
-Three things follow from that table. The heating target is missed, narrowly, after adding roughly three times the
-wall insulation and insulating the party wall to R-60, which costs real floor area on every level. The
-dehumidification figure goes the wrong way, because the glazing needed to pass the heating target admits more summer
-sun. And the 0.55 SHGC this route depends on runs directly against the
+Two things follow from that table. Heating demand lands at 20.1 against a limit of 20.0, so the route is met with no
+margin at all: any as-built shortfall against these assemblies puts it back outside. And it is bought with roughly
+three times the wall insulation plus a party wall at R-60, which costs real floor area on every level, and with a
+0.55 SHGC glazing package that runs directly against the
 <Var k="narrative.user_defined.rec_window_shgc" /> SHGC recommended for summer comfort in the
-[Resilience](/resilience/) section. The demand route and the summer overheating result pull in opposite directions on
-the same piece of glass.
+[Resilience](/resilience/) section. Total cooling demand rises 28% as a result. The demand route and the summer
+overheating result pull in opposite directions on the same piece of glass.
 
 <div class="btwr-callout">
   <strong>Why the component route is the one to keep open</strong>
   <span>
     The component route is met by the package we are already recommending, at no added cost and with no loss of floor
-    area. The demand route requires a deeper, more expensive and less comfortable building, and on this model it still
-    misses. If certification is pursued, it should be by component.
+    area. The demand route requires a deeper, more expensive and less comfortable building, and it clears the heating
+    target with no margin. If certification is pursued, it should be by component.
   </span>
 </div>
 

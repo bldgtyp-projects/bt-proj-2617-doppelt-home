@@ -6,20 +6,26 @@ dek: "Document the selected H/ERV basis and commissioning expectations."
 
 The model assumes a single high-performance ERV serving the whole house at
 <Var k="narrative.user_defined.erv_heat_recovery_pct" />% effective heat recovery. The
-<VarLink hrefKey="narrative.mechanical.erv.link" target="_blank" rel="noopener noreferrer"><Var k="narrative.mechanical.erv.manufacturer_name" /> <Var k="narrative.mechanical.erv.type_name" /></VarLink>
+<VarLink hrefKey="narrative.mechanical.erv.link" target="_blank" rel="noopener noreferrer"><Var k="narrative.mechanical.erv.manufacturer_name" />{" "}<Var k="narrative.mechanical.erv.type_name" /></VarLink>
 fits this project. These units ship with MERV 13 filtration by default, which matters on a Manhattan street.
 
-Design airflow is approximately <Var k="narrative.user_defined.design_airflow_cfm" /> cfm. A smaller unit could
-deliver that on paper. Stay with the larger unit for two reasons specific to this building. A seven-level row house
-needs long vertical duct runs, so external static pressure binds before airflow does. And a unit running at a lower
-fraction of its capacity is quieter and more efficient than a small one running near its limit.
+Design airflow is approximately <Var k="narrative.user_defined.design_airflow_cfm" /> cfm at the maximum setting and
+roughly <Var k="narrative.user_defined.standard_airflow_cfm" /> cfm in normal operation. That puts the design flow
+near the top of this unit's range, and the next size down in the ComfoAir Q line does not reach it. Two conditions
+specific to this building make the remaining headroom worth keeping. A six-level row house needs long vertical duct
+runs, and rated airflow falls as external static pressure rises, so the pressure loss binds before the nominal
+capacity does. A unit running below its limit is also quieter and more efficient than one running at it.
 
 Use an ERV rather than an HRV here. New York summers carry enough latent load that recovering moisture on the exhaust
 side earns its keep, and the summer resilience results on the [Resilience](/resilience/) page make the same argument.
 
-The values used in this analysis are assumed only. Retain the ventilation vendor to design, specify and balance the
-system after installation. Every high-performance building needs this step. Zehnder America packages normally include
-balancing, but verify it in this case.
+The values used in this analysis are assumed only. Contact
+<VarLink hrefKey="narrative.mechanical.erv.link" target="_blank" rel="noopener noreferrer"><Var k="narrative.mechanical.erv.manufacturer_name" /></VarLink>
+directly for unit selection and sizing. Give them the room-by-room airflows from
+[Fresh-Air Flow Rates](#fresh-air-flow-rates) and the riser layout, and have them confirm the model, the duct sizing
+and the external static pressure this design imposes. Retain them to design, specify and balance the system after
+installation. Every high-performance building needs this step. Zehnder America packages normally include balancing,
+but verify it in this case.
 
 #### System balancing
 

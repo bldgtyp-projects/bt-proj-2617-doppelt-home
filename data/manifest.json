@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "phpp_version": "10.6",
-  "generated_at": "2026-09-03T17:28:43.021568Z",
+  "generated_at": "2026-09-03T19:55:25.562806Z",
   "generator": "btwr@0.0.1",
   "status": "ok",
   "variants": [
     {
-      "id": "code_miniumum",
-      "name": "Code Miniumum",
+      "id": "code_minimum",
+      "name": "Code Minimum",
       "order": 0,
       "color": "auto",
       "recommended": false,
@@ -49,7 +49,7 @@
   "recommended_variant_id": "enerphit_by_demand",
   "source_workbook": {
     "path": "/Users/em/Dropbox/bldgtyp/2617 Doppelt Home/07_PHPP/2617_Doppelt_home_260903.xlsx",
-    "sha256": "843ee0bb55fba45912562ceaebf8869b5c53d4792260b2a622b3edfd87372423",
-    "size_bytes": 13122692
+    "sha256": "d0263c2ea8009e24a2573000c39ae496d7ff4a4b033f7577c4913d2fa25f8b69",
+    "size_bytes": 13122518
   }
 }

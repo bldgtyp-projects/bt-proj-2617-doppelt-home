@@ -1,16 +1,16 @@
 metric,variant_id,units,value,source_field_id,source_label,excel_row
-treated_floor_area,code_miniumum,ft2,3933.30665751,geometry.tfa,TFA,316
-building_envelope_area,code_miniumum,ft2,8919.4610919,geometry.building_envelope_area,Building Envelope Area,319
-interior_net_volume,code_miniumum,ft3,34639.8079776,geometry.vn50,Vn50,318
-gross_volume,code_miniumum,ft3,45031.750371,geometry.gross_volume,Gross Volume,320
-envelope_area_to_tfa,code_miniumum,ft2/ft2,2.26767497898,,,
-envelope_area_to_gross_volume,code_miniumum,ft2/ft3,0.198070495115,,,
-tfa_to_gross_volume,code_miniumum,ft2/ft3,0.0873451870091,,,
-window_area_north,code_miniumum,ft2,382.563248017,geometry.window_area_north,Window Area (North),321
-window_area_east,code_miniumum,ft2,133.742841842,geometry.window_area_east,Window Area (East),322
-window_area_south,code_miniumum,ft2,297.844135369,geometry.window_area_south,Window Area (South),323
-window_area_west,code_miniumum,ft2,358.601476777,geometry.window_area_west,Window Area (West),324
-window_area_horizontal,code_miniumum,ft2,0,geometry.window_area_horiz,Window Area (Horiz),325
+treated_floor_area,code_minimum,ft2,3933.30665751,geometry.tfa,TFA,316
+building_envelope_area,code_minimum,ft2,8919.4610919,geometry.building_envelope_area,Building Envelope Area,319
+interior_net_volume,code_minimum,ft3,34639.8079776,geometry.vn50,Vn50,318
+gross_volume,code_minimum,ft3,45031.750371,geometry.gross_volume,Gross Volume,320
+envelope_area_to_tfa,code_minimum,ft2/ft2,2.26767497898,,,
+envelope_area_to_gross_volume,code_minimum,ft2/ft3,0.198070495115,,,
+tfa_to_gross_volume,code_minimum,ft2/ft3,0.0873451870091,,,
+window_area_north,code_minimum,ft2,382.563248017,geometry.window_area_north,Window Area (North),321
+window_area_east,code_minimum,ft2,133.742841842,geometry.window_area_east,Window Area (East),322
+window_area_south,code_minimum,ft2,297.844135369,geometry.window_area_south,Window Area (South),323
+window_area_west,code_minimum,ft2,358.601476777,geometry.window_area_west,Window Area (West),324
+window_area_horizontal,code_minimum,ft2,0,geometry.window_area_horiz,Window Area (Horiz),325
 treated_floor_area,improved_envelope,ft2,3933.30665751,geometry.tfa,TFA,316
 building_envelope_area,improved_envelope,ft2,8919.4610919,geometry.building_envelope_area,Building Envelope Area,319
 interior_net_volume,improved_envelope,ft3,34639.8079776,geometry.vn50,Vn50,318

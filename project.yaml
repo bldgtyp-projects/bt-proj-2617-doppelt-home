@@ -99,7 +99,8 @@ narrative:
     historic_district: Greenwich Village Historic District
     lpc_designated: '1969'
     nrhp_listed: 1979 (ref. 79001604)
-    design_airflow_cfm: '210'
+    design_airflow_cfm: '325'
+    standard_airflow_cfm: '250'
     erv_heat_recovery_pct: '83'
     rec_wall_r_value: '20'
     rec_roof_r_value: '60'

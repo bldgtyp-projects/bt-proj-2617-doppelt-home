@@ -1,846 +1,846 @@
 section,field_id,phpp_label,variant_id,variant_name,datatype,units,value,excel_row
-geometry,geometry.tfa,TFA,code_miniumum,Code Miniumum,TFA,m2,365.416145623,316
+geometry,geometry.tfa,TFA,code_minimum,Code Minimum,TFA,m2,365.416145623,316
 geometry,geometry.tfa,TFA,improved_envelope,Improved Envelope,TFA,m2,365.416145623,316
 geometry,geometry.tfa,TFA,improved_mech,Improved Mech.,TFA,m2,365.416145623,316
 geometry,geometry.tfa,TFA,enerphit_by_component,EnerPHit By Component,TFA,m2,365.416145623,316
 geometry,geometry.tfa,TFA,enerphit_by_demand,EnerPHit By Demand,TFA,m2,365.416145623,316
-geometry,geometry.vv,VV,code_miniumum,Code Miniumum,VV,m3,913.540364059,317
+geometry,geometry.vv,VV,code_minimum,Code Minimum,VV,m3,913.540364059,317
 geometry,geometry.vv,VV,improved_envelope,Improved Envelope,VV,m3,913.540364059,317
 geometry,geometry.vv,VV,improved_mech,Improved Mech.,VV,m3,913.540364059,317
 geometry,geometry.vv,VV,enerphit_by_component,EnerPHit By Component,VV,m3,913.540364059,317
 geometry,geometry.vv,VV,enerphit_by_demand,EnerPHit By Demand,VV,m3,913.540364059,317
-geometry,geometry.vn50,Vn50,code_miniumum,Code Miniumum,Vn50,m3,980.89012852,318
+geometry,geometry.vn50,Vn50,code_minimum,Code Minimum,Vn50,m3,980.89012852,318
 geometry,geometry.vn50,Vn50,improved_envelope,Improved Envelope,Vn50,m3,980.89012852,318
 geometry,geometry.vn50,Vn50,improved_mech,Improved Mech.,Vn50,m3,980.89012852,318
 geometry,geometry.vn50,Vn50,enerphit_by_component,EnerPHit By Component,Vn50,m3,980.89012852,318
 geometry,geometry.vn50,Vn50,enerphit_by_demand,EnerPHit By Demand,Vn50,m3,980.89012852,318
-geometry,geometry.building_envelope_area,Building Envelope Area,code_miniumum,Code Miniumum,Building Envelope Area,m2,828.645050346,319
+geometry,geometry.building_envelope_area,Building Envelope Area,code_minimum,Code Minimum,Building Envelope Area,m2,828.645050346,319
 geometry,geometry.building_envelope_area,Building Envelope Area,improved_envelope,Improved Envelope,Building Envelope Area,m2,828.645050346,319
 geometry,geometry.building_envelope_area,Building Envelope Area,improved_mech,Improved Mech.,Building Envelope Area,m2,828.645050346,319
 geometry,geometry.building_envelope_area,Building Envelope Area,enerphit_by_component,EnerPHit By Component,Building Envelope Area,m2,828.645050346,319
 geometry,geometry.building_envelope_area,Building Envelope Area,enerphit_by_demand,EnerPHit By Demand,Building Envelope Area,m2,828.645050346,319
-geometry,geometry.gross_volume,Gross Volume,code_miniumum,Code Miniumum,Gross Volume,m3,1275.15716708,320
+geometry,geometry.gross_volume,Gross Volume,code_minimum,Code Minimum,Gross Volume,m3,1275.15716708,320
 geometry,geometry.gross_volume,Gross Volume,improved_envelope,Improved Envelope,Gross Volume,m3,1275.15716708,320
 geometry,geometry.gross_volume,Gross Volume,improved_mech,Improved Mech.,Gross Volume,m3,1275.15716708,320
 geometry,geometry.gross_volume,Gross Volume,enerphit_by_component,EnerPHit By Component,Gross Volume,m3,1275.15716708,320
 geometry,geometry.gross_volume,Gross Volume,enerphit_by_demand,EnerPHit By Demand,Gross Volume,m3,1275.15716708,320
-geometry,geometry.window_area_north,Window Area (North),code_miniumum,Code Miniumum,Window Area (North),m2,35.5412887222,321
+geometry,geometry.window_area_north,Window Area (North),code_minimum,Code Minimum,Window Area (North),m2,35.5412887222,321
 geometry,geometry.window_area_north,Window Area (North),improved_envelope,Improved Envelope,Window Area (North),m2,35.5412887222,321
 geometry,geometry.window_area_north,Window Area (North),improved_mech,Improved Mech.,Window Area (North),m2,35.5412887222,321
 geometry,geometry.window_area_north,Window Area (North),enerphit_by_component,EnerPHit By Component,Window Area (North),m2,35.5412887222,321
 geometry,geometry.window_area_north,Window Area (North),enerphit_by_demand,EnerPHit By Demand,Window Area (North),m2,35.5412887222,321
-geometry,geometry.window_area_east,Window Area (East),code_miniumum,Code Miniumum,Window Area (East),m2,12.4251165816,322
+geometry,geometry.window_area_east,Window Area (East),code_minimum,Code Minimum,Window Area (East),m2,12.4251165816,322
 geometry,geometry.window_area_east,Window Area (East),improved_envelope,Improved Envelope,Window Area (East),m2,12.4251165816,322
 geometry,geometry.window_area_east,Window Area (East),improved_mech,Improved Mech.,Window Area (East),m2,12.4251165816,322
 geometry,geometry.window_area_east,Window Area (East),enerphit_by_component,EnerPHit By Component,Window Area (East),m2,12.4251165816,322
 geometry,geometry.window_area_east,Window Area (East),enerphit_by_demand,EnerPHit By Demand,Window Area (East),m2,12.4251165816,322
-geometry,geometry.window_area_south,Window Area (South),code_miniumum,Code Miniumum,Window Area (South),m2,27.6706256135,323
+geometry,geometry.window_area_south,Window Area (South),code_minimum,Code Minimum,Window Area (South),m2,27.6706256135,323
 geometry,geometry.window_area_south,Window Area (South),improved_envelope,Improved Envelope,Window Area (South),m2,27.6706256135,323
 geometry,geometry.window_area_south,Window Area (South),improved_mech,Improved Mech.,Window Area (South),m2,27.6706256135,323
 geometry,geometry.window_area_south,Window Area (South),enerphit_by_component,EnerPHit By Component,Window Area (South),m2,27.6706256135,323
 geometry,geometry.window_area_south,Window Area (South),enerphit_by_demand,EnerPHit By Demand,Window Area (South),m2,27.6706256135,323
-geometry,geometry.window_area_west,Window Area (West),code_miniumum,Code Miniumum,Window Area (West),m2,33.3151673309,324
+geometry,geometry.window_area_west,Window Area (West),code_minimum,Code Minimum,Window Area (West),m2,33.3151673309,324
 geometry,geometry.window_area_west,Window Area (West),improved_envelope,Improved Envelope,Window Area (West),m2,33.3151673309,324
 geometry,geometry.window_area_west,Window Area (West),improved_mech,Improved Mech.,Window Area (West),m2,33.3151673309,324
 geometry,geometry.window_area_west,Window Area (West),enerphit_by_component,EnerPHit By Component,Window Area (West),m2,33.3151673309,324
 geometry,geometry.window_area_west,Window Area (West),enerphit_by_demand,EnerPHit By Demand,Window Area (West),m2,33.3151673309,324
-geometry,geometry.window_area_horiz,Window Area (Horiz),code_miniumum,Code Miniumum,Window Area (Horiz),m2,0,325
+geometry,geometry.window_area_horiz,Window Area (Horiz),code_minimum,Code Minimum,Window Area (Horiz),m2,0,325
 geometry,geometry.window_area_horiz,Window Area (Horiz),improved_envelope,Improved Envelope,Window Area (Horiz),m2,0,325
 geometry,geometry.window_area_horiz,Window Area (Horiz),improved_mech,Improved Mech.,Window Area (Horiz),m2,0,325
 geometry,geometry.window_area_horiz,Window Area (Horiz),enerphit_by_component,EnerPHit By Component,Window Area (Horiz),m2,0,325
 geometry,geometry.window_area_horiz,Window Area (Horiz),enerphit_by_demand,EnerPHit By Demand,Window Area (Horiz),m2,0,325
-envelope,envelope.floor_bg,Ext_Wall,code_miniumum,Code Miniumum,Ext_Wall,hr-ft2-F/Btu,17.9,328
+envelope,envelope.floor_bg,Ext_Wall,code_minimum,Code Minimum,Ext_Wall,hr-ft2-F/Btu,17.9,328
 envelope,envelope.floor_bg,Ext_Wall,improved_envelope,Improved Envelope,Ext_Wall,hr-ft2-F/Btu,19.9,328
 envelope,envelope.floor_bg,Ext_Wall,improved_mech,Improved Mech.,Ext_Wall,hr-ft2-F/Btu,19.9,328
 envelope,envelope.floor_bg,Ext_Wall,enerphit_by_component,EnerPHit By Component,Ext_Wall,hr-ft2-F/Btu,19.9,328
 envelope,envelope.floor_bg,Ext_Wall,enerphit_by_demand,EnerPHit By Demand,Ext_Wall,hr-ft2-F/Btu,60,328
-envelope,envelope.wall_bg,Ground_Wall,code_miniumum,Code Miniumum,Ground_Wall,hr-ft2-F/Btu,17.9,329
+envelope,envelope.wall_bg,Ground_Wall,code_minimum,Code Minimum,Ground_Wall,hr-ft2-F/Btu,17.9,329
 envelope,envelope.wall_bg,Ground_Wall,improved_envelope,Improved Envelope,Ground_Wall,hr-ft2-F/Btu,19.9,329
 envelope,envelope.wall_bg,Ground_Wall,improved_mech,Improved Mech.,Ground_Wall,hr-ft2-F/Btu,19.9,329
 envelope,envelope.wall_bg,Ground_Wall,enerphit_by_component,EnerPHit By Component,Ground_Wall,hr-ft2-F/Btu,19.9,329
 envelope,envelope.wall_bg,Ground_Wall,enerphit_by_demand,EnerPHit By Demand,Ground_Wall,hr-ft2-F/Btu,60,329
-envelope,envelope.party_wall,Generic Interior Wall,code_miniumum,Code Miniumum,Generic Interior Wall,hr-ft2-F/Btu,2,330
+envelope,envelope.party_wall,Generic Interior Wall,code_minimum,Code Minimum,Generic Interior Wall,hr-ft2-F/Btu,2,330
 envelope,envelope.party_wall,Generic Interior Wall,improved_envelope,Improved Envelope,Generic Interior Wall,hr-ft2-F/Btu,9.2,330
 envelope,envelope.party_wall,Generic Interior Wall,improved_mech,Improved Mech.,Generic Interior Wall,hr-ft2-F/Btu,9.2,330
 envelope,envelope.party_wall,Generic Interior Wall,enerphit_by_component,EnerPHit By Component,Generic Interior Wall,hr-ft2-F/Btu,9.2,330
 envelope,envelope.party_wall,Generic Interior Wall,enerphit_by_demand,EnerPHit By Demand,Generic Interior Wall,hr-ft2-F/Btu,60,330
-envelope,envelope.wall_ag,Ground_Floor,code_miniumum,Code Miniumum,Ground_Floor,hr-ft2-F/Btu,1.8,331
+envelope,envelope.wall_ag,Ground_Floor,code_minimum,Code Minimum,Ground_Floor,hr-ft2-F/Btu,1.8,331
 envelope,envelope.wall_ag,Ground_Floor,improved_envelope,Improved Envelope,Ground_Floor,hr-ft2-F/Btu,23,331
 envelope,envelope.wall_ag,Ground_Floor,improved_mech,Improved Mech.,Ground_Floor,hr-ft2-F/Btu,23,331
 envelope,envelope.wall_ag,Ground_Floor,enerphit_by_component,EnerPHit By Component,Ground_Floor,hr-ft2-F/Btu,23,331
 envelope,envelope.wall_ag,Ground_Floor,enerphit_by_demand,EnerPHit By Demand,Ground_Floor,hr-ft2-F/Btu,60,331
-envelope,envelope.roof,Ext_Floor,code_miniumum,Code Miniumum,Ext_Floor,hr-ft2-F/Btu,30,332
+envelope,envelope.roof,Ext_Floor,code_minimum,Code Minimum,Ext_Floor,hr-ft2-F/Btu,30,332
 envelope,envelope.roof,Ext_Floor,improved_envelope,Improved Envelope,Ext_Floor,hr-ft2-F/Btu,30,332
 envelope,envelope.roof,Ext_Floor,improved_mech,Improved Mech.,Ext_Floor,hr-ft2-F/Btu,30,332
 envelope,envelope.roof,Ext_Floor,enerphit_by_component,EnerPHit By Component,Ext_Floor,hr-ft2-F/Btu,30,332
 envelope,envelope.roof,Ext_Floor,enerphit_by_demand,EnerPHit By Demand,Ext_Floor,hr-ft2-F/Btu,60,332
-envelope,envelope.assembly_06,Ext_Roof,code_miniumum,Code Miniumum,Ext_Roof,hr-ft2-F/Btu,38.5,333
+envelope,envelope.assembly_06,Ext_Roof,code_minimum,Code Minimum,Ext_Roof,hr-ft2-F/Btu,38.5,333
 envelope,envelope.assembly_06,Ext_Roof,improved_envelope,Improved Envelope,Ext_Roof,hr-ft2-F/Btu,60.6,333
 envelope,envelope.assembly_06,Ext_Roof,improved_mech,Improved Mech.,Ext_Roof,hr-ft2-F/Btu,60.6,333
 envelope,envelope.assembly_06,Ext_Roof,enerphit_by_component,EnerPHit By Component,Ext_Roof,hr-ft2-F/Btu,60.6,333
 envelope,envelope.assembly_06,Ext_Roof,enerphit_by_demand,EnerPHit By Demand,Ext_Roof,hr-ft2-F/Btu,60.6,333
-envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),code_miniumum,Code Miniumum,Thermal Bridge Allowance (% increase),% Increase,0.2,343
+envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),code_minimum,Code Minimum,Thermal Bridge Allowance (% increase),% Increase,0.2,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),improved_envelope,Improved Envelope,Thermal Bridge Allowance (% increase),% Increase,0.15,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),improved_mech,Improved Mech.,Thermal Bridge Allowance (% increase),% Increase,0.15,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),enerphit_by_component,EnerPHit By Component,Thermal Bridge Allowance (% increase),% Increase,0.1,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),enerphit_by_demand,EnerPHit By Demand,Thermal Bridge Allowance (% increase),% Increase,0.05,343
-envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),code_miniumum,Code Miniumum,Volumetric Air Leakage Rate (n50),ACH@50,3,344
+envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),code_minimum,Code Minimum,Volumetric Air Leakage Rate (n50),ACH@50,3,344
 envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),improved_envelope,Improved Envelope,Volumetric Air Leakage Rate (n50),ACH@50,2,344
 envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),improved_mech,Improved Mech.,Volumetric Air Leakage Rate (n50),ACH@50,2,344
 envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),enerphit_by_component,EnerPHit By Component,Volumetric Air Leakage Rate (n50),ACH@50,1,344
 envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),enerphit_by_demand,EnerPHit By Demand,Volumetric Air Leakage Rate (n50),ACH@50,1,344
-envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),code_miniumum,Code Miniumum,Envelope Air Leakage Rate (q50),m3/hr-m2,3.55118320484,345
+envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),code_minimum,Code Minimum,Envelope Air Leakage Rate (q50),m3/hr-m2,3.55118320484,345
 envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),improved_envelope,Improved Envelope,Envelope Air Leakage Rate (q50),m3/hr-m2,2.36745546989,345
 envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),improved_mech,Improved Mech.,Envelope Air Leakage Rate (q50),m3/hr-m2,2.36745546989,345
 envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),enerphit_by_component,EnerPHit By Component,Envelope Air Leakage Rate (q50),m3/hr-m2,1.18372773495,345
 envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),enerphit_by_demand,EnerPHit By Demand,Envelope Air Leakage Rate (q50),m3/hr-m2,1.18372773495,345
-envelope,envelope.window_u_value,Window U-value,code_miniumum,Code Miniumum,Window U-value (Installed),Btu/hr-ft2-F,0.270012560088,346
+envelope,envelope.window_u_value,Window U-value,code_minimum,Code Minimum,Window U-value (Installed),Btu/hr-ft2-F,0.270012560088,346
 envelope,envelope.window_u_value,Window U-value,improved_envelope,Improved Envelope,Window U-value (Installed),Btu/hr-ft2-F,0.237759774569,346
 envelope,envelope.window_u_value,Window U-value,improved_mech,Improved Mech.,Window U-value (Installed),Btu/hr-ft2-F,0.237759774569,346
 envelope,envelope.window_u_value,Window U-value,enerphit_by_component,EnerPHit By Component,Window U-value (Installed),Btu/hr-ft2-F,0.167312433956,346
 envelope,envelope.window_u_value,Window U-value,enerphit_by_demand,EnerPHit By Demand,Window U-value (Installed),Btu/hr-ft2-F,0.16202888341,346
-envelope,envelope.window_shgc,Window SHGC,code_miniumum,Code Miniumum,Window SHGC,-,0.4,347
+envelope,envelope.window_shgc,Window SHGC,code_minimum,Code Minimum,Window SHGC,-,0.4,347
 envelope,envelope.window_shgc,Window SHGC,improved_envelope,Improved Envelope,Window SHGC,-,0.4,347
 envelope,envelope.window_shgc,Window SHGC,improved_mech,Improved Mech.,Window SHGC,-,0.4,347
 envelope,envelope.window_shgc,Window SHGC,enerphit_by_component,EnerPHit By Component,Window SHGC,-,0.35,347
 envelope,envelope.window_shgc,Window SHGC,enerphit_by_demand,EnerPHit By Demand,Window SHGC,-,0.55,347
-systems,systems.ventilation_system,Ventilation System,code_miniumum,Code Miniumum,Ventilation System,,2-Extract air unit,350
+systems,systems.ventilation_system,Ventilation System,code_minimum,Code Minimum,Ventilation System,,2-Extract air unit,350
 systems,systems.ventilation_system,Ventilation System,improved_envelope,Improved Envelope,Ventilation System,,2-Extract air unit,350
 systems,systems.ventilation_system,Ventilation System,improved_mech,Improved Mech.,Ventilation System,,1-Balanced PH ventilation with HR,350
 systems,systems.ventilation_system,Ventilation System,enerphit_by_component,EnerPHit By Component,Ventilation System,,1-Balanced PH ventilation with HR,350
 systems,systems.ventilation_system,Ventilation System,enerphit_by_demand,EnerPHit By Demand,Ventilation System,,1-Balanced PH ventilation with HR,350
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,code_miniumum,Code Miniumum,Ventilation Unit HR Efficiency,%,,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,code_minimum,Code Minimum,Ventilation Unit HR Efficiency,%,,351
 systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,improved_envelope,Improved Envelope,Ventilation Unit HR Efficiency,%,,351
 systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,improved_mech,Improved Mech.,Ventilation Unit HR Efficiency,%,0.680902968746,351
 systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,enerphit_by_component,EnerPHit By Component,Ventilation Unit HR Efficiency,%,0.827258454076,351
 systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,enerphit_by_demand,EnerPHit By Demand,Ventilation Unit HR Efficiency,%,0.820032151828,351
-systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,code_miniumum,Code Miniumum,Ventilation Unit ER Efficiency,%,,352
+systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,code_minimum,Code Minimum,Ventilation Unit ER Efficiency,%,,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,improved_envelope,Improved Envelope,Ventilation Unit ER Efficiency,%,,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,improved_mech,Improved Mech.,Ventilation Unit ER Efficiency,%,0,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,enerphit_by_component,EnerPHit By Component,Ventilation Unit ER Efficiency,%,0.488879698093,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,enerphit_by_demand,EnerPHit By Demand,Ventilation Unit ER Efficiency,%,0.485282042875,352
-systems,systems.system_hr_efficiency,System HR Efficiency,code_miniumum,Code Miniumum,System HR Efficiency,%,,353
+systems,systems.system_hr_efficiency,System HR Efficiency,code_minimum,Code Minimum,System HR Efficiency,%,,353
 systems,systems.system_hr_efficiency,System HR Efficiency,improved_envelope,Improved Envelope,System HR Efficiency,%,,353
 systems,systems.system_hr_efficiency,System HR Efficiency,improved_mech,Improved Mech.,System HR Efficiency,%,0.680902968746,353
 systems,systems.system_hr_efficiency,System HR Efficiency,enerphit_by_component,EnerPHit By Component,System HR Efficiency,%,0.827258454076,353
 systems,systems.system_hr_efficiency,System HR Efficiency,enerphit_by_demand,EnerPHit By Demand,System HR Efficiency,%,0.820032151828,353
-systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),code_miniumum,Code Miniumum,Cold Air Duct Length (ea),m,5,354
+systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),code_minimum,Code Minimum,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),improved_envelope,Improved Envelope,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),improved_mech,Improved Mech.,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),enerphit_by_component,EnerPHit By Component,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),enerphit_by_demand,EnerPHit By Demand,Cold Air Duct Length (ea),m,5,354
-systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,code_miniumum,Code Miniumum,Cold Air Duct Insulation Thickness,mm,25,355
+systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,code_minimum,Code Minimum,Cold Air Duct Insulation Thickness,mm,25,355
 systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,improved_envelope,Improved Envelope,Cold Air Duct Insulation Thickness,mm,25,355
 systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,improved_mech,Improved Mech.,Cold Air Duct Insulation Thickness,mm,25,355
 systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,enerphit_by_component,EnerPHit By Component,Cold Air Duct Insulation Thickness,mm,52,355
 systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,enerphit_by_demand,EnerPHit By Demand,Cold Air Duct Insulation Thickness,mm,52,355
-systems,systems.heating_system,Heating System,code_miniumum,Code Miniumum,Heating System,,Heat pump(s),356
+systems,systems.heating_system,Heating System,code_minimum,Code Minimum,Heating System,,Heat pump(s),356
 systems,systems.heating_system,Heating System,improved_envelope,Improved Envelope,Heating System,,Heat pump(s),356
 systems,systems.heating_system,Heating System,improved_mech,Improved Mech.,Heating System,,Heat pump(s),356
 systems,systems.heating_system,Heating System,enerphit_by_component,EnerPHit By Component,Heating System,,Heat pump(s),356
 systems,systems.heating_system,Heating System,enerphit_by_demand,EnerPHit By Demand,Heating System,,Heat pump(s),356
-systems,systems.cooling_system,Cooling System,code_miniumum,Code Miniumum,Cooling System,,Elec. Heat Pump,357
+systems,systems.cooling_system,Cooling System,code_minimum,Code Minimum,Cooling System,,Elec. Heat Pump,357
 systems,systems.cooling_system,Cooling System,improved_envelope,Improved Envelope,Cooling System,,Elec. Heat Pump,357
 systems,systems.cooling_system,Cooling System,improved_mech,Improved Mech.,Cooling System,,Elec. Heat Pump,357
 systems,systems.cooling_system,Cooling System,enerphit_by_component,EnerPHit By Component,Cooling System,,Elec. Heat Pump,357
 systems,systems.cooling_system,Cooling System,enerphit_by_demand,EnerPHit By Demand,Cooling System,,Elec. Heat Pump,357
-systems,systems.dhw_system,DHW System,code_miniumum,Code Miniumum,DHW System,,Heat pump(s),358
+systems,systems.dhw_system,DHW System,code_minimum,Code Minimum,DHW System,,Heat pump(s),358
 systems,systems.dhw_system,DHW System,improved_envelope,Improved Envelope,DHW System,,Heat pump(s),358
 systems,systems.dhw_system,DHW System,improved_mech,Improved Mech.,DHW System,,Heat pump(s),358
 systems,systems.dhw_system,DHW System,enerphit_by_component,EnerPHit By Component,DHW System,,Heat pump(s),358
 systems,systems.dhw_system,DHW System,enerphit_by_demand,EnerPHit By Demand,DHW System,,Heat pump(s),358
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,code_miniumum,Code Miniumum,Heat Demand Limit,kWh/m2,20,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,code_minimum,Code Minimum,Heat Demand Limit,kWh/m2,20,363
 certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,improved_envelope,Improved Envelope,Heat Demand Limit,kWh/m2,20,363
 certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,improved_mech,Improved Mech.,Heat Demand Limit,kWh/m2,20,363
 certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,enerphit_by_component,EnerPHit By Component,Heat Demand Limit,kWh/m2,0,363
 certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,enerphit_by_demand,EnerPHit By Demand,Heat Demand Limit,kWh/m2,20,363
-certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,code_miniumum,Code Miniumum,Sensible Cooling Demand Limit,kWh/m2,15,364
+certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,code_minimum,Code Minimum,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,improved_envelope,Improved Envelope,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,improved_mech,Improved Mech.,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,enerphit_by_component,EnerPHit By Component,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,enerphit_by_demand,EnerPHit By Demand,Sensible Cooling Demand Limit,kWh/m2,15,364
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,code_miniumum,Code Miniumum,Latent Cooling Demand Limit,kWh/m2,1,365
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,code_minimum,Code Minimum,Latent Cooling Demand Limit,kWh/m2,1,365
 certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,improved_envelope,Improved Envelope,Latent Cooling Demand Limit,kWh/m2,1,365
 certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,improved_mech,Improved Mech.,Latent Cooling Demand Limit,kWh/m2,1,365
 certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,enerphit_by_component,EnerPHit By Component,Latent Cooling Demand Limit,kWh/m2,0,365
 certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,enerphit_by_demand,EnerPHit By Demand,Latent Cooling Demand Limit,kWh/m2,1,365
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,code_miniumum,Code Miniumum,Total Cooling Demand Limit,kWh/m2,16,366
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,code_minimum,Code Minimum,Total Cooling Demand Limit,kWh/m2,16,366
 certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,improved_envelope,Improved Envelope,Total Cooling Demand Limit,kWh/m2,16,366
 certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,improved_mech,Improved Mech.,Total Cooling Demand Limit,kWh/m2,16,366
 certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,enerphit_by_component,EnerPHit By Component,Total Cooling Demand Limit,kWh/m2,0,366
 certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,enerphit_by_demand,EnerPHit By Demand,Total Cooling Demand Limit,kWh/m2,16,366
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,code_miniumum,Code Miniumum,Peak Heat Load Limit,W/m2,0,367
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,code_minimum,Code Minimum,Peak Heat Load Limit,W/m2,0,367
 certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,improved_envelope,Improved Envelope,Peak Heat Load Limit,W/m2,0,367
 certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,improved_mech,Improved Mech.,Peak Heat Load Limit,W/m2,0,367
 certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,enerphit_by_component,EnerPHit By Component,Peak Heat Load Limit,W/m2,0,367
 certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,enerphit_by_demand,EnerPHit By Demand,Peak Heat Load Limit,W/m2,0,367
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,code_miniumum,Code Miniumum,Peak Cooling Load Limit,W/m2,8.8328553208,368
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,code_minimum,Code Minimum,Peak Cooling Load Limit,W/m2,8.8328553208,368
 certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,improved_envelope,Improved Envelope,Peak Cooling Load Limit,W/m2,8.8328553208,368
 certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,improved_mech,Improved Mech.,Peak Cooling Load Limit,W/m2,8.8328553208,368
 certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,enerphit_by_component,EnerPHit By Component,Peak Cooling Load Limit,W/m2,8.8328553208,368
 certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,enerphit_by_demand,EnerPHit By Demand,Peak Cooling Load Limit,W/m2,8.8328553208,368
-certification_limits,certification_limits.pe_limit,PE Limit,code_miniumum,Code Miniumum,PE Limit,kWh/m2,0,369
+certification_limits,certification_limits.pe_limit,PE Limit,code_minimum,Code Minimum,PE Limit,kWh/m2,0,369
 certification_limits,certification_limits.pe_limit,PE Limit,improved_envelope,Improved Envelope,PE Limit,kWh/m2,0,369
 certification_limits,certification_limits.pe_limit,PE Limit,improved_mech,Improved Mech.,PE Limit,kWh/m2,0,369
 certification_limits,certification_limits.pe_limit,PE Limit,enerphit_by_component,EnerPHit By Component,PE Limit,kWh/m2,0,369
 certification_limits,certification_limits.pe_limit,PE Limit,enerphit_by_demand,EnerPHit By Demand,PE Limit,kWh/m2,0,369
-certification_limits,certification_limits.per_limit,PER Limit,code_miniumum,Code Miniumum,PER Limit,kWh/m2,181,370
+certification_limits,certification_limits.per_limit,PER Limit,code_minimum,Code Minimum,PER Limit,kWh/m2,181,370
 certification_limits,certification_limits.per_limit,PER Limit,improved_envelope,Improved Envelope,PER Limit,kWh/m2,151,370
 certification_limits,certification_limits.per_limit,PER Limit,improved_mech,Improved Mech.,PER Limit,kWh/m2,135,370
 certification_limits,certification_limits.per_limit,PER Limit,enerphit_by_component,EnerPHit By Component,PER Limit,kWh/m2,105,370
 certification_limits,certification_limits.per_limit,PER Limit,enerphit_by_demand,EnerPHit By Demand,PER Limit,kWh/m2,68,370
-certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,code_miniumum,Code Miniumum,PHIUS Net Source Energy Limit,kWh/m2,30.6063376484,371
+certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,code_minimum,Code Minimum,PHIUS Net Source Energy Limit,kWh/m2,30.6063376484,371
 certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,improved_envelope,Improved Envelope,PHIUS Net Source Energy Limit,kWh/m2,30.6063376484,371
 certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,improved_mech,Improved Mech.,PHIUS Net Source Energy Limit,kWh/m2,30.6063376484,371
 certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,enerphit_by_component,EnerPHit By Component,PHIUS Net Source Energy Limit,kWh/m2,30.6063376484,371
 certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,enerphit_by_demand,EnerPHit By Demand,PHIUS Net Source Energy Limit,kWh/m2,30.6063376484,371
-heating_demand,heating_demand.walls_ag,Walls (AG),code_miniumum,Code Miniumum,Walls (AG),kWh,11039.4509182,376
+heating_demand,heating_demand.walls_ag,Walls (AG),code_minimum,Code Minimum,Walls (AG),kWh,11039.4509182,376
 heating_demand,heating_demand.walls_ag,Walls (AG),improved_envelope,Improved Envelope,Walls (AG),kWh,9873.05159584,376
 heating_demand,heating_demand.walls_ag,Walls (AG),improved_mech,Improved Mech.,Walls (AG),kWh,9909.43520446,376
 heating_demand,heating_demand.walls_ag,Walls (AG),enerphit_by_component,EnerPHit By Component,Walls (AG),kWh,9970.90535058,376
 heating_demand,heating_demand.walls_ag,Walls (AG),enerphit_by_demand,EnerPHit By Demand,Walls (AG),kWh,3150.87757819,376
-heating_demand,heating_demand.walls_bg,Walls (BG),code_miniumum,Code Miniumum,Walls (BG),kWh,62.490491401,377
+heating_demand,heating_demand.walls_bg,Walls (BG),code_minimum,Code Minimum,Walls (BG),kWh,62.490491401,377
 heating_demand,heating_demand.walls_bg,Walls (BG),improved_envelope,Improved Envelope,Walls (BG),kWh,318.644283275,377
 heating_demand,heating_demand.walls_bg,Walls (BG),improved_mech,Improved Mech.,Walls (BG),kWh,319.252981655,377
 heating_demand,heating_demand.walls_bg,Walls (BG),enerphit_by_component,EnerPHit By Component,Walls (BG),kWh,320.032474959,377
 heating_demand,heating_demand.walls_bg,Walls (BG),enerphit_by_demand,EnerPHit By Demand,Walls (BG),kWh,110.557647147,377
-heating_demand,heating_demand.roofs,Roofs,code_miniumum,Code Miniumum,Roofs,kWh,1119.65910232,378
+heating_demand,heating_demand.roofs,Roofs,code_minimum,Code Minimum,Roofs,kWh,1119.65910232,378
 heating_demand,heating_demand.roofs,Roofs,improved_envelope,Improved Envelope,Roofs,kWh,707.535416219,378
 heating_demand,heating_demand.roofs,Roofs,improved_mech,Improved Mech.,Roofs,kWh,710.142785523,378
 heating_demand,heating_demand.roofs,Roofs,enerphit_by_component,EnerPHit By Component,Roofs,kWh,714.547938783,378
 heating_demand,heating_demand.roofs,Roofs,enerphit_by_demand,EnerPHit By Demand,Roofs,kWh,681.495789773,378
-heating_demand,heating_demand.floor_slabs,Floor Slabs,code_miniumum,Code Miniumum,Floor Slabs,kWh,1542.94499859,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,code_minimum,Code Minimum,Floor Slabs,kWh,1542.94499859,379
 heating_demand,heating_demand.floor_slabs,Floor Slabs,improved_envelope,Improved Envelope,Floor Slabs,kWh,692.700311344,379
 heating_demand,heating_demand.floor_slabs,Floor Slabs,improved_mech,Improved Mech.,Floor Slabs,kWh,694.023559805,379
 heating_demand,heating_demand.floor_slabs,Floor Slabs,enerphit_by_component,EnerPHit By Component,Floor Slabs,kWh,695.718099086,379
 heating_demand,heating_demand.floor_slabs,Floor Slabs,enerphit_by_demand,EnerPHit By Demand,Floor Slabs,kWh,277.939729396,379
-heating_demand,heating_demand.windows,Windows,code_miniumum,Code Miniumum,Windows,kWh,12262.4539266,383
+heating_demand,heating_demand.windows,Windows,code_minimum,Code Minimum,Windows,kWh,12262.4539266,383
 heating_demand,heating_demand.windows,Windows,improved_envelope,Improved Envelope,Windows,kWh,10750.7841688,383
 heating_demand,heating_demand.windows,Windows,improved_mech,Improved Mech.,Windows,kWh,10790.4023476,383
 heating_demand,heating_demand.windows,Windows,enerphit_by_component,EnerPHit By Component,Windows,kWh,7640.3484729,383
 heating_demand,heating_demand.windows,Windows,enerphit_by_demand,EnerPHit By Demand,Windows,kWh,7056.82252681,383
-heating_demand,heating_demand.exterior_door,Exterior door,code_miniumum,Code Miniumum,Exterior door,kWh,,384
+heating_demand,heating_demand.exterior_door,Exterior door,code_minimum,Code Minimum,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,improved_envelope,Improved Envelope,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,improved_mech,Improved Mech.,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,enerphit_by_component,EnerPHit By Component,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,enerphit_by_demand,EnerPHit By Demand,Exterior door,kWh,,384
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,code_miniumum,Code Miniumum,Thermal Bridges,kWh,7297.88858276,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,code_minimum,Code Minimum,Thermal Bridges,kWh,7297.88858276,385
 heating_demand,heating_demand.thermal_bridges,Thermal Bridges,improved_envelope,Improved Envelope,Thermal Bridges,kWh,3404.15306709,385
 heating_demand,heating_demand.thermal_bridges,Thermal Bridges,improved_mech,Improved Mech.,Thermal Bridges,kWh,3416.6978585,385
 heating_demand,heating_demand.thermal_bridges,Thermal Bridges,enerphit_by_component,EnerPHit By Component,Thermal Bridges,kWh,1970.22931504,385
 heating_demand,heating_demand.thermal_bridges,Thermal Bridges,enerphit_by_demand,EnerPHit By Demand,Thermal Bridges,kWh,568.752906787,385
-heating_demand,heating_demand.tb_perimeter,TB (Perimeter),code_miniumum,Code Miniumum,TB (Perimeter),kWh,,386
+heating_demand,heating_demand.tb_perimeter,TB (Perimeter),code_minimum,Code Minimum,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),improved_envelope,Improved Envelope,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),improved_mech,Improved Mech.,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),enerphit_by_component,EnerPHit By Component,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),enerphit_by_demand,EnerPHit By Demand,TB (Perimeter),kWh,,386
-heating_demand,heating_demand.tb_bg,TB (BG),code_miniumum,Code Miniumum,TB (BG),kWh,,387
+heating_demand,heating_demand.tb_bg,TB (BG),code_minimum,Code Minimum,TB (BG),kWh,,387
 heating_demand,heating_demand.tb_bg,TB (BG),improved_envelope,Improved Envelope,TB (BG),kWh,,387
 heating_demand,heating_demand.tb_bg,TB (BG),improved_mech,Improved Mech.,TB (BG),kWh,,387
 heating_demand,heating_demand.tb_bg,TB (BG),enerphit_by_component,EnerPHit By Component,TB (BG),kWh,,387
 heating_demand,heating_demand.tb_bg,TB (BG),enerphit_by_demand,EnerPHit By Demand,TB (BG),kWh,,387
-heating_demand,heating_demand.ventilation,Ventilation,code_miniumum,Code Miniumum,Ventilation,kWh,11429.8245233,388
+heating_demand,heating_demand.ventilation,Ventilation,code_minimum,Code Minimum,Ventilation,kWh,11429.8245233,388
 heating_demand,heating_demand.ventilation,Ventilation,improved_envelope,Improved Envelope,Ventilation,kWh,10865.6746326,388
 heating_demand,heating_demand.ventilation,Ventilation,improved_mech,Improved Mech.,Ventilation,kWh,6725.5922488,388
 heating_demand,heating_demand.ventilation,Ventilation,enerphit_by_component,EnerPHit By Component,Ventilation,kWh,3525.14501573,388
 heating_demand,heating_demand.ventilation,Ventilation,enerphit_by_demand,EnerPHit By Demand,Ventilation,kWh,2986.03713668,388
-heating_demand,heating_demand.heating_demand,Heating Demand,code_miniumum,Code Miniumum,Heating Demand,kWh,34902.4977095,389
+heating_demand,heating_demand.heating_demand,Heating Demand,code_minimum,Code Minimum,Heating Demand,kWh,34902.4977095,389
 heating_demand,heating_demand.heating_demand,Heating Demand,improved_envelope,Improved Envelope,Heating Demand,kWh,27540.3191261,389
 heating_demand,heating_demand.heating_demand,Heating Demand,improved_mech,Improved Mech.,Heating Demand,kWh,23534.391977,389
 heating_demand,heating_demand.heating_demand,Heating Demand,enerphit_by_component,EnerPHit By Component,Heating Demand,kWh,16413.010742,389
 heating_demand,heating_demand.heating_demand,Heating Demand,enerphit_by_demand,EnerPHit By Demand,Heating Demand,kWh,7347.42775037,389
-heating_demand,heating_demand.north,North,code_miniumum,Code Miniumum,North,kWh,554.060558745,390
+heating_demand,heating_demand.north,North,code_minimum,Code Minimum,North,kWh,554.060558745,390
 heating_demand,heating_demand.north,North,improved_envelope,Improved Envelope,North,kWh,554.060558745,390
 heating_demand,heating_demand.north,North,improved_mech,Improved Mech.,North,kWh,554.060558745,390
 heating_demand,heating_demand.north,North,enerphit_by_component,EnerPHit By Component,North,kWh,484.802988902,390
 heating_demand,heating_demand.north,North,enerphit_by_demand,EnerPHit By Demand,North,kWh,585.762477976,390
-heating_demand,heating_demand.east,East,code_miniumum,Code Miniumum,East,kWh,798.28093575,391
+heating_demand,heating_demand.east,East,code_minimum,Code Minimum,East,kWh,798.28093575,391
 heating_demand,heating_demand.east,East,improved_envelope,Improved Envelope,East,kWh,798.28093575,391
 heating_demand,heating_demand.east,East,improved_mech,Improved Mech.,East,kWh,798.28093575,391
 heating_demand,heating_demand.east,East,enerphit_by_component,EnerPHit By Component,East,kWh,698.495818781,391
 heating_demand,heating_demand.east,East,enerphit_by_demand,EnerPHit By Demand,East,kWh,879.026546746,391
-heating_demand,heating_demand.south,South,code_miniumum,Code Miniumum,South,kWh,1190.92309193,392
+heating_demand,heating_demand.south,South,code_minimum,Code Minimum,South,kWh,1190.92309193,392
 heating_demand,heating_demand.south,South,improved_envelope,Improved Envelope,South,kWh,1190.92309193,392
 heating_demand,heating_demand.south,South,improved_mech,Improved Mech.,South,kWh,1190.92309193,392
 heating_demand,heating_demand.south,South,enerphit_by_component,EnerPHit By Component,South,kWh,1042.05770544,392
 heating_demand,heating_demand.south,South,enerphit_by_demand,EnerPHit By Demand,South,kWh,1463.39928378,392
-heating_demand,heating_demand.west,West,code_miniumum,Code Miniumum,West,kWh,56.6066672581,393
+heating_demand,heating_demand.west,West,code_minimum,Code Minimum,West,kWh,56.6066672581,393
 heating_demand,heating_demand.west,West,improved_envelope,Improved Envelope,West,kWh,56.6066672581,393
 heating_demand,heating_demand.west,West,improved_mech,Improved Mech.,West,kWh,56.6066672581,393
 heating_demand,heating_demand.west,West,enerphit_by_component,EnerPHit By Component,West,kWh,49.5308338508,393
 heating_demand,heating_demand.west,West,enerphit_by_demand,EnerPHit By Demand,West,kWh,64.6367754999,393
-heating_demand,heating_demand.horizontal,Horizontal,code_miniumum,Code Miniumum,Horizontal,kWh,0,394
+heating_demand,heating_demand.horizontal,Horizontal,code_minimum,Code Minimum,Horizontal,kWh,0,394
 heating_demand,heating_demand.horizontal,Horizontal,improved_envelope,Improved Envelope,Horizontal,kWh,0,394
 heating_demand,heating_demand.horizontal,Horizontal,improved_mech,Improved Mech.,Horizontal,kWh,0,394
 heating_demand,heating_demand.horizontal,Horizontal,enerphit_by_component,EnerPHit By Component,Horizontal,kWh,0,394
 heating_demand,heating_demand.horizontal,Horizontal,enerphit_by_demand,EnerPHit By Demand,Horizontal,kWh,0,394
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,code_miniumum,Code Miniumum,Sum opaque areas,kWh,2623.85077811,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,code_minimum,Code Minimum,Sum opaque areas,kWh,2623.85077811,395
 heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,improved_envelope,Improved Envelope,Sum opaque areas,kWh,1880.16918,395
 heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,improved_mech,Improved Mech.,Sum opaque areas,kWh,1880.16918,395
 heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,enerphit_by_component,EnerPHit By Component,Sum opaque areas,kWh,1675.38149801,395
 heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,enerphit_by_demand,EnerPHit By Demand,Sum opaque areas,kWh,551.601133352,395
-heating_demand,heating_demand.internal_gains,Internal Gains,code_miniumum,Code Miniumum,Internal Gains,kWh,4766.92461868,396
+heating_demand,heating_demand.internal_gains,Internal Gains,code_minimum,Code Minimum,Internal Gains,kWh,4766.92461868,396
 heating_demand,heating_demand.internal_gains,Internal Gains,improved_envelope,Improved Envelope,Internal Gains,kWh,4766.92461868,396
 heating_demand,heating_demand.internal_gains,Internal Gains,improved_mech,Improved Mech.,Internal Gains,kWh,4766.92461868,396
 heating_demand,heating_demand.internal_gains,Internal Gains,enerphit_by_component,EnerPHit By Component,Internal Gains,kWh,4766.92461868,396
 heating_demand,heating_demand.internal_gains,Internal Gains,enerphit_by_demand,EnerPHit By Demand,Internal Gains,kWh,4158.79843276,396
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,code_miniumum,Code Miniumum,Cooling Demand,kWh,2363.283611,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,code_minimum,Code Minimum,Cooling Demand,kWh,2363.283611,399
 cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,improved_envelope,Improved Envelope,Cooling Demand,kWh,2454.85185237,399
 cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,improved_mech,Improved Mech.,Cooling Demand,kWh,2575.01203901,399
 cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,enerphit_by_component,EnerPHit By Component,Cooling Demand,kWh,2292.43927825,399
 cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,enerphit_by_demand,EnerPHit By Demand,Cooling Demand,kWh,3208.17436964,399
-cooling_demand,cooling_demand.walls_ag,Walls (AG),code_miniumum,Code Miniumum,Walls (AG),kWh,2192.94237481,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),code_minimum,Code Minimum,Walls (AG),kWh,2192.94237481,400
 cooling_demand,cooling_demand.walls_ag,Walls (AG),improved_envelope,Improved Envelope,Walls (AG),kWh,1084.92676056,400
 cooling_demand,cooling_demand.walls_ag,Walls (AG),improved_mech,Improved Mech.,Walls (AG),kWh,1084.92676056,400
 cooling_demand,cooling_demand.walls_ag,Walls (AG),enerphit_by_component,EnerPHit By Component,Walls (AG),kWh,1099.92091947,400
 cooling_demand,cooling_demand.walls_ag,Walls (AG),enerphit_by_demand,EnerPHit By Demand,Walls (AG),kWh,631.989038308,400
-cooling_demand,cooling_demand.walls_bg,Walls (BG),code_miniumum,Code Miniumum,Walls (BG),kWh,56.4015771629,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),code_minimum,Code Minimum,Walls (BG),kWh,56.4015771629,401
 cooling_demand,cooling_demand.walls_bg,Walls (BG),improved_envelope,Improved Envelope,Walls (BG),kWh,178.602508648,401
 cooling_demand,cooling_demand.walls_bg,Walls (BG),improved_mech,Improved Mech.,Walls (BG),kWh,181.412651293,401
 cooling_demand,cooling_demand.walls_bg,Walls (BG),enerphit_by_component,EnerPHit By Component,Walls (BG),kWh,184.682222309,401
 cooling_demand,cooling_demand.walls_bg,Walls (BG),enerphit_by_demand,EnerPHit By Demand,Walls (BG),kWh,107.74814175,401
-cooling_demand,cooling_demand.roofs,Roofs,code_miniumum,Code Miniumum,Roofs,kWh,222.415762252,402
+cooling_demand,cooling_demand.roofs,Roofs,code_minimum,Code Minimum,Roofs,kWh,222.415762252,402
 cooling_demand,cooling_demand.roofs,Roofs,improved_envelope,Improved Envelope,Roofs,kWh,77.7494272821,402
 cooling_demand,cooling_demand.roofs,Roofs,improved_mech,Improved Mech.,Roofs,kWh,77.7494272821,402
 cooling_demand,cooling_demand.roofs,Roofs,enerphit_by_component,EnerPHit By Component,Roofs,kWh,78.8239581262,402
 cooling_demand,cooling_demand.roofs,Roofs,enerphit_by_demand,EnerPHit By Demand,Roofs,kWh,136.691400444,402
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,code_miniumum,Code Miniumum,Floor Slabs,kWh,1392.6043698,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,code_minimum,Code Minimum,Floor Slabs,kWh,1392.6043698,403
 cooling_demand,cooling_demand.floor_slabs,Floor Slabs,improved_envelope,Improved Envelope,Floor Slabs,kWh,388.263715501,403
 cooling_demand,cooling_demand.floor_slabs,Floor Slabs,improved_mech,Improved Mech.,Floor Slabs,kWh,394.372680221,403
 cooling_demand,cooling_demand.floor_slabs,Floor Slabs,enerphit_by_component,EnerPHit By Component,Floor Slabs,kWh,401.480395563,403
 cooling_demand,cooling_demand.floor_slabs,Floor Slabs,enerphit_by_demand,EnerPHit By Demand,Floor Slabs,kWh,270.876688622,403
-cooling_demand,cooling_demand.windows,Windows,code_miniumum,Code Miniumum,Windows,kWh,2435.88698695,407
+cooling_demand,cooling_demand.windows,Windows,code_minimum,Code Minimum,Windows,kWh,2435.88698695,407
 cooling_demand,cooling_demand.windows,Windows,improved_envelope,Improved Envelope,Windows,kWh,1181.378759,407
 cooling_demand,cooling_demand.windows,Windows,improved_mech,Improved Mech.,Windows,kWh,1181.378759,407
 cooling_demand,cooling_demand.windows,Windows,enerphit_by_component,EnerPHit By Component,Windows,kWh,842.830096359,407
 cooling_demand,cooling_demand.windows,Windows,enerphit_by_demand,EnerPHit By Demand,Windows,kWh,1415.42613814,407
-cooling_demand,cooling_demand.exterior_door,Exterior door,code_miniumum,Code Miniumum,Exterior door,kWh,,408
+cooling_demand,cooling_demand.exterior_door,Exterior door,code_minimum,Code Minimum,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,improved_envelope,Improved Envelope,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,improved_mech,Improved Mech.,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,enerphit_by_component,EnerPHit By Component,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,enerphit_by_demand,EnerPHit By Demand,Exterior door,kWh,,408
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,code_miniumum,Code Miniumum,Thermal Bridges,kWh,1449.69611608,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,code_minimum,Code Minimum,Thermal Bridges,kWh,1449.69611608,409
 cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,improved_envelope,Improved Envelope,Thermal Bridges,kWh,374.074491933,409
 cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,improved_mech,Improved Mech.,Thermal Bridges,kWh,374.074491933,409
 cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,enerphit_by_component,EnerPHit By Component,Thermal Bridges,kWh,217.341992886,409
 cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,enerphit_by_demand,EnerPHit By Demand,Thermal Bridges,kWh,114.077933425,409
-cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),code_miniumum,Code Miniumum,TB (Perimeter),kWh,,410
+cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),code_minimum,Code Minimum,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),improved_envelope,Improved Envelope,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),improved_mech,Improved Mech.,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),enerphit_by_component,EnerPHit By Component,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),enerphit_by_demand,EnerPHit By Demand,TB (Perimeter),kWh,,410
-cooling_demand,cooling_demand.tb_bg,TB (BG),code_miniumum,Code Miniumum,TB (BG),kWh,,411
+cooling_demand,cooling_demand.tb_bg,TB (BG),code_minimum,Code Minimum,TB (BG),kWh,,411
 cooling_demand,cooling_demand.tb_bg,TB (BG),improved_envelope,Improved Envelope,TB (BG),kWh,,411
 cooling_demand,cooling_demand.tb_bg,TB (BG),improved_mech,Improved Mech.,TB (BG),kWh,,411
 cooling_demand,cooling_demand.tb_bg,TB (BG),enerphit_by_component,EnerPHit By Component,TB (BG),kWh,,411
 cooling_demand,cooling_demand.tb_bg,TB (BG),enerphit_by_demand,EnerPHit By Demand,TB (BG),kWh,,411
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),code_miniumum,Code Miniumum,Ventilation (Basic),kWh,1554.73319976,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),code_minimum,Code Minimum,Ventilation (Basic),kWh,1554.73319976,412
 cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),improved_envelope,Improved Envelope,Ventilation (Basic),kWh,1099.56731268,412
 cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),improved_mech,Improved Mech.,Ventilation (Basic),kWh,875.143542826,412
 cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),enerphit_by_component,EnerPHit By Component,Ventilation (Basic),kWh,679.167726074,412
 cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),enerphit_by_demand,EnerPHit By Demand,Ventilation (Basic),kWh,1055.83795481,412
-cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),code_miniumum,Code Miniumum,Ventilation (Addn'l),kWh,466.058352699,413
+cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),code_minimum,Code Minimum,Ventilation (Addn'l),kWh,466.058352699,413
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),improved_envelope,Improved Envelope,Ventilation (Addn'l),kWh,314.26281771,413
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),improved_mech,Improved Mech.,Ventilation (Addn'l),kWh,336.853303379,413
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),enerphit_by_component,EnerPHit By Component,Ventilation (Addn'l),kWh,356.787086566,413
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),enerphit_by_demand,EnerPHit By Demand,Ventilation (Addn'l),kWh,566.944814842,413
-cooling_demand,cooling_demand.north,North,code_miniumum,Code Miniumum,North,kWh,259.350478526,414
+cooling_demand,cooling_demand.north,North,code_minimum,Code Minimum,North,kWh,259.350478526,414
 cooling_demand,cooling_demand.north,North,improved_envelope,Improved Envelope,North,kWh,205.132703637,414
 cooling_demand,cooling_demand.north,North,improved_mech,Improved Mech.,North,kWh,205.132703637,414
 cooling_demand,cooling_demand.north,North,enerphit_by_component,EnerPHit By Component,North,kWh,179.491115683,414
 cooling_demand,cooling_demand.north,North,enerphit_by_demand,EnerPHit By Demand,North,kWh,356.606907973,414
-cooling_demand,cooling_demand.east,East,code_miniumum,Code Miniumum,East,kWh,921.233829725,415
+cooling_demand,cooling_demand.east,East,code_minimum,Code Minimum,East,kWh,921.233829725,415
 cooling_demand,cooling_demand.east,East,improved_envelope,Improved Envelope,East,kWh,742.887842044,415
 cooling_demand,cooling_demand.east,East,improved_mech,Improved Mech.,East,kWh,742.887842044,415
 cooling_demand,cooling_demand.east,East,enerphit_by_component,EnerPHit By Component,East,kWh,650.026861789,415
 cooling_demand,cooling_demand.east,East,enerphit_by_demand,EnerPHit By Demand,East,kWh,1266.69651587,415
-cooling_demand,cooling_demand.south,South,code_miniumum,Code Miniumum,South,kWh,851.570541375,416
+cooling_demand,cooling_demand.south,South,code_minimum,Code Minimum,South,kWh,851.570541375,416
 cooling_demand,cooling_demand.south,South,improved_envelope,Improved Envelope,South,kWh,698.190145193,416
 cooling_demand,cooling_demand.south,South,improved_mech,Improved Mech.,South,kWh,698.190145193,416
 cooling_demand,cooling_demand.south,South,enerphit_by_component,EnerPHit By Component,South,kWh,610.916377044,416
 cooling_demand,cooling_demand.south,South,enerphit_by_demand,EnerPHit By Demand,South,kWh,1170.90949439,416
-cooling_demand,cooling_demand.west,West,code_miniumum,Code Miniumum,West,kWh,110.370142219,417
+cooling_demand,cooling_demand.west,West,code_minimum,Code Minimum,West,kWh,110.370142219,417
 cooling_demand,cooling_demand.west,West,improved_envelope,Improved Envelope,West,kWh,89.1615759868,417
 cooling_demand,cooling_demand.west,West,improved_mech,Improved Mech.,West,kWh,89.1615759868,417
 cooling_demand,cooling_demand.west,West,enerphit_by_component,EnerPHit By Component,West,kWh,78.0163789885,417
 cooling_demand,cooling_demand.west,West,enerphit_by_demand,EnerPHit By Demand,West,kWh,151.758945551,417
-cooling_demand,cooling_demand.horizontal,Horizontal,code_miniumum,Code Miniumum,Horizontal,kWh,0,418
+cooling_demand,cooling_demand.horizontal,Horizontal,code_minimum,Code Minimum,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,improved_envelope,Improved Envelope,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,improved_mech,Improved Mech.,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,enerphit_by_component,EnerPHit By Component,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,enerphit_by_demand,EnerPHit By Demand,Horizontal,kWh,0,418
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,code_miniumum,Code Miniumum,Sum opaque areas,kWh,2290.08568335,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,code_minimum,Code Minimum,Sum opaque areas,kWh,2290.08568335,419
 cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,improved_envelope,Improved Envelope,Sum opaque areas,kWh,1311.910017,419
 cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,improved_mech,Improved Mech.,Sum opaque areas,kWh,1311.910017,419
 cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,enerphit_by_component,EnerPHit By Component,Sum opaque areas,kWh,1170.00211909,419
 cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,enerphit_by_demand,EnerPHit By Demand,Sum opaque areas,kWh,596.782725859,419
-cooling_demand,cooling_demand.internal_gains,Internal Gains,code_miniumum,Code Miniumum,Internal Gains,kWh,4069.30027791,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,code_minimum,Code Minimum,Internal Gains,kWh,4069.30027791,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,improved_envelope,Improved Envelope,Internal Gains,kWh,3224.65770299,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,improved_mech,Improved Mech.,Internal Gains,kWh,3322.72689789,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,enerphit_by_component,EnerPHit By Component,Internal Gains,kWh,2986.8644265,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,enerphit_by_demand,EnerPHit By Demand,Internal Gains,kWh,3555.69002491,420
-site_energy,site_energy.heating,Heating,code_miniumum,Code Miniumum,Heating,kWh,21253.8672317,423
+site_energy,site_energy.heating,Heating,code_minimum,Code Minimum,Heating,kWh,21253.8672317,423
 site_energy,site_energy.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,17031.6283269,423
 site_energy,site_energy.heating,Heating,improved_mech,Improved Mech.,Heating,kWh,15127.9652943,423
 site_energy,site_energy.heating,Heating,enerphit_by_component,EnerPHit By Component,Heating,kWh,10986.0217286,423
 site_energy,site_energy.heating,Heating,enerphit_by_demand,EnerPHit By Demand,Heating,kWh,5519.57830546,423
-site_energy,site_energy.cooling,Cooling,code_miniumum,Code Miniumum,Cooling,kWh,3517.36475175,424
+site_energy,site_energy.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,3517.36475175,424
 site_energy,site_energy.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,2924.66832901,424
 site_energy,site_energy.cooling,Cooling,improved_mech,Improved Mech.,Cooling,kWh,3435.96040234,424
 site_energy,site_energy.cooling,Cooling,enerphit_by_component,EnerPHit By Component,Cooling,kWh,2754.06158906,424
 site_energy,site_energy.cooling,Cooling,enerphit_by_demand,EnerPHit By Demand,Cooling,kWh,2198.87495492,424
-site_energy,site_energy.dhw,DHW,code_miniumum,Code Miniumum,DHW,kWh,2529.19653905,425
+site_energy,site_energy.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,2529.19653905,425
 site_energy,site_energy.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,2547.58044771,425
 site_energy,site_energy.dhw,DHW,improved_mech,Improved Mech.,DHW,kWh,2507.40977754,425
 site_energy,site_energy.dhw,DHW,enerphit_by_component,EnerPHit By Component,DHW,kWh,2502.88328436,425
 site_energy,site_energy.dhw,DHW,enerphit_by_demand,EnerPHit By Demand,DHW,kWh,2456.25617655,425
-site_energy,site_energy.dishwashing,Dishwashing,code_miniumum,Code Miniumum,Dishwashing,kWh,221.548279885,426
+site_energy,site_energy.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,kWh,221.548279885,426
 site_energy,site_energy.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,kWh,221.548279885,426
 site_energy,site_energy.dishwashing,Dishwashing,improved_mech,Improved Mech.,Dishwashing,kWh,221.548279885,426
 site_energy,site_energy.dishwashing,Dishwashing,enerphit_by_component,EnerPHit By Component,Dishwashing,kWh,221.548279885,426
 site_energy,site_energy.dishwashing,Dishwashing,enerphit_by_demand,EnerPHit By Demand,Dishwashing,kWh,221.548279885,426
-site_energy,site_energy.clothes_washing,Clothes Washing,code_miniumum,Code Miniumum,Clothes Washing,kWh,65.3239891213,427
+site_energy,site_energy.clothes_washing,Clothes Washing,code_minimum,Code Minimum,Clothes Washing,kWh,65.3239891213,427
 site_energy,site_energy.clothes_washing,Clothes Washing,improved_envelope,Improved Envelope,Clothes Washing,kWh,65.3239891213,427
 site_energy,site_energy.clothes_washing,Clothes Washing,improved_mech,Improved Mech.,Clothes Washing,kWh,65.3239891213,427
 site_energy,site_energy.clothes_washing,Clothes Washing,enerphit_by_component,EnerPHit By Component,Clothes Washing,kWh,65.3239891213,427
 site_energy,site_energy.clothes_washing,Clothes Washing,enerphit_by_demand,EnerPHit By Demand,Clothes Washing,kWh,65.3239891213,427
-site_energy,site_energy.clothes_drying,Clothes Drying,code_miniumum,Code Miniumum,Clothes Drying,kWh,312.774192094,428
+site_energy,site_energy.clothes_drying,Clothes Drying,code_minimum,Code Minimum,Clothes Drying,kWh,312.774192094,428
 site_energy,site_energy.clothes_drying,Clothes Drying,improved_envelope,Improved Envelope,Clothes Drying,kWh,312.774192094,428
 site_energy,site_energy.clothes_drying,Clothes Drying,improved_mech,Improved Mech.,Clothes Drying,kWh,312.774192094,428
 site_energy,site_energy.clothes_drying,Clothes Drying,enerphit_by_component,EnerPHit By Component,Clothes Drying,kWh,312.774192094,428
 site_energy,site_energy.clothes_drying,Clothes Drying,enerphit_by_demand,EnerPHit By Demand,Clothes Drying,kWh,312.774192094,428
-site_energy,site_energy.refrigerator,Refrigerator,code_miniumum,Code Miniumum,Refrigerator,kWh,445.3,429
+site_energy,site_energy.refrigerator,Refrigerator,code_minimum,Code Minimum,Refrigerator,kWh,445.3,429
 site_energy,site_energy.refrigerator,Refrigerator,improved_envelope,Improved Envelope,Refrigerator,kWh,445.3,429
 site_energy,site_energy.refrigerator,Refrigerator,improved_mech,Improved Mech.,Refrigerator,kWh,445.3,429
 site_energy,site_energy.refrigerator,Refrigerator,enerphit_by_component,EnerPHit By Component,Refrigerator,kWh,445.3,429
 site_energy,site_energy.refrigerator,Refrigerator,enerphit_by_demand,EnerPHit By Demand,Refrigerator,kWh,445.3,429
-site_energy,site_energy.cooking,Cooking,code_miniumum,Code Miniumum,Cooking,kWh,0,430
+site_energy,site_energy.cooking,Cooking,code_minimum,Code Minimum,Cooking,kWh,0,430
 site_energy,site_energy.cooking,Cooking,improved_envelope,Improved Envelope,Cooking,kWh,0,430
 site_energy,site_energy.cooking,Cooking,improved_mech,Improved Mech.,Cooking,kWh,0,430
 site_energy,site_energy.cooking,Cooking,enerphit_by_component,EnerPHit By Component,Cooking,kWh,0,430
 site_energy,site_energy.cooking,Cooking,enerphit_by_demand,EnerPHit By Demand,Cooking,kWh,0,430
-site_energy,site_energy.phi_lighting,PHI Lighting,code_miniumum,Code Miniumum,PHI Lighting,kWh,0,431
+site_energy,site_energy.phi_lighting,PHI Lighting,code_minimum,Code Minimum,PHI Lighting,kWh,0,431
 site_energy,site_energy.phi_lighting,PHI Lighting,improved_envelope,Improved Envelope,PHI Lighting,kWh,0,431
 site_energy,site_energy.phi_lighting,PHI Lighting,improved_mech,Improved Mech.,PHI Lighting,kWh,0,431
 site_energy,site_energy.phi_lighting,PHI Lighting,enerphit_by_component,EnerPHit By Component,PHI Lighting,kWh,0,431
 site_energy,site_energy.phi_lighting,PHI Lighting,enerphit_by_demand,EnerPHit By Demand,PHI Lighting,kWh,0,431
-site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,code_miniumum,Code Miniumum,PHI Consumer Elec.,kWh,612.350422925,432
+site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,code_minimum,Code Minimum,PHI Consumer Elec.,kWh,612.350422925,432
 site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,improved_envelope,Improved Envelope,PHI Consumer Elec.,kWh,612.350422925,432
 site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,improved_mech,Improved Mech.,PHI Consumer Elec.,kWh,612.350422925,432
 site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,enerphit_by_component,EnerPHit By Component,PHI Consumer Elec.,kWh,612.350422925,432
 site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,enerphit_by_demand,EnerPHit By Demand,PHI Consumer Elec.,kWh,612.350422925,432
-site_energy,site_energy.phi_small_appliances,PHI Small Appliances,code_miniumum,Code Miniumum,PHI Small Appliances,kWh,65.8035298552,433
+site_energy,site_energy.phi_small_appliances,PHI Small Appliances,code_minimum,Code Minimum,PHI Small Appliances,kWh,65.8035298552,433
 site_energy,site_energy.phi_small_appliances,PHI Small Appliances,improved_envelope,Improved Envelope,PHI Small Appliances,kWh,65.8035298552,433
 site_energy,site_energy.phi_small_appliances,PHI Small Appliances,improved_mech,Improved Mech.,PHI Small Appliances,kWh,65.8035298552,433
 site_energy,site_energy.phi_small_appliances,PHI Small Appliances,enerphit_by_component,EnerPHit By Component,PHI Small Appliances,kWh,65.8035298552,433
 site_energy,site_energy.phi_small_appliances,PHI Small Appliances,enerphit_by_demand,EnerPHit By Demand,PHI Small Appliances,kWh,65.8035298552,433
-site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,code_miniumum,Code Miniumum,Phius Int. Lighting,kWh,1198.86991558,434
+site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,kWh,1198.86991558,434
 site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,kWh,1198.86991558,434
 site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,kWh,1198.86991558,434
 site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,enerphit_by_component,EnerPHit By Component,Phius Int. Lighting,kWh,1198.86991558,434
 site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,enerphit_by_demand,EnerPHit By Demand,Phius Int. Lighting,kWh,1198.86991558,434
-site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,code_miniumum,Code Miniumum,Phius Ext. Lighting,kWh,59.3187772691,435
+site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,kWh,59.3187772691,435
 site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,kWh,59.3187772691,435
 site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,kWh,59.3187772691,435
 site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,enerphit_by_component,EnerPHit By Component,Phius Ext. Lighting,kWh,59.3187772691,435
 site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,enerphit_by_demand,EnerPHit By Demand,Phius Ext. Lighting,kWh,59.3187772691,435
-site_energy,site_energy.phius_mel,Phius MEL,code_miniumum,Code Miniumum,Phius MEL,kWh,3317.85795057,436
+site_energy,site_energy.phius_mel,Phius MEL,code_minimum,Code Minimum,Phius MEL,kWh,3317.85795057,436
 site_energy,site_energy.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Phius MEL,kWh,3317.85795057,436
 site_energy,site_energy.phius_mel,Phius MEL,improved_mech,Improved Mech.,Phius MEL,kWh,3317.85795057,436
 site_energy,site_energy.phius_mel,Phius MEL,enerphit_by_component,EnerPHit By Component,Phius MEL,kWh,3317.85795057,436
 site_energy,site_energy.phius_mel,Phius MEL,enerphit_by_demand,EnerPHit By Demand,Phius MEL,kWh,3317.85795057,436
-site_energy,site_energy.aux_elec,Aux Elec,code_miniumum,Code Miniumum,Aux Elec,kWh,4060.86211023,437
+site_energy,site_energy.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,kWh,4060.86211023,437
 site_energy,site_energy.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,kWh,4000.59574616,437
 site_energy,site_energy.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,kWh,4293.99948499,437
 site_energy,site_energy.aux_elec,Aux Elec,enerphit_by_component,EnerPHit By Component,Aux Elec,kWh,3289.1650419,437
 site_energy,site_energy.aux_elec,Aux Elec,enerphit_by_demand,EnerPHit By Demand,Aux Elec,kWh,2835.58274849,437
-site_energy,site_energy.solar_pv,Solar PV,code_miniumum,Code Miniumum,Solar PV,kWh,0,438
+site_energy,site_energy.solar_pv,Solar PV,code_minimum,Code Minimum,Solar PV,kWh,0,438
 site_energy,site_energy.solar_pv,Solar PV,improved_envelope,Improved Envelope,Solar PV,kWh,0,438
 site_energy,site_energy.solar_pv,Solar PV,improved_mech,Improved Mech.,Solar PV,kWh,0,438
 site_energy,site_energy.solar_pv,Solar PV,enerphit_by_component,EnerPHit By Component,Solar PV,kWh,0,438
 site_energy,site_energy.solar_pv,Solar PV,enerphit_by_demand,EnerPHit By Demand,Solar PV,kWh,0,438
-primary_energy,primary_energy.heating,Heating,code_miniumum,Code Miniumum,Heating,kWh,55260.0548023,441
+primary_energy,primary_energy.heating,Heating,code_minimum,Code Minimum,Heating,kWh,55260.0548023,441
 primary_energy,primary_energy.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,44282.2336498,441
 primary_energy,primary_energy.heating,Heating,improved_mech,Improved Mech.,Heating,kWh,39332.7097651,441
 primary_energy,primary_energy.heating,Heating,enerphit_by_component,EnerPHit By Component,Heating,kWh,28563.6564945,441
 primary_energy,primary_energy.heating,Heating,enerphit_by_demand,EnerPHit By Demand,Heating,kWh,14350.9035942,441
-primary_energy,primary_energy.cooling,Cooling,code_miniumum,Code Miniumum,Cooling,kWh,9145.14835456,442
+primary_energy,primary_energy.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,9145.14835456,442
 primary_energy,primary_energy.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,7604.13765544,442
 primary_energy,primary_energy.cooling,Cooling,improved_mech,Improved Mech.,Cooling,kWh,8933.49704608,442
 primary_energy,primary_energy.cooling,Cooling,enerphit_by_component,EnerPHit By Component,Cooling,kWh,7160.56013155,442
 primary_energy,primary_energy.cooling,Cooling,enerphit_by_demand,EnerPHit By Demand,Cooling,kWh,5717.0748828,442
-primary_energy,primary_energy.dhw,DHW,code_miniumum,Code Miniumum,DHW,kWh,6575.91100154,443
+primary_energy,primary_energy.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,6575.91100154,443
 primary_energy,primary_energy.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,6623.70916404,443
 primary_energy,primary_energy.dhw,DHW,improved_mech,Improved Mech.,DHW,kWh,6519.2654216,443
 primary_energy,primary_energy.dhw,DHW,enerphit_by_component,EnerPHit By Component,DHW,kWh,6507.49653933,443
 primary_energy,primary_energy.dhw,DHW,enerphit_by_demand,EnerPHit By Demand,DHW,kWh,6386.26605902,443
-primary_energy,primary_energy.dishwashing,Dishwashing,code_miniumum,Code Miniumum,Dishwashing,kWh,576.0255277,444
+primary_energy,primary_energy.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,kWh,576.0255277,444
 primary_energy,primary_energy.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,kWh,576.0255277,444
 primary_energy,primary_energy.dishwashing,Dishwashing,improved_mech,Improved Mech.,Dishwashing,kWh,576.0255277,444
 primary_energy,primary_energy.dishwashing,Dishwashing,enerphit_by_component,EnerPHit By Component,Dishwashing,kWh,576.0255277,444
 primary_energy,primary_energy.dishwashing,Dishwashing,enerphit_by_demand,EnerPHit By Demand,Dishwashing,kWh,576.0255277,444
-primary_energy,primary_energy.clothes_washing,Clothes Washing,code_miniumum,Code Miniumum,Clothes Washing,kWh,169.842371715,445
+primary_energy,primary_energy.clothes_washing,Clothes Washing,code_minimum,Code Minimum,Clothes Washing,kWh,169.842371715,445
 primary_energy,primary_energy.clothes_washing,Clothes Washing,improved_envelope,Improved Envelope,Clothes Washing,kWh,169.842371715,445
 primary_energy,primary_energy.clothes_washing,Clothes Washing,improved_mech,Improved Mech.,Clothes Washing,kWh,169.842371715,445
 primary_energy,primary_energy.clothes_washing,Clothes Washing,enerphit_by_component,EnerPHit By Component,Clothes Washing,kWh,169.842371715,445
 primary_energy,primary_energy.clothes_washing,Clothes Washing,enerphit_by_demand,EnerPHit By Demand,Clothes Washing,kWh,169.842371715,445
-primary_energy,primary_energy.clothes_drying,Clothes Drying,code_miniumum,Code Miniumum,Clothes Drying,kWh,813.212899444,446
+primary_energy,primary_energy.clothes_drying,Clothes Drying,code_minimum,Code Minimum,Clothes Drying,kWh,813.212899444,446
 primary_energy,primary_energy.clothes_drying,Clothes Drying,improved_envelope,Improved Envelope,Clothes Drying,kWh,813.212899444,446
 primary_energy,primary_energy.clothes_drying,Clothes Drying,improved_mech,Improved Mech.,Clothes Drying,kWh,813.212899444,446
 primary_energy,primary_energy.clothes_drying,Clothes Drying,enerphit_by_component,EnerPHit By Component,Clothes Drying,kWh,813.212899444,446
 primary_energy,primary_energy.clothes_drying,Clothes Drying,enerphit_by_demand,EnerPHit By Demand,Clothes Drying,kWh,813.212899444,446
-primary_energy,primary_energy.refrigerator,Refrigerator,code_miniumum,Code Miniumum,Refrigerator,kWh,1157.78,447
+primary_energy,primary_energy.refrigerator,Refrigerator,code_minimum,Code Minimum,Refrigerator,kWh,1157.78,447
 primary_energy,primary_energy.refrigerator,Refrigerator,improved_envelope,Improved Envelope,Refrigerator,kWh,1157.78,447
 primary_energy,primary_energy.refrigerator,Refrigerator,improved_mech,Improved Mech.,Refrigerator,kWh,1157.78,447
 primary_energy,primary_energy.refrigerator,Refrigerator,enerphit_by_component,EnerPHit By Component,Refrigerator,kWh,1157.78,447
 primary_energy,primary_energy.refrigerator,Refrigerator,enerphit_by_demand,EnerPHit By Demand,Refrigerator,kWh,1157.78,447
-primary_energy,primary_energy.cooking,Cooking,code_miniumum,Code Miniumum,Cooking,kWh,0,448
+primary_energy,primary_energy.cooking,Cooking,code_minimum,Code Minimum,Cooking,kWh,0,448
 primary_energy,primary_energy.cooking,Cooking,improved_envelope,Improved Envelope,Cooking,kWh,0,448
 primary_energy,primary_energy.cooking,Cooking,improved_mech,Improved Mech.,Cooking,kWh,0,448
 primary_energy,primary_energy.cooking,Cooking,enerphit_by_component,EnerPHit By Component,Cooking,kWh,0,448
 primary_energy,primary_energy.cooking,Cooking,enerphit_by_demand,EnerPHit By Demand,Cooking,kWh,0,448
-primary_energy,primary_energy.phi_lighting,PHI Lighting,code_miniumum,Code Miniumum,PHI Lighting,kWh,0,449
+primary_energy,primary_energy.phi_lighting,PHI Lighting,code_minimum,Code Minimum,PHI Lighting,kWh,0,449
 primary_energy,primary_energy.phi_lighting,PHI Lighting,improved_envelope,Improved Envelope,PHI Lighting,kWh,0,449
 primary_energy,primary_energy.phi_lighting,PHI Lighting,improved_mech,Improved Mech.,PHI Lighting,kWh,0,449
 primary_energy,primary_energy.phi_lighting,PHI Lighting,enerphit_by_component,EnerPHit By Component,PHI Lighting,kWh,0,449
 primary_energy,primary_energy.phi_lighting,PHI Lighting,enerphit_by_demand,EnerPHit By Demand,PHI Lighting,kWh,0,449
-primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,code_miniumum,Code Miniumum,PHI Consumer Elec.,kWh,1592.1110996,450
+primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,code_minimum,Code Minimum,PHI Consumer Elec.,kWh,1592.1110996,450
 primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,improved_envelope,Improved Envelope,PHI Consumer Elec.,kWh,1592.1110996,450
 primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,improved_mech,Improved Mech.,PHI Consumer Elec.,kWh,1592.1110996,450
 primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,enerphit_by_component,EnerPHit By Component,PHI Consumer Elec.,kWh,1592.1110996,450
 primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,enerphit_by_demand,EnerPHit By Demand,PHI Consumer Elec.,kWh,1592.1110996,450
-primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,code_miniumum,Code Miniumum,PHI Small Appliances,kWh,171.089177624,451
+primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,code_minimum,Code Minimum,PHI Small Appliances,kWh,171.089177624,451
 primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,improved_envelope,Improved Envelope,PHI Small Appliances,kWh,171.089177624,451
 primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,improved_mech,Improved Mech.,PHI Small Appliances,kWh,171.089177624,451
 primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,enerphit_by_component,EnerPHit By Component,PHI Small Appliances,kWh,171.089177624,451
 primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,enerphit_by_demand,EnerPHit By Demand,PHI Small Appliances,kWh,171.089177624,451
-primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,code_miniumum,Code Miniumum,Phius Int. Lighting,kWh,3117.0617805,452
+primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,kWh,3117.0617805,452
 primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,kWh,3117.0617805,452
 primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,kWh,3117.0617805,452
 primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,enerphit_by_component,EnerPHit By Component,Phius Int. Lighting,kWh,3117.0617805,452
 primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,enerphit_by_demand,EnerPHit By Demand,Phius Int. Lighting,kWh,3117.0617805,452
-primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,code_miniumum,Code Miniumum,Phius Ext. Lighting,kWh,154.2288209,453
+primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,kWh,154.2288209,453
 primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,kWh,154.2288209,453
 primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,kWh,154.2288209,453
 primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,enerphit_by_component,EnerPHit By Component,Phius Ext. Lighting,kWh,154.2288209,453
 primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,enerphit_by_demand,EnerPHit By Demand,Phius Ext. Lighting,kWh,154.2288209,453
-primary_energy,primary_energy.phius_mel,Phius MEL,code_miniumum,Code Miniumum,Phius MEL,kWh,8626.43067148,454
+primary_energy,primary_energy.phius_mel,Phius MEL,code_minimum,Code Minimum,Phius MEL,kWh,8626.43067148,454
 primary_energy,primary_energy.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Phius MEL,kWh,8626.43067148,454
 primary_energy,primary_energy.phius_mel,Phius MEL,improved_mech,Improved Mech.,Phius MEL,kWh,8626.43067148,454
 primary_energy,primary_energy.phius_mel,Phius MEL,enerphit_by_component,EnerPHit By Component,Phius MEL,kWh,8626.43067148,454
 primary_energy,primary_energy.phius_mel,Phius MEL,enerphit_by_demand,EnerPHit By Demand,Phius MEL,kWh,8626.43067148,454
-primary_energy,primary_energy.aux_elec,Aux Elec,code_miniumum,Code Miniumum,Aux Elec,kWh,10558.2414866,455
+primary_energy,primary_energy.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,kWh,10558.2414866,455
 primary_energy,primary_energy.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,kWh,10401.54894,455
 primary_energy,primary_energy.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,kWh,11164.398661,455
 primary_energy,primary_energy.aux_elec,Aux Elec,enerphit_by_component,EnerPHit By Component,Aux Elec,kWh,8551.82910893,455
 primary_energy,primary_energy.aux_elec,Aux Elec,enerphit_by_demand,EnerPHit By Demand,Aux Elec,kWh,7372.51514607,455
-primary_energy,primary_energy.solar_pv,Solar PV,code_miniumum,Code Miniumum,Solar PV,kWh,0,456
+primary_energy,primary_energy.solar_pv,Solar PV,code_minimum,Code Minimum,Solar PV,kWh,0,456
 primary_energy,primary_energy.solar_pv,Solar PV,improved_envelope,Improved Envelope,Solar PV,kWh,0,456
 primary_energy,primary_energy.solar_pv,Solar PV,improved_mech,Improved Mech.,Solar PV,kWh,0,456
 primary_energy,primary_energy.solar_pv,Solar PV,enerphit_by_component,EnerPHit By Component,Solar PV,kWh,0,456
 primary_energy,primary_energy.solar_pv,Solar PV,enerphit_by_demand,EnerPHit By Demand,Solar PV,kWh,0,456
-certification_results,certification_results.heat_demand,Heat Demand,code_miniumum,Code Miniumum,Heat Demand,kWh/m2,95.5143830603,459
+certification_results,certification_results.heat_demand,Heat Demand,code_minimum,Code Minimum,Heat Demand,kWh/m2,95.5143830603,459
 certification_results,certification_results.heat_demand,Heat Demand,improved_envelope,Improved Envelope,Heat Demand,kWh/m2,75.3670013105,459
 certification_results,certification_results.heat_demand,Heat Demand,improved_mech,Improved Mech.,Heat Demand,kWh/m2,64.4043572208,459
 certification_results,certification_results.heat_demand,Heat Demand,enerphit_by_component,EnerPHit By Component,Heat Demand,kWh/m2,44.9159429287,459
 certification_results,certification_results.heat_demand,Heat Demand,enerphit_by_demand,EnerPHit By Demand,Heat Demand,kWh/m2,20.1070145323,459
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,code_miniumum,Code Miniumum,Sensible Cooling Demand,kWh/m2,6.46737600214,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,code_minimum,Code Minimum,Sensible Cooling Demand,kWh/m2,6.46737600214,460
 certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,improved_envelope,Improved Envelope,Sensible Cooling Demand,kWh/m2,6.71796219671,460
 certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,improved_mech,Improved Mech.,Sensible Cooling Demand,kWh/m2,7.04679327898,460
 certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,enerphit_by_component,EnerPHit By Component,Sensible Cooling Demand,kWh/m2,6.27350297928,460
 certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,enerphit_by_demand,EnerPHit By Demand,Sensible Cooling Demand,kWh/m2,8.77950908316,460
-certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,code_miniumum,Code Miniumum,Latent Cooling Demand,kWh/m2,2.25727431322,461
+certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,code_minimum,Code Minimum,Latent Cooling Demand,kWh/m2,2.25727431322,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,improved_envelope,Improved Envelope,Latent Cooling Demand,kWh/m2,2.21669769228,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,improved_mech,Improved Mech.,Latent Cooling Demand,kWh/m2,2.45850683352,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,enerphit_by_component,EnerPHit By Component,Latent Cooling Demand,kWh/m2,1.91842685749,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,enerphit_by_demand,EnerPHit By Demand,Latent Cooling Demand,kWh/m2,1.71369779661,461
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,code_miniumum,Code Miniumum,Total Cooling Demand,kWh/m2,8.72465031537,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,code_minimum,Code Minimum,Total Cooling Demand,kWh/m2,8.72465031537,462
 certification_results,certification_results.total_cooling_demand,Total Cooling Demand,improved_envelope,Improved Envelope,Total Cooling Demand,kWh/m2,8.93465988898,462
 certification_results,certification_results.total_cooling_demand,Total Cooling Demand,improved_mech,Improved Mech.,Total Cooling Demand,kWh/m2,9.5053001125,462
 certification_results,certification_results.total_cooling_demand,Total Cooling Demand,enerphit_by_component,EnerPHit By Component,Total Cooling Demand,kWh/m2,8.19192983677,462
 certification_results,certification_results.total_cooling_demand,Total Cooling Demand,enerphit_by_demand,EnerPHit By Demand,Total Cooling Demand,kWh/m2,10.4932068798,462
-certification_results,certification_results.peak_heat_load,Peak Heat Load,code_miniumum,Code Miniumum,Peak Heat Load,W/m2,53.9534667221,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,code_minimum,Code Minimum,Peak Heat Load,W/m2,53.9534667221,463
 certification_results,certification_results.peak_heat_load,Peak Heat Load,improved_envelope,Improved Envelope,Peak Heat Load,W/m2,39.8980836712,463
 certification_results,certification_results.peak_heat_load,Peak Heat Load,improved_mech,Improved Mech.,Peak Heat Load,W/m2,39.5199826917,463
 certification_results,certification_results.peak_heat_load,Peak Heat Load,enerphit_by_component,EnerPHit By Component,Peak Heat Load,W/m2,28.0646627579,463
 certification_results,certification_results.peak_heat_load,Peak Heat Load,enerphit_by_demand,EnerPHit By Demand,Peak Heat Load,W/m2,16.9226517285,463
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,code_miniumum,Code Miniumum,Peak Cooling Load,W/m2,20.6629018311,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,code_minimum,Code Minimum,Peak Cooling Load,W/m2,20.6629018311,464
 certification_results,certification_results.peak_cooling_load,Peak Cooling Load,improved_envelope,Improved Envelope,Peak Cooling Load,W/m2,15.6490421813,464
 certification_results,certification_results.peak_cooling_load,Peak Cooling Load,improved_mech,Improved Mech.,Peak Cooling Load,W/m2,14.9048596046,464
 certification_results,certification_results.peak_cooling_load,Peak Cooling Load,enerphit_by_component,EnerPHit By Component,Peak Cooling Load,W/m2,12.5422790701,464
 certification_results,certification_results.peak_cooling_load,Peak Cooling Load,enerphit_by_demand,EnerPHit By Demand,Peak Cooling Load,W/m2,10.33689017,464
-certification_results,certification_results.pe_demand,PE Demand,code_miniumum,Code Miniumum,PE Demand,kWh/m2,267.960622886,465
+certification_results,certification_results.pe_demand,PE Demand,code_minimum,Code Minimum,PE Demand,kWh/m2,267.960622886,465
 certification_results,certification_results.pe_demand,PE Demand,improved_envelope,Improved Envelope,PE Demand,kWh/m2,233.403512077,465
 certification_results,certification_results.pe_demand,PE Demand,improved_mech,Improved Mech.,PE Demand,kWh/m2,225.298346088,465
 certification_results,certification_results.pe_demand,PE Demand,enerphit_by_component,EnerPHit By Component,PE Demand,kWh/m2,183.794080879,465
 certification_results,certification_results.pe_demand,PE Demand,enerphit_by_demand,EnerPHit By Demand,PE Demand,kWh/m2,137.390048667,465
-certification_results,certification_results.per_demand,PER Demand,code_miniumum,Code Miniumum,PER Demand,kWh/m2,133.663982004,466
+certification_results,certification_results.per_demand,PER Demand,code_minimum,Code Minimum,PER Demand,kWh/m2,133.663982004,466
 certification_results,certification_results.per_demand,PER Demand,improved_envelope,Improved Envelope,PER Demand,kWh/m2,113.330102463,466
 certification_results,certification_results.per_demand,PER Demand,improved_mech,Improved Mech.,PER Demand,kWh/m2,108.588947954,466
 certification_results,certification_results.per_demand,PER Demand,enerphit_by_component,EnerPHit By Component,PER Demand,kWh/m2,86.016275484,466
 certification_results,certification_results.per_demand,PER Demand,enerphit_by_demand,EnerPHit By Demand,PER Demand,kWh/m2,62.9102583126,466
-airtightness,airtightness.nv_system,"nV,system",code_miniumum,Code Miniumum,nV system,%,0.481928162178,470
+airtightness,airtightness.nv_system,"nV,system",code_minimum,Code Minimum,nV system,%,0.481928162178,470
 airtightness,airtightness.nv_system,"nV,system",improved_envelope,Improved Envelope,nV system,%,0.481928162178,470
 airtightness,airtightness.nv_system,"nV,system",improved_mech,Improved Mech.,nV system,%,0.481928162178,470
 airtightness,airtightness.nv_system,"nV,system",enerphit_by_component,EnerPHit By Component,nV system,%,0.481928162178,470
 airtightness,airtightness.nv_system,"nV,system",enerphit_by_demand,EnerPHit By Demand,nV system,%,0.364125714964,470
-airtightness,airtightness.hhr,hHR,code_miniumum,Code Miniumum,hHR,%,0,471
+airtightness,airtightness.hhr,hHR,code_minimum,Code Minimum,hHR,%,0,471
 airtightness,airtightness.hhr,hHR,improved_envelope,Improved Envelope,hHR,%,0,471
 airtightness,airtightness.hhr,hHR,improved_mech,Improved Mech.,hHR,%,0.680902968746,471
 airtightness,airtightness.hhr,hHR,enerphit_by_component,EnerPHit By Component,hHR,%,0.827258454076,471
 airtightness,airtightness.hhr,hHR,enerphit_by_demand,EnerPHit By Demand,hHR,%,0.820032151828,471
-airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",code_miniumum,Code Miniumum,Wind protection coefficient  e,,0.07,472
+airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",code_minimum,Code Minimum,Wind protection coefficient  e,,0.07,472
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",improved_envelope,Improved Envelope,Wind protection coefficient  e,,0.07,472
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",improved_mech,Improved Mech.,Wind protection coefficient  e,,0.07,472
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",enerphit_by_component,EnerPHit By Component,Wind protection coefficient  e,,0.07,472
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",enerphit_by_demand,EnerPHit By Demand,Wind protection coefficient  e,,0.07,472
-airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",code_miniumum,Code Miniumum,Wind protection coefficient  f,,15,473
+airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",code_minimum,Code Minimum,Wind protection coefficient  f,,15,473
 airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",improved_envelope,Improved Envelope,Wind protection coefficient  f,,15,473
 airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",improved_mech,Improved Mech.,Wind protection coefficient  f,,15,473
 airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",enerphit_by_component,EnerPHit By Component,Wind protection coefficient  f,,15,473
 airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",enerphit_by_demand,EnerPHit By Demand,Wind protection coefficient  f,,15,473
-airtightness,airtightness.vn50,Vn50,code_miniumum,Code Miniumum,Vn50,m3,980.89012852,474
+airtightness,airtightness.vn50,Vn50,code_minimum,Code Minimum,Vn50,m3,980.89012852,474
 airtightness,airtightness.vn50,Vn50,improved_envelope,Improved Envelope,Vn50,m3,980.89012852,474
 airtightness,airtightness.vn50,Vn50,improved_mech,Improved Mech.,Vn50,m3,980.89012852,474
 airtightness,airtightness.vn50,Vn50,enerphit_by_component,EnerPHit By Component,Vn50,m3,980.89012852,474
 airtightness,airtightness.vn50,Vn50,enerphit_by_demand,EnerPHit By Demand,Vn50,m3,980.89012852,474
-airtightness,airtightness.vv,VV,code_miniumum,Code Miniumum,VV,m3,913.540364059,475
+airtightness,airtightness.vv,VV,code_minimum,Code Minimum,VV,m3,913.540364059,475
 airtightness,airtightness.vv,VV,improved_envelope,Improved Envelope,VV,m3,913.540364059,475
 airtightness,airtightness.vv,VV,improved_mech,Improved Mech.,VV,m3,913.540364059,475
 airtightness,airtightness.vv,VV,enerphit_by_component,EnerPHit By Component,VV,m3,913.540364059,475
 airtightness,airtightness.vv,VV,enerphit_by_demand,EnerPHit By Demand,VV,m3,913.540364059,475
-airtightness,airtightness.gt,Gt,code_miniumum,Code Miniumum,Gt,kFh/a,73.4111515767,476
+airtightness,airtightness.gt,Gt,code_minimum,Code Minimum,Gt,kFh/a,73.4111515767,476
 airtightness,airtightness.gt,Gt,improved_envelope,Improved Envelope,Gt,kFh/a,73.0920895291,476
 airtightness,airtightness.gt,Gt,improved_mech,Improved Mech.,Gt,kFh/a,73.3614443433,476
 airtightness,airtightness.gt,Gt,enerphit_by_component,EnerPHit By Component,Gt,kFh/a,73.8165195934,476
 airtightness,airtightness.gt,Gt,enerphit_by_demand,EnerPHit By Demand,Gt,kFh/a,70.4020606431,476
-r_values,r_values.assembly_01,01ud-Ext_Wall,code_miniumum,Code Miniumum,01ud-Ext_Wall,m2,#DIV/0!,480
+r_values,r_values.assembly_01,01ud-Ext_Wall,code_minimum,Code Minimum,01ud-Ext_Wall,m2,#DIV/0!,480
 r_values,r_values.assembly_01,01ud-Ext_Wall,improved_envelope,Improved Envelope,01ud-Ext_Wall,m2,#DIV/0!,480
 r_values,r_values.assembly_01,01ud-Ext_Wall,improved_mech,Improved Mech.,01ud-Ext_Wall,m2,#DIV/0!,480
 r_values,r_values.assembly_01,01ud-Ext_Wall,enerphit_by_component,EnerPHit By Component,01ud-Ext_Wall,m2,#DIV/0!,480
 r_values,r_values.assembly_01,01ud-Ext_Wall,enerphit_by_demand,EnerPHit By Demand,01ud-Ext_Wall,m2,#DIV/0!,480
-r_values,r_values.assembly_04,04ud-Ground_Wall,code_miniumum,Code Miniumum,04ud-Ground_Wall,m2,#DIV/0!,483
+r_values,r_values.assembly_04,04ud-Ground_Wall,code_minimum,Code Minimum,04ud-Ground_Wall,m2,#DIV/0!,483
 r_values,r_values.assembly_04,04ud-Ground_Wall,improved_envelope,Improved Envelope,04ud-Ground_Wall,m2,#DIV/0!,483
 r_values,r_values.assembly_04,04ud-Ground_Wall,improved_mech,Improved Mech.,04ud-Ground_Wall,m2,#DIV/0!,483
 r_values,r_values.assembly_04,04ud-Ground_Wall,enerphit_by_component,EnerPHit By Component,04ud-Ground_Wall,m2,#DIV/0!,483
 r_values,r_values.assembly_04,04ud-Ground_Wall,enerphit_by_demand,EnerPHit By Demand,04ud-Ground_Wall,m2,#DIV/0!,483
-r_values,r_values.assembly_05,05ud-Generic Interior Wall,code_miniumum,Code Miniumum,05ud-Generic Interior Wall,m2,#DIV/0!,484
+r_values,r_values.assembly_05,05ud-Generic Interior Wall,code_minimum,Code Minimum,05ud-Generic Interior Wall,m2,#DIV/0!,484
 r_values,r_values.assembly_05,05ud-Generic Interior Wall,improved_envelope,Improved Envelope,05ud-Generic Interior Wall,m2,#DIV/0!,484
 r_values,r_values.assembly_05,05ud-Generic Interior Wall,improved_mech,Improved Mech.,05ud-Generic Interior Wall,m2,#DIV/0!,484
 r_values,r_values.assembly_05,05ud-Generic Interior Wall,enerphit_by_component,EnerPHit By Component,05ud-Generic Interior Wall,m2,#DIV/0!,484
 r_values,r_values.assembly_05,05ud-Generic Interior Wall,enerphit_by_demand,EnerPHit By Demand,05ud-Generic Interior Wall,m2,#DIV/0!,484
-r_values,r_values.assembly_06,06ud-Ground_Floor,code_miniumum,Code Miniumum,06ud-Ground_Floor,m2,#DIV/0!,485
+r_values,r_values.assembly_06,06ud-Ground_Floor,code_minimum,Code Minimum,06ud-Ground_Floor,m2,#DIV/0!,485
 r_values,r_values.assembly_06,06ud-Ground_Floor,improved_envelope,Improved Envelope,06ud-Ground_Floor,m2,#DIV/0!,485
 r_values,r_values.assembly_06,06ud-Ground_Floor,improved_mech,Improved Mech.,06ud-Ground_Floor,m2,#DIV/0!,485
 r_values,r_values.assembly_06,06ud-Ground_Floor,enerphit_by_component,EnerPHit By Component,06ud-Ground_Floor,m2,#DIV/0!,485
 r_values,r_values.assembly_06,06ud-Ground_Floor,enerphit_by_demand,EnerPHit By Demand,06ud-Ground_Floor,m2,#DIV/0!,485
-r_values,r_values.assembly_07,07ud-Ext_Floor,code_miniumum,Code Miniumum,07ud-Ext_Floor,m2,#DIV/0!,486
+r_values,r_values.assembly_07,07ud-Ext_Floor,code_minimum,Code Minimum,07ud-Ext_Floor,m2,#DIV/0!,486
 r_values,r_values.assembly_07,07ud-Ext_Floor,improved_envelope,Improved Envelope,07ud-Ext_Floor,m2,#DIV/0!,486
 r_values,r_values.assembly_07,07ud-Ext_Floor,improved_mech,Improved Mech.,07ud-Ext_Floor,m2,#DIV/0!,486
 r_values,r_values.assembly_07,07ud-Ext_Floor,enerphit_by_component,EnerPHit By Component,07ud-Ext_Floor,m2,#DIV/0!,486
 r_values,r_values.assembly_07,07ud-Ext_Floor,enerphit_by_demand,EnerPHit By Demand,07ud-Ext_Floor,m2,#DIV/0!,486
-r_values,r_values.assembly_09,09ud-Ext_Roof,code_miniumum,Code Miniumum,09ud-Ext_Roof,m2,#DIV/0!,488
+r_values,r_values.assembly_09,09ud-Ext_Roof,code_minimum,Code Minimum,09ud-Ext_Roof,m2,#DIV/0!,488
 r_values,r_values.assembly_09,09ud-Ext_Roof,improved_envelope,Improved Envelope,09ud-Ext_Roof,m2,#DIV/0!,488
 r_values,r_values.assembly_09,09ud-Ext_Roof,improved_mech,Improved Mech.,09ud-Ext_Roof,m2,#DIV/0!,488
 r_values,r_values.assembly_09,09ud-Ext_Roof,enerphit_by_component,EnerPHit By Component,09ud-Ext_Roof,m2,#DIV/0!,488
 r_values,r_values.assembly_09,09ud-Ext_Roof,enerphit_by_demand,EnerPHit By Demand,09ud-Ext_Roof,m2,#DIV/0!,488
-r_values,r_values.gt_a,Gt-A,code_miniumum,Code Miniumum,Gt-A,kFh/y,73.4111515767,490
+r_values,r_values.gt_a,Gt-A,code_minimum,Code Minimum,Gt-A,kFh/y,73.4111515767,490
 r_values,r_values.gt_a,Gt-A,improved_envelope,Improved Envelope,Gt-A,kFh/y,73.0920895291,490
 r_values,r_values.gt_a,Gt-A,improved_mech,Improved Mech.,Gt-A,kFh/y,73.3614443433,490
 r_values,r_values.gt_a,Gt-A,enerphit_by_component,EnerPHit By Component,Gt-A,kFh/y,73.8165195934,490
 r_values,r_values.gt_a,Gt-A,enerphit_by_demand,EnerPHit By Demand,Gt-A,kFh/y,70.4020606431,490
-r_values,r_values.gt_b,Gt-B,code_miniumum,Code Miniumum,Gt-B,kFh/y,4.89665809311,491
+r_values,r_values.gt_b,Gt-B,code_minimum,Code Minimum,Gt-B,kFh/y,4.89665809311,491
 r_values,r_values.gt_b,Gt-B,improved_envelope,Improved Envelope,Gt-B,kFh/y,27.7969009305,491
 r_values,r_values.gt_b,Gt-B,improved_mech,Improved Mech.,Gt-B,kFh/y,27.8500006705,491
 r_values,r_values.gt_b,Gt-B,enerphit_by_component,EnerPHit By Component,Gt-B,kFh/y,27.9179996878,491
 r_values,r_values.gt_b,Gt-B,enerphit_by_demand,EnerPHit By Demand,Gt-B,kFh/y,29.1081031905,491
-certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,code_miniumum,Code Miniumum,Certification Compliant?,,No,493
+certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,code_minimum,Code Minimum,Certification Compliant?,,No,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,improved_envelope,Improved Envelope,Certification Compliant?,,No,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,improved_mech,Improved Mech.,Certification Compliant?,,No,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,enerphit_by_component,EnerPHit By Component,Certification Compliant?,,Yes,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,enerphit_by_demand,EnerPHit By Demand,Certification Compliant?,,Yes,493
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,code_miniumum,Code Miniumum,Peak Heat Load,Btuh,67271.9759095,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,code_minimum,Code Minimum,Peak Heat Load,Btuh,67271.9759095,497
 peak_loads,peak_loads.peak_heat_load,Peak Heat Load,improved_envelope,Improved Envelope,Peak Heat Load,Btuh,49746.9965627,497
 peak_loads,peak_loads.peak_heat_load,Peak Heat Load,improved_mech,Improved Mech.,Peak Heat Load,Btuh,49275.5606841,497
 peak_loads,peak_loads.peak_heat_load,Peak Heat Load,enerphit_by_component,EnerPHit By Component,Peak Heat Load,Btuh,34992.4746576,497
 peak_loads,peak_loads.peak_heat_load,Peak Heat Load,enerphit_by_demand,EnerPHit By Demand,Peak Heat Load,Btuh,21100.0383955,497
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,code_miniumum,Code Miniumum,Peak Sensible Cooling Load,Btuh,25763.5758859,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,code_minimum,Code Minimum,Peak Sensible Cooling Load,Btuh,25763.5758859,498
 peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,improved_envelope,Improved Envelope,Peak Sensible Cooling Load,Btuh,19512.0360671,498
 peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,improved_mech,Improved Mech.,Peak Sensible Cooling Load,Btuh,18584.1506983,498
 peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,enerphit_by_component,EnerPHit By Component,Peak Sensible Cooling Load,Btuh,15638.3629583,498
 peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,enerphit_by_demand,EnerPHit By Demand,Peak Sensible Cooling Load,Btuh,12888.569887,498
-peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,code_miniumum,Code Miniumum,Peak Latent Cooling Load,Btuh,10830.5510836,499
+peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,code_minimum,Code Minimum,Peak Latent Cooling Load,Btuh,10830.5510836,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,improved_envelope,Improved Envelope,Peak Latent Cooling Load,Btuh,10520.997023,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,improved_mech,Improved Mech.,Peak Latent Cooling Load,Btuh,12365.7292806,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,enerphit_by_component,EnerPHit By Component,Peak Latent Cooling Load,Btuh,8245.52543581,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,enerphit_by_demand,EnerPHit By Demand,Peak Latent Cooling Load,Btuh,6683.67255992,499
-co2e,co2e.heating,Heating,code_miniumum,Code Miniumum,Heating,tonsCO2e,6.11802260027,502
+co2e,co2e.heating,Heating,code_minimum,Code Minimum,Heating,tonsCO2e,6.11802260027,502
 co2e,co2e.heating,Heating,improved_envelope,Improved Envelope,Heating,tonsCO2e,4.90263187811,502
 co2e,co2e.heating,Heating,improved_mech,Improved Mech.,Heating,tonsCO2e,4.35465379348,502
 co2e,co2e.heating,Heating,enerphit_by_component,EnerPHit By Component,Heating,tonsCO2e,3.16237645085,502
 co2e,co2e.heating,Heating,enerphit_by_demand,EnerPHit By Demand,Heating,tonsCO2e,1.5888357845,502
-co2e,co2e.cooling,Cooling,code_miniumum,Code Miniumum,Cooling,tonsCO2e,1.01248948298,503
+co2e,co2e.cooling,Cooling,code_minimum,Code Minimum,Cooling,tonsCO2e,1.01248948298,503
 co2e,co2e.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,tonsCO2e,0.841879114994,503
 co2e,co2e.cooling,Cooling,improved_mech,Improved Mech.,Cooling,tonsCO2e,0.989056869793,503
 co2e,co2e.cooling,Cooling,enerphit_by_component,EnerPHit By Component,Cooling,tonsCO2e,0.792769186932,503
 co2e,co2e.cooling,Cooling,enerphit_by_demand,EnerPHit By Demand,Cooling,tonsCO2e,0.632956182644,503
-co2e,co2e.dhw,DHW,code_miniumum,Code Miniumum,DHW,tonsCO2e,0.728040756902,504
+co2e,co2e.dhw,DHW,code_minimum,Code Minimum,DHW,tonsCO2e,0.728040756902,504
 co2e,co2e.dhw,DHW,improved_envelope,Improved Envelope,DHW,tonsCO2e,0.73333264884,504
 co2e,co2e.dhw,DHW,improved_mech,Improved Mech.,DHW,tonsCO2e,0.721769338253,504
 co2e,co2e.dhw,DHW,enerphit_by_component,EnerPHit By Component,DHW,tonsCO2e,0.72046636655,504
 co2e,co2e.dhw,DHW,enerphit_by_demand,EnerPHit By Demand,DHW,tonsCO2e,0.707044540947,504
-co2e,co2e.dishwashing,Dishwashing,code_miniumum,Code Miniumum,Dishwashing,tonsCO2e,0.063773682625,505
+co2e,co2e.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,tonsCO2e,0.063773682625,505
 co2e,co2e.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,tonsCO2e,0.063773682625,505
 co2e,co2e.dishwashing,Dishwashing,improved_mech,Improved Mech.,Dishwashing,tonsCO2e,0.063773682625,505
 co2e,co2e.dishwashing,Dishwashing,enerphit_by_component,EnerPHit By Component,Dishwashing,tonsCO2e,0.063773682625,505
 co2e,co2e.dishwashing,Dishwashing,enerphit_by_demand,EnerPHit By Demand,Dishwashing,tonsCO2e,0.063773682625,505
-co2e,co2e.clothes_washing,Clothes Washing,code_miniumum,Code Miniumum,Clothes Washing,tonsCO2e,0.0188038081459,506
+co2e,co2e.clothes_washing,Clothes Washing,code_minimum,Code Minimum,Clothes Washing,tonsCO2e,0.0188038081459,506
 co2e,co2e.clothes_washing,Clothes Washing,improved_envelope,Improved Envelope,Clothes Washing,tonsCO2e,0.0188038081459,506
 co2e,co2e.clothes_washing,Clothes Washing,improved_mech,Improved Mech.,Clothes Washing,tonsCO2e,0.0188038081459,506
 co2e,co2e.clothes_washing,Clothes Washing,enerphit_by_component,EnerPHit By Component,Clothes Washing,tonsCO2e,0.0188038081459,506
 co2e,co2e.clothes_washing,Clothes Washing,enerphit_by_demand,EnerPHit By Demand,Clothes Washing,tonsCO2e,0.0188038081459,506
-co2e,co2e.clothes_drying,Clothes Drying,code_miniumum,Code Miniumum,Clothes Drying,tonsCO2e,0.0900334774445,507
+co2e,co2e.clothes_drying,Clothes Drying,code_minimum,Code Minimum,Clothes Drying,tonsCO2e,0.0900334774445,507
 co2e,co2e.clothes_drying,Clothes Drying,improved_envelope,Improved Envelope,Clothes Drying,tonsCO2e,0.0900334774445,507
 co2e,co2e.clothes_drying,Clothes Drying,improved_mech,Improved Mech.,Clothes Drying,tonsCO2e,0.0900334774445,507
 co2e,co2e.clothes_drying,Clothes Drying,enerphit_by_component,EnerPHit By Component,Clothes Drying,tonsCO2e,0.0900334774445,507
 co2e,co2e.clothes_drying,Clothes Drying,enerphit_by_demand,EnerPHit By Demand,Clothes Drying,tonsCO2e,0.0900334774445,507
-co2e,co2e.refrigerator,Refrigerator,code_miniumum,Code Miniumum,Refrigerator,tonsCO2e,0.128181635568,508
+co2e,co2e.refrigerator,Refrigerator,code_minimum,Code Minimum,Refrigerator,tonsCO2e,0.128181635568,508
 co2e,co2e.refrigerator,Refrigerator,improved_envelope,Improved Envelope,Refrigerator,tonsCO2e,0.128181635568,508
 co2e,co2e.refrigerator,Refrigerator,improved_mech,Improved Mech.,Refrigerator,tonsCO2e,0.128181635568,508
 co2e,co2e.refrigerator,Refrigerator,enerphit_by_component,EnerPHit By Component,Refrigerator,tonsCO2e,0.128181635568,508
 co2e,co2e.refrigerator,Refrigerator,enerphit_by_demand,EnerPHit By Demand,Refrigerator,tonsCO2e,0.128181635568,508
-co2e,co2e.cooking,Cooking,code_miniumum,Code Miniumum,Cooking,tonsCO2e,0,509
+co2e,co2e.cooking,Cooking,code_minimum,Code Minimum,Cooking,tonsCO2e,0,509
 co2e,co2e.cooking,Cooking,improved_envelope,Improved Envelope,Cooking,tonsCO2e,0,509
 co2e,co2e.cooking,Cooking,improved_mech,Improved Mech.,Cooking,tonsCO2e,0,509
 co2e,co2e.cooking,Cooking,enerphit_by_component,EnerPHit By Component,Cooking,tonsCO2e,0,509
 co2e,co2e.cooking,Cooking,enerphit_by_demand,EnerPHit By Demand,Cooking,tonsCO2e,0,509
-co2e,co2e.phi_lighting,PHI Lighting,code_miniumum,Code Miniumum,PHI Lighting,tonsCO2e,0,510
+co2e,co2e.phi_lighting,PHI Lighting,code_minimum,Code Minimum,PHI Lighting,tonsCO2e,0,510
 co2e,co2e.phi_lighting,PHI Lighting,improved_envelope,Improved Envelope,PHI Lighting,tonsCO2e,0,510
 co2e,co2e.phi_lighting,PHI Lighting,improved_mech,Improved Mech.,PHI Lighting,tonsCO2e,0,510
 co2e,co2e.phi_lighting,PHI Lighting,enerphit_by_component,EnerPHit By Component,PHI Lighting,tonsCO2e,0,510
 co2e,co2e.phi_lighting,PHI Lighting,enerphit_by_demand,EnerPHit By Demand,PHI Lighting,tonsCO2e,0,510
-co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,code_miniumum,Code Miniumum,PHI Consumer Elec.,tonsCO2e,0.176267861557,511
+co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,code_minimum,Code Minimum,PHI Consumer Elec.,tonsCO2e,0.176267861557,511
 co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,improved_envelope,Improved Envelope,PHI Consumer Elec.,tonsCO2e,0.176267861557,511
 co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,improved_mech,Improved Mech.,PHI Consumer Elec.,tonsCO2e,0.176267861557,511
 co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,enerphit_by_component,EnerPHit By Component,PHI Consumer Elec.,tonsCO2e,0.176267861557,511
 co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,enerphit_by_demand,EnerPHit By Demand,PHI Consumer Elec.,tonsCO2e,0.176267861557,511
-co2e,co2e.phi_small_appliances,PHI Small Appliances,code_miniumum,Code Miniumum,PHI Small Appliances,tonsCO2e,0.0189418461329,512
+co2e,co2e.phi_small_appliances,PHI Small Appliances,code_minimum,Code Minimum,PHI Small Appliances,tonsCO2e,0.0189418461329,512
 co2e,co2e.phi_small_appliances,PHI Small Appliances,improved_envelope,Improved Envelope,PHI Small Appliances,tonsCO2e,0.0189418461329,512
 co2e,co2e.phi_small_appliances,PHI Small Appliances,improved_mech,Improved Mech.,PHI Small Appliances,tonsCO2e,0.0189418461329,512
 co2e,co2e.phi_small_appliances,PHI Small Appliances,enerphit_by_component,EnerPHit By Component,PHI Small Appliances,tonsCO2e,0.0189418461329,512
 co2e,co2e.phi_small_appliances,PHI Small Appliances,enerphit_by_demand,EnerPHit By Demand,PHI Small Appliances,tonsCO2e,0.0189418461329,512
-co2e,co2e.phius_int_lighting,Phius Int. Lighting,code_miniumum,Code Miniumum,Phius Int. Lighting,tonsCO2e,0.345100172046,513
+co2e,co2e.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,tonsCO2e,0.345100172046,513
 co2e,co2e.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,tonsCO2e,0.345100172046,513
 co2e,co2e.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,tonsCO2e,0.345100172046,513
 co2e,co2e.phius_int_lighting,Phius Int. Lighting,enerphit_by_component,EnerPHit By Component,Phius Int. Lighting,tonsCO2e,0.345100172046,513
 co2e,co2e.phius_int_lighting,Phius Int. Lighting,enerphit_by_demand,EnerPHit By Demand,Phius Int. Lighting,tonsCO2e,0.345100172046,513
-co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,code_miniumum,Code Miniumum,Phius Ext. Lighting,tonsCO2e,0.0170751805305,514
+co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,tonsCO2e,0.0170751805305,514
 co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,tonsCO2e,0.0170751805305,514
 co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,tonsCO2e,0.0170751805305,514
 co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,enerphit_by_component,EnerPHit By Component,Phius Ext. Lighting,tonsCO2e,0.0170751805305,514
 co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,enerphit_by_demand,EnerPHit By Demand,Phius Ext. Lighting,tonsCO2e,0.0170751805305,514
-co2e,co2e.phius_mel,Phius MEL,code_miniumum,Code Miniumum,Phius MEL,tonsCO2e,0.955060540503,515
+co2e,co2e.phius_mel,Phius MEL,code_minimum,Code Minimum,Phius MEL,tonsCO2e,0.955060540503,515
 co2e,co2e.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Phius MEL,tonsCO2e,0.955060540503,515
 co2e,co2e.phius_mel,Phius MEL,improved_mech,Improved Mech.,Phius MEL,tonsCO2e,0.955060540503,515
 co2e,co2e.phius_mel,Phius MEL,enerphit_by_component,EnerPHit By Component,Phius MEL,tonsCO2e,0.955060540503,515
 co2e,co2e.phius_mel,Phius MEL,enerphit_by_demand,EnerPHit By Demand,Phius MEL,tonsCO2e,0.955060540503,515
-co2e,co2e.aux_elec,Aux Elec,code_miniumum,Code Miniumum,Aux Elec,tonsCO2e,2.33787535192,516
+co2e,co2e.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,tonsCO2e,2.33787535192,516
 co2e,co2e.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,tonsCO2e,2.3031794565,516
 co2e,co2e.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,tonsCO2e,2.47209466478,516
 co2e,co2e.aux_elec,Aux Elec,enerphit_by_component,EnerPHit By Component,Aux Elec,tonsCO2e,1.89360231181,516
 co2e,co2e.aux_elec,Aux Elec,enerphit_by_demand,EnerPHit By Demand,Aux Elec,tonsCO2e,1.63247084882,516
-co2e,co2e.ipcc_limit,IPCC Limit,code_miniumum,Code Miniumum,IPCC Limit,tonsCO2e,3.26541603945,517
+co2e,co2e.ipcc_limit,IPCC Limit,code_minimum,Code Minimum,IPCC Limit,tonsCO2e,3.26541603945,517
 co2e,co2e.ipcc_limit,IPCC Limit,improved_envelope,Improved Envelope,IPCC Limit,tonsCO2e,3.26541603945,517
 co2e,co2e.ipcc_limit,IPCC Limit,improved_mech,Improved Mech.,IPCC Limit,tonsCO2e,3.26541603945,517
 co2e,co2e.ipcc_limit,IPCC Limit,enerphit_by_component,EnerPHit By Component,IPCC Limit,tonsCO2e,3.26541603945,517
 co2e,co2e.ipcc_limit,IPCC Limit,enerphit_by_demand,EnerPHit By Demand,IPCC Limit,tonsCO2e,3.26541603945,517
-primary_energy_renewable,primary_energy_renewable.heating,Heating,code_miniumum,Code Miniumum,Heating,kWh,31880.8008475,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,code_minimum,Code Minimum,Heating,kWh,31880.8008475,520
 primary_energy_renewable,primary_energy_renewable.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,25547.4424903,520
 primary_energy_renewable,primary_energy_renewable.heating,Heating,improved_mech,Improved Mech.,Heating,kWh,22691.9479414,520
 primary_energy_renewable,primary_energy_renewable.heating,Heating,enerphit_by_component,EnerPHit By Component,Heating,kWh,16479.032593,520
 primary_energy_renewable,primary_energy_renewable.heating,Heating,enerphit_by_demand,EnerPHit By Demand,Heating,kWh,8279.36745819,520
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,code_miniumum,Code Miniumum,Cooling,kWh,5940.1436923,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,5940.1436923,521
 primary_energy_renewable,primary_energy_renewable.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,4894.35230427,521
 primary_energy_renewable,primary_energy_renewable.cooling,Cooling,improved_mech,Improved Mech.,Cooling,kWh,5711.46423064,521
 primary_energy_renewable,primary_energy_renewable.cooling,Cooling,enerphit_by_component,EnerPHit By Component,Cooling,kWh,4519.12303971,521
 primary_energy_renewable,primary_energy_renewable.cooling,Cooling,enerphit_by_demand,EnerPHit By Demand,Cooling,kWh,3517.93917741,521
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,code_miniumum,Code Miniumum,DHW,kWh,2908.57601991,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,2908.57601991,522
 primary_energy_renewable,primary_energy_renewable.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,2929.71751487,522
 primary_energy_renewable,primary_energy_renewable.dhw,DHW,improved_mech,Improved Mech.,DHW,kWh,2883.52124417,522
 primary_energy_renewable,primary_energy_renewable.dhw,DHW,enerphit_by_component,EnerPHit By Component,DHW,kWh,2878.31577701,522
 primary_energy_renewable,primary_energy_renewable.dhw,DHW,enerphit_by_demand,EnerPHit By Demand,DHW,kWh,2824.69460303,522
-primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,code_miniumum,Code Miniumum,Dishwashing,kWh,265.857935862,523
+primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,kWh,265.857935862,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,kWh,265.857935862,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,improved_mech,Improved Mech.,Dishwashing,kWh,265.857935862,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,enerphit_by_component,EnerPHit By Component,Dishwashing,kWh,265.857935862,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,enerphit_by_demand,EnerPHit By Demand,Dishwashing,kWh,265.857935862,523
-primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,code_miniumum,Code Miniumum,Clothes Washing,kWh,78.3887869455,524
+primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,code_minimum,Code Minimum,Clothes Washing,kWh,78.3887869455,524
 primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,improved_envelope,Improved Envelope,Clothes Washing,kWh,78.3887869455,524
 primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,improved_mech,Improved Mech.,Clothes Washing,kWh,78.3887869455,524
 primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,enerphit_by_component,EnerPHit By Component,Clothes Washing,kWh,78.3887869455,524
 primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,enerphit_by_demand,EnerPHit By Demand,Clothes Washing,kWh,78.3887869455,524
-primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,code_miniumum,Code Miniumum,Clothes Drying,kWh,375.329030513,525
+primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,code_minimum,Code Minimum,Clothes Drying,kWh,375.329030513,525
 primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,improved_envelope,Improved Envelope,Clothes Drying,kWh,375.329030513,525
 primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,improved_mech,Improved Mech.,Clothes Drying,kWh,375.329030513,525
 primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,enerphit_by_component,EnerPHit By Component,Clothes Drying,kWh,375.329030513,525
 primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,enerphit_by_demand,EnerPHit By Demand,Clothes Drying,kWh,375.329030513,525
-primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,code_miniumum,Code Miniumum,Refrigerator,kWh,534.36,526
+primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,code_minimum,Code Minimum,Refrigerator,kWh,534.36,526
 primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,improved_envelope,Improved Envelope,Refrigerator,kWh,534.36,526
 primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,improved_mech,Improved Mech.,Refrigerator,kWh,534.36,526
 primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,enerphit_by_component,EnerPHit By Component,Refrigerator,kWh,534.36,526
 primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,enerphit_by_demand,EnerPHit By Demand,Refrigerator,kWh,534.36,526
-primary_energy_renewable,primary_energy_renewable.cooking,Cooking,code_miniumum,Code Miniumum,Cooking,kWh,0,527
+primary_energy_renewable,primary_energy_renewable.cooking,Cooking,code_minimum,Code Minimum,Cooking,kWh,0,527
 primary_energy_renewable,primary_energy_renewable.cooking,Cooking,improved_envelope,Improved Envelope,Cooking,kWh,0,527
 primary_energy_renewable,primary_energy_renewable.cooking,Cooking,improved_mech,Improved Mech.,Cooking,kWh,0,527
 primary_energy_renewable,primary_energy_renewable.cooking,Cooking,enerphit_by_component,EnerPHit By Component,Cooking,kWh,0,527
 primary_energy_renewable,primary_energy_renewable.cooking,Cooking,enerphit_by_demand,EnerPHit By Demand,Cooking,kWh,0,527
-primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,code_miniumum,Code Miniumum,PHI Lighting,kWh,0,528
+primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,code_minimum,Code Minimum,PHI Lighting,kWh,0,528
 primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,improved_envelope,Improved Envelope,PHI Lighting,kWh,0,528
 primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,improved_mech,Improved Mech.,PHI Lighting,kWh,0,528
 primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,enerphit_by_component,EnerPHit By Component,PHI Lighting,kWh,0,528
 primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,enerphit_by_demand,EnerPHit By Demand,PHI Lighting,kWh,0,528
-primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,code_miniumum,Code Miniumum,PHI Consumer Elec.,kWh,734.82050751,529
+primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,code_minimum,Code Minimum,PHI Consumer Elec.,kWh,734.82050751,529
 primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,improved_envelope,Improved Envelope,PHI Consumer Elec.,kWh,734.82050751,529
 primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,improved_mech,Improved Mech.,PHI Consumer Elec.,kWh,734.82050751,529
 primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,enerphit_by_component,EnerPHit By Component,PHI Consumer Elec.,kWh,734.82050751,529
 primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,enerphit_by_demand,EnerPHit By Demand,PHI Consumer Elec.,kWh,734.82050751,529
-primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,code_miniumum,Code Miniumum,PHI Small Appliances,kWh,78.9642358263,530
+primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,code_minimum,Code Minimum,PHI Small Appliances,kWh,78.9642358263,530
 primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,improved_envelope,Improved Envelope,PHI Small Appliances,kWh,78.9642358263,530
 primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,improved_mech,Improved Mech.,PHI Small Appliances,kWh,78.9642358263,530
 primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,enerphit_by_component,EnerPHit By Component,PHI Small Appliances,kWh,78.9642358263,530
 primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,enerphit_by_demand,EnerPHit By Demand,PHI Small Appliances,kWh,78.9642358263,530
-primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,code_miniumum,Code Miniumum,Phius Int. Lighting,kWh,1438.64389869,531
+primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,kWh,1438.64389869,531
 primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,kWh,1438.64389869,531
 primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,kWh,1438.64389869,531
 primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,enerphit_by_component,EnerPHit By Component,Phius Int. Lighting,kWh,1438.64389869,531
 primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,enerphit_by_demand,EnerPHit By Demand,Phius Int. Lighting,kWh,1438.64389869,531
-primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,code_miniumum,Code Miniumum,Phius Ext. Lighting,kWh,71.1825327229,532
+primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,kWh,71.1825327229,532
 primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,kWh,71.1825327229,532
 primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,kWh,71.1825327229,532
 primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,enerphit_by_component,EnerPHit By Component,Phius Ext. Lighting,kWh,71.1825327229,532
 primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,enerphit_by_demand,EnerPHit By Demand,Phius Ext. Lighting,kWh,71.1825327229,532
-primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,code_miniumum,Code Miniumum,Phius MEL,kWh,3981.42954068,533
+primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,code_minimum,Code Minimum,Phius MEL,kWh,3981.42954068,533
 primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Phius MEL,kWh,3981.42954068,533
 primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,improved_mech,Improved Mech.,Phius MEL,kWh,3981.42954068,533
 primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,enerphit_by_component,EnerPHit By Component,Phius MEL,kWh,3981.42954068,533
 primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,enerphit_by_demand,EnerPHit By Demand,Phius MEL,kWh,3981.42954068,533
-primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,code_miniumum,Code Miniumum,Aux Elec,kWh,4873.03453228,534
+primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,kWh,4873.03453228,534
 primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,kWh,4800.71489539,534
 primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,kWh,5152.79938199,534
 primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,enerphit_by_component,EnerPHit By Component,Aux Elec,kWh,3946.99805028,534
 primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,enerphit_by_demand,EnerPHit By Demand,Aux Elec,kWh,3402.69929819,534
-primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,code_miniumum,Code Miniumum,Solar PV,kWh,0,535
+primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,code_minimum,Code Minimum,Solar PV,kWh,0,535
 primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,improved_envelope,Improved Envelope,Solar PV,kWh,0,535
 primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,improved_mech,Improved Mech.,Solar PV,kWh,0,535
 primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,enerphit_by_component,EnerPHit By Component,Solar PV,kWh,0,535
 primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,enerphit_by_demand,EnerPHit By Demand,Solar PV,kWh,0,535
-report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),code_miniumum,Code Miniumum,Envelope Air Leakage Rate (q50),cfm/ft2,0.194181059177,345
-report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),code_miniumum,Code Miniumum,Cold Air Duct Length (ea),ft,16.404199475,354
-report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,code_miniumum,Code Miniumum,Cold Air Duct Insulation Thickness,inches,0.984251975,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,code_miniumum,Code Miniumum,Heat Demand,kWh/yr,34902.4977095,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,code_miniumum,Code Miniumum,Cooling Demand,kWh/yr,3188.12809015,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,code_miniumum,Code Miniumum,Total Primary Energy,kWh/yr,97917.137994,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,code_miniumum,Code Miniumum,Total Site Energy,kWh/yr,37660.43769,
+report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),code_minimum,Code Minimum,Envelope Air Leakage Rate (q50),cfm/ft2,0.194181059177,345
+report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),code_minimum,Code Minimum,Cold Air Duct Length (ea),ft,16.404199475,354
+report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,code_minimum,Code Minimum,Cold Air Duct Insulation Thickness,inches,0.984251975,355
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,code_minimum,Code Minimum,Heat Demand,kWh/yr,34902.4977095,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,code_minimum,Code Minimum,Cooling Demand,kWh/yr,3188.12809015,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,code_minimum,Code Minimum,Total Primary Energy,kWh/yr,97917.137994,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,code_minimum,Code Minimum,Total Site Energy,kWh/yr,37660.43769,
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),improved_envelope,Improved Envelope,Envelope Air Leakage Rate (q50),cfm/ft2,0.129454039451,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),improved_envelope,Improved Envelope,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,improved_envelope,Improved Envelope,Cold Air Duct Insulation Thickness,inches,0.984251975,355

@@ -1,37 +1,37 @@
 demand_type,contribution_type,item,variant_id,units,value,source_field_id,source_label,excel_row
-heating,loss,walls_ag,code_miniumum,kWh,11039.4509182,heating_demand.walls_ag,Walls (AG),376
-heating,loss,walls_bg,code_miniumum,kWh,62.490491401,heating_demand.walls_bg,Walls (BG),377
-heating,loss,roofs,code_miniumum,kWh,1119.65910232,heating_demand.roofs,Roofs,378
-heating,loss,floor_slabs,code_miniumum,kWh,1542.94499859,heating_demand.floor_slabs,Floor Slabs,379
-heating,loss,windows,code_miniumum,kWh,12262.4539266,heating_demand.windows,Windows,383
-heating,loss,thermal_bridges,code_miniumum,kWh,7297.88858276,heating_demand.thermal_bridges,Thermal Bridges,385
-heating,loss,ventilation,code_miniumum,kWh,11429.8245233,heating_demand.ventilation,Ventilation,388
-heating,gain,heating_demand,code_miniumum,kWh,34902.4977095,heating_demand.heating_demand,Heating Demand,389
-heating,gain,north,code_miniumum,kWh,554.060558745,heating_demand.north,North,390
-heating,gain,east,code_miniumum,kWh,798.28093575,heating_demand.east,East,391
-heating,gain,south,code_miniumum,kWh,1190.92309193,heating_demand.south,South,392
-heating,gain,west,code_miniumum,kWh,56.6066672581,heating_demand.west,West,393
-heating,gain,horizontal,code_miniumum,kWh,0,heating_demand.horizontal,Horizontal,394
-heating,gain,sum_opaque_areas,code_miniumum,kWh,2623.85077811,heating_demand.sum_opaque_areas,Sum opaque areas,395
-heating,gain,internal_gains,code_miniumum,kWh,4766.92461868,heating_demand.internal_gains,Internal Gains,396
-heating,limit,demand_limit,code_miniumum,kWh,7308.32291246,certification_limits.heat_demand_limit,Heat Demand Limit,363
-cooling,loss,cooling_demand_2,code_miniumum,kWh,2363.283611,cooling_demand.cooling_demand_2,Cooling Demand,399
-cooling,loss,walls_ag,code_miniumum,kWh,2192.94237481,cooling_demand.walls_ag,Walls (AG),400
-cooling,loss,walls_bg,code_miniumum,kWh,56.4015771629,cooling_demand.walls_bg,Walls (BG),401
-cooling,loss,roofs,code_miniumum,kWh,222.415762252,cooling_demand.roofs,Roofs,402
-cooling,loss,floor_slabs,code_miniumum,kWh,1392.6043698,cooling_demand.floor_slabs,Floor Slabs,403
-cooling,loss,windows,code_miniumum,kWh,2435.88698695,cooling_demand.windows,Windows,407
-cooling,loss,thermal_bridges,code_miniumum,kWh,1449.69611608,cooling_demand.thermal_bridges,Thermal Bridges,409
-cooling,loss,ventilation_basic,code_miniumum,kWh,1554.73319976,cooling_demand.ventilation_basic,Ventilation (Basic),412
-cooling,loss,ventilation_addn_l,code_miniumum,kWh,466.058352699,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),413
-cooling,gain,north,code_miniumum,kWh,259.350478526,cooling_demand.north,North,414
-cooling,gain,east,code_miniumum,kWh,921.233829725,cooling_demand.east,East,415
-cooling,gain,south,code_miniumum,kWh,851.570541375,cooling_demand.south,South,416
-cooling,gain,west,code_miniumum,kWh,110.370142219,cooling_demand.west,West,417
-cooling,gain,horizontal,code_miniumum,kWh,0,cooling_demand.horizontal,Horizontal,418
-cooling,gain,sum_opaque_areas,code_miniumum,kWh,2290.08568335,cooling_demand.sum_opaque_areas,Sum opaque areas,419
-cooling,gain,internal_gains,code_miniumum,kWh,4069.30027791,cooling_demand.internal_gains,Internal Gains,420
-cooling,limit,demand_limit,code_miniumum,kWh,5846.65832997,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,366
+heating,loss,walls_ag,code_minimum,kWh,11039.4509182,heating_demand.walls_ag,Walls (AG),376
+heating,loss,walls_bg,code_minimum,kWh,62.490491401,heating_demand.walls_bg,Walls (BG),377
+heating,loss,roofs,code_minimum,kWh,1119.65910232,heating_demand.roofs,Roofs,378
+heating,loss,floor_slabs,code_minimum,kWh,1542.94499859,heating_demand.floor_slabs,Floor Slabs,379
+heating,loss,windows,code_minimum,kWh,12262.4539266,heating_demand.windows,Windows,383
+heating,loss,thermal_bridges,code_minimum,kWh,7297.88858276,heating_demand.thermal_bridges,Thermal Bridges,385
+heating,loss,ventilation,code_minimum,kWh,11429.8245233,heating_demand.ventilation,Ventilation,388
+heating,gain,heating_demand,code_minimum,kWh,34902.4977095,heating_demand.heating_demand,Heating Demand,389
+heating,gain,north,code_minimum,kWh,554.060558745,heating_demand.north,North,390
+heating,gain,east,code_minimum,kWh,798.28093575,heating_demand.east,East,391
+heating,gain,south,code_minimum,kWh,1190.92309193,heating_demand.south,South,392
+heating,gain,west,code_minimum,kWh,56.6066672581,heating_demand.west,West,393
+heating,gain,horizontal,code_minimum,kWh,0,heating_demand.horizontal,Horizontal,394
+heating,gain,sum_opaque_areas,code_minimum,kWh,2623.85077811,heating_demand.sum_opaque_areas,Sum opaque areas,395
+heating,gain,internal_gains,code_minimum,kWh,4766.92461868,heating_demand.internal_gains,Internal Gains,396
+heating,limit,demand_limit,code_minimum,kWh,7308.32291246,certification_limits.heat_demand_limit,Heat Demand Limit,363
+cooling,loss,cooling_demand_2,code_minimum,kWh,2363.283611,cooling_demand.cooling_demand_2,Cooling Demand,399
+cooling,loss,walls_ag,code_minimum,kWh,2192.94237481,cooling_demand.walls_ag,Walls (AG),400
+cooling,loss,walls_bg,code_minimum,kWh,56.4015771629,cooling_demand.walls_bg,Walls (BG),401
+cooling,loss,roofs,code_minimum,kWh,222.415762252,cooling_demand.roofs,Roofs,402
+cooling,loss,floor_slabs,code_minimum,kWh,1392.6043698,cooling_demand.floor_slabs,Floor Slabs,403
+cooling,loss,windows,code_minimum,kWh,2435.88698695,cooling_demand.windows,Windows,407
+cooling,loss,thermal_bridges,code_minimum,kWh,1449.69611608,cooling_demand.thermal_bridges,Thermal Bridges,409
+cooling,loss,ventilation_basic,code_minimum,kWh,1554.73319976,cooling_demand.ventilation_basic,Ventilation (Basic),412
+cooling,loss,ventilation_addn_l,code_minimum,kWh,466.058352699,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),413
+cooling,gain,north,code_minimum,kWh,259.350478526,cooling_demand.north,North,414
+cooling,gain,east,code_minimum,kWh,921.233829725,cooling_demand.east,East,415
+cooling,gain,south,code_minimum,kWh,851.570541375,cooling_demand.south,South,416
+cooling,gain,west,code_minimum,kWh,110.370142219,cooling_demand.west,West,417
+cooling,gain,horizontal,code_minimum,kWh,0,cooling_demand.horizontal,Horizontal,418
+cooling,gain,sum_opaque_areas,code_minimum,kWh,2290.08568335,cooling_demand.sum_opaque_areas,Sum opaque areas,419
+cooling,gain,internal_gains,code_minimum,kWh,4069.30027791,cooling_demand.internal_gains,Internal Gains,420
+cooling,limit,demand_limit,code_minimum,kWh,5846.65832997,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,366
 heating,loss,walls_ag,improved_envelope,kWh,9873.05159584,heating_demand.walls_ag,Walls (AG),376
 heating,loss,walls_bg,improved_envelope,kWh,318.644283275,heating_demand.walls_bg,Walls (BG),377
 heating,loss,roofs,improved_envelope,kWh,707.535416219,heating_demand.roofs,Roofs,378
