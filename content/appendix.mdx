@@ -51,6 +51,8 @@ The variant tables carry the assembly names used in the energy model. They map t
 
 #### Units
 
-Energy demand figures are reported in the units shown on each chart. To convert between the two conventions used in
-Passive House work: 1 kWh/m<sup>2</sup>-yr is about 0.317 kBtu/ft<sup>2</sup>-yr, and 1 W/(m<sup>2</sup>K) is about
-0.176 Btu/hr-ft<sup>2</sup>-F.
+Energy demand figures are reported as whole-building annual totals in kWh/yr, not per unit of floor area. Where a
+Passive House limit is written per unit of area, we have multiplied it by this building's treated floor area of
+<Var k="narrative.user_defined.icfa_ft2" /> ft<sup>2</sup> (365.4 m<sup>2</sup>) and reported the resulting
+whole-building allowance. Peak loads and equipment sizing stay in Btu/h. For assembly U-values, 1 W/(m<sup>2</sup>K)
+is about 0.176 Btu/hr-ft<sup>2</sup>-F.
