@@ -11,36 +11,70 @@ itself, including the tabular envelope analysis and the filing coordination, is 
 #### The building falls under the Commercial Provisions
 
 The <VarLink hrefKey="narrative.energy_code.link" target="_blank" rel="noopener noreferrer"><Var k="narrative.energy_code.name" /></VarLink>
-defines a Residential building to include townhouses having not more than three stories above grade plane. At
+defines a Residential building ([C202][c202]) to include townhouses having not more than three stories above grade
+plane, and a Commercial building as everything else. At
 <Var k="narrative.user_defined.stories_above_grade" /> stories above grade plane, this house is a Commercial building
 for energy-code purposes, whatever its single-family use and R-3 occupancy classification say. The existing building
 already exceeded that threshold, so the new penthouse is not what causes it.
 
-The practical consequences are a cap on vertical fenestration area, assembly U-factor requirements in place of the
-residential R-value table, and lighting power and lighting control requirements that do not apply to residential work.
-The lighting requirements need to reach the lighting designer early.
+The practical consequences are a cap on vertical fenestration area ([C402.5.1][c402.5.1]), assembly U-factor
+requirements in place of the residential R-value table ([C402.1.2][c402.1.2]), and the electrical power and
+lighting provisions of [C405][c405].
+
+The lighting exposure is smaller than the Commercial label suggests. [C405.1][c405.1] exempts dwelling units that
+comply with C405.2.10, C405.3.3 and C405.6. Of those three, [C405.2.10][c405.2.10] reaches only hotels, motels,
+vacation timeshares and congregate living facilities, and [C405.6.1][c405.6.1] meters dwelling units in Group R-2
+buildings. Neither describes this house. What is left is [C405.3.3][c405.3.3], which asks for lamps rated at 65
+lumens per watt or luminaires at 45 lumens per watt. There is no watts-per-square-foot lighting power budget to meet
+and no commercial control package to design. Pass the efficacy floor to the lighting designer and the C405 obligation
+is done.
+
+#### The work is an alteration, so Chapter C5 governs
+
+[C401.2.1][c401.2.1] sends commercial buildings to Sections C402 through C406 and C408, with an exception for
+alterations and additions to existing buildings, which comply with [Chapter C5][chapter-c5] instead. This project is an
+alteration under [C503][c503] plus an addition at the penthouse under [C502][c502]. Chapter C5 then
+routes the new and altered assemblies back to the Chapter C4 requirements, so the targets in the table above still
+apply. Two consequences are worth carrying into the compliance phase.
+
+[C503.2][c503.2] lets an area-weighted average U-factor across the new and altered envelope satisfy Table
+C402.1.2, and it bars any reduction in existing insulation R-value. [C503.2.4][c503.2.4] sets the trigger that
+matters here: where exterior wall coverings and fenestration are replaced across a full elevation, insulation must be
+brought to the Table C402.1.3 continuous-insulation value, to Table C402.1.2 compliance, or to an approved design.
 
 #### The fenestration ratio clears the cap, which settles the compliance path
 
-Glazing is about <Var k="narrative.user_defined.window_to_envelope_ratio" />% of the modeled thermal envelope area,
-and no skylights are planned. Measured against the above-grade wall area the code actually counts, and excluding the
-party wall against the conditioned neighbor, the ratio sits well below the 30% cap.
+[C402.5.1][c402.5.1] caps vertical fenestration at 30% of gross above-grade wall area, excluding opaque doors
+and opaque spandrel panels, and caps skylights at 3% of gross roof area. Glazing is about
+<Var k="narrative.user_defined.window_to_envelope_ratio" />% of the modeled thermal envelope area, and no skylights
+are planned. Measured against the above-grade wall area the code actually counts, and excluding the party wall against
+the conditioned neighbor, the ratio sits well below the cap. The relief in
+[C402.5.1.1][c402.5.1.1], which buys 40% in exchange for daylight responsive controls, is not needed.
 
-That result matters more than it looks. Under Section C402.1.4 the component-performance equation carries penalty
-terms for excess fenestration and excess skylight area. Both go to zero here, so the equation reduces to a
-straightforward area-weighted trade-off, and no whole-building ASHRAE 90.1 model is required.
+That result matters more than it looks. The component performance method in [C402.1.4][c402.1.4] is an
+alternative to both the prescriptive U-, F-, psi-, chi- and C-factor tables and the fenestration area limits of
+C402.5.1. Its Equation 4-1 carries penalty terms for excess vertical fenestration (VF) and excess skylight area (VS),
+each computed from the area by which the proposal exceeds the cap. Both go to zero here, so the equation reduces to a
+straightforward area-weighted trade-off. [C401.2.2][c401.2.2] offers 2025 NYC ASHRAE 90.1 as the other route,
+and clearing the cap is what keeps the project off it.
 
 #### The thermal-bridge work counts twice
 
-The 2025 code added linear and point thermal transmittance to the component-performance equation, and it permits an
-improved psi- or chi-value to be established by thermal analysis where a detail betters the tabulated value. The
-two-dimensional simulations scheduled for this project therefore serve as Passive House documentation and as code
-credit from the same run.
+The 2025 code added linear and point thermal transmittance to Equation 4-1 as the TP and TT terms, built from the
+psi- and chi-factors in Table C402.1.4 for the junctions listed in [C402.7][c402.7]. Where a detail beats the
+"compliant" tabulated value, [C402.1.4][c402.1.4] item 3 lets the proposed psi- or chi-factor be established by
+thermal analysis, testing or other approved sources. The two-dimensional simulations scheduled for this project
+therefore serve as Passive House documentation and as code credit from the same run.
+[C402.7.1][c402.7.1] names the junctions to detail, and the intermediate floor to wall intersection and the roof
+edge and parapet are both on that list.
 
-One detail matters for an interior-insulated masonry building. The equation assigns a value of zero to thermal bridges
-formed by materials at or below a conductivity threshold that softwood sits well under. The embedded wood joist ends,
-which are the governing moisture risk on this building, carry no code liability. Steel, concrete and masonry elements
-are above the line and do count.
+One detail matters for an interior-insulated masonry building. Equation 4-1 assigns a value of zero to the psi- and
+chi-values of thermal bridges caused by materials with a thermal conductivity at or below
+<Var k="narrative.user_defined.code_tb_conductivity_limit" />, and [C402.7][c402.7] exception 4 excuses those
+same bridges from the mitigation and documentation requirement. Softwood runs near 0.8 in those units, well under the
+line, so the embedded wood joist ends, which are the governing moisture risk on this building, carry no code
+liability. Steel, concrete and masonry elements are above the line and do count. The joist ends still drive the
+hygrothermal work, which is a durability question rather than a code one.
 
 <div class="btwr-callout btwr-callout--critical">
   <strong>The front elevation is the open question</strong>
@@ -48,17 +82,45 @@ are above the line and do count.
     The front facade sits within the <Var k="narrative.user_defined.historic_district" />, designated by the Landmarks
     Preservation Commission in <Var k="narrative.user_defined.lpc_designated" /> and listed on the National Register
     in <Var k="narrative.user_defined.nrhp_listed" />. If Landmarks requires retention or replication of the existing
-    sash at a thermal performance the trade-off cannot absorb, the code provides a per-feature historic exemption
-    supported by a historic building report. Our order-of-magnitude check suggests the trade-off closes without that
-    exemption, on the strength of the opaque assemblies alone and before any thermal-bridge credit. The real
-    calculation is part of the compliance phase.
+    sash at a thermal performance the trade-off cannot absorb, [C501.5][c501.5] waives compliance for individual
+    features of a historic building where a historic building report under [C501.5.1][c501.5.1] has been
+    submitted and approved by the building official. That report has to identify each character-defining feature and
+    demonstrate that compliance would threaten, degrade or destroy the historic form, fabric or function. It is a
+    per-feature waiver, not a building-wide one. Our order-of-magnitude check suggests the trade-off closes without
+    it, on the strength of the opaque assemblies alone and before any thermal-bridge credit. The real calculation is
+    part of the compliance phase.
   </span>
 </div>
 
 <div class="btwr-callout">
   <span>
     BLDGTYP is not licensed in New York State and cannot sign or seal documents requiring a New York State registered
-    design professional. The energy analysis is prepared for adoption and sealing by the applicant of record. Settle
-    this with the design team before filing.
+    design professional.
+    [1 RCNY §5000-01(f)(4)](https://www.nyc.gov/assets/buildings/rules/1_RCNY_5000-01.pdf) requires the energy
+    analysis to be signed and sealed by a registered design professional, and the C501.5.1 historic building report
+    carries the same signature requirement. We prepare both for adoption and sealing by the applicant of record.
+    Settle who that is with the design team before filing, not at filing.
   </span>
 </div>
+
+[c202]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/duped_C2/definitions
+[c401.2.1]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C401.2.1
+[c401.2.2]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C401.2.2
+[c402.1.2]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C402.1.2
+[c402.1.4]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C402.1.4
+[c402.5.1]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C402.5.1
+[c402.5.1.1]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C402.5.1.1
+[c402.7]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C402.7
+[c402.7.1]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C402.7.1
+[c405]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C405.1
+[c405.1]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C405.1
+[c405.2.10]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C405.2.10
+[c405.3.3]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C405.3.3
+[c405.6.1]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C4/commercial-energy-efficiency#C405.6
+[c501.5]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C5/existing-buildings#C501.5
+[c501.5.1]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C5/existing-buildings#C501.5.1
+[c502]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C5/existing-buildings#C502.1
+[c503]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C5/existing-buildings#C503.1
+[c503.2]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C5/existing-buildings#C503.2
+[c503.2.4]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C5/existing-buildings#C503.2.4
+[chapter-c5]: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2025/chapter/C5/existing-buildings

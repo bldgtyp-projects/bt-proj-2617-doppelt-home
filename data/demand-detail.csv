@@ -98,39 +98,39 @@ cooling,gain,horizontal,improved_mech,kWh,0,cooling_demand.horizontal,Horizontal
 cooling,gain,sum_opaque_areas,improved_mech,kWh,1311.910017,cooling_demand.sum_opaque_areas,Sum opaque areas,419
 cooling,gain,internal_gains,improved_mech,kWh,3322.72689789,cooling_demand.internal_gains,Internal Gains,420
 cooling,limit,demand_limit,improved_mech,kWh,5846.65832997,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,366
-heating,loss,walls_ag,recommended,kWh,9956.02578732,heating_demand.walls_ag,Walls (AG),376
-heating,loss,walls_bg,recommended,kWh,320.168467782,heating_demand.walls_bg,Walls (BG),377
-heating,loss,roofs,recommended,kWh,713.48162024,heating_demand.roofs,Roofs,378
-heating,loss,floor_slabs,recommended,kWh,696.013733673,heating_demand.floor_slabs,Floor Slabs,379
-heating,loss,windows,recommended,kWh,8753.21263878,heating_demand.windows,Windows,383
-heating,loss,thermal_bridges,recommended,kWh,2079.71572989,heating_demand.thermal_bridges,Thermal Bridges,385
-heating,loss,ventilation,recommended,kWh,3519.88444846,heating_demand.ventilation,Ventilation,388
-heating,gain,heating_demand,recommended,kWh,17290.476068,heating_demand.heating_demand,Heating Demand,389
-heating,gain,north,recommended,kWh,554.060558745,heating_demand.north,North,390
-heating,gain,east,recommended,kWh,798.28093575,heating_demand.east,East,391
-heating,gain,south,recommended,kWh,1190.92309193,heating_demand.south,South,392
-heating,gain,west,recommended,kWh,56.6066672581,heating_demand.west,West,393
-heating,gain,horizontal,recommended,kWh,0,heating_demand.horizontal,Horizontal,394
-heating,gain,sum_opaque_areas,recommended,kWh,1695.08867375,heating_demand.sum_opaque_areas,Sum opaque areas,395
-heating,gain,internal_gains,recommended,kWh,4766.92461868,heating_demand.internal_gains,Internal Gains,396
-heating,limit,demand_limit,recommended,kWh,7308.32291246,certification_limits.heat_demand_limit,Heat Demand Limit,363
-cooling,loss,cooling_demand_2,recommended,kWh,2420.74538712,cooling_demand.cooling_demand_2,Cooling Demand,399
-cooling,loss,walls_ag,recommended,kWh,1092.12513937,cooling_demand.walls_ag,Walls (AG),400
-cooling,loss,walls_bg,recommended,kWh,184.875044028,cooling_demand.walls_bg,Walls (BG),401
-cooling,loss,roofs,recommended,kWh,78.2652868308,cooling_demand.roofs,Roofs,402
-cooling,loss,floor_slabs,recommended,kWh,401.899570399,cooling_demand.floor_slabs,Floor Slabs,403
-cooling,loss,windows,recommended,kWh,960.182685063,cooling_demand.windows,Windows,407
-cooling,loss,thermal_bridges,recommended,kWh,228.134185253,cooling_demand.thermal_bridges,Thermal Bridges,409
-cooling,loss,ventilation_basic,recommended,kWh,679.558035546,cooling_demand.ventilation_basic,Ventilation (Basic),412
-cooling,loss,ventilation_addn_l,recommended,kWh,356.992127787,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),413
-cooling,gain,north,recommended,kWh,205.132703637,cooling_demand.north,North,414
-cooling,gain,east,recommended,kWh,742.887842044,cooling_demand.east,East,415
-cooling,gain,south,recommended,kWh,698.190145193,cooling_demand.south,South,416
-cooling,gain,west,recommended,kWh,89.1615759868,cooling_demand.west,West,417
-cooling,gain,horizontal,recommended,kWh,0,cooling_demand.horizontal,Horizontal,418
-cooling,gain,sum_opaque_areas,recommended,kWh,1183.2588637,cooling_demand.sum_opaque_areas,Sum opaque areas,419
-cooling,gain,internal_gains,recommended,kWh,2986.8644265,cooling_demand.internal_gains,Internal Gains,420
-cooling,limit,demand_limit,recommended,kWh,5846.65832997,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,366
+heating,loss,walls_ag,enerphit_by_component,kWh,9970.90535058,heating_demand.walls_ag,Walls (AG),376
+heating,loss,walls_bg,enerphit_by_component,kWh,320.032474959,heating_demand.walls_bg,Walls (BG),377
+heating,loss,roofs,enerphit_by_component,kWh,714.547938783,heating_demand.roofs,Roofs,378
+heating,loss,floor_slabs,enerphit_by_component,kWh,695.718099086,heating_demand.floor_slabs,Floor Slabs,379
+heating,loss,windows,enerphit_by_component,kWh,7640.3484729,heating_demand.windows,Windows,383
+heating,loss,thermal_bridges,enerphit_by_component,kWh,1970.22931504,heating_demand.thermal_bridges,Thermal Bridges,385
+heating,loss,ventilation,enerphit_by_component,kWh,3525.14501573,heating_demand.ventilation,Ventilation,388
+heating,gain,heating_demand,enerphit_by_component,kWh,16413.010742,heating_demand.heating_demand,Heating Demand,389
+heating,gain,north,enerphit_by_component,kWh,484.802988902,heating_demand.north,North,390
+heating,gain,east,enerphit_by_component,kWh,698.495818781,heating_demand.east,East,391
+heating,gain,south,enerphit_by_component,kWh,1042.05770544,heating_demand.south,South,392
+heating,gain,west,enerphit_by_component,kWh,49.5308338508,heating_demand.west,West,393
+heating,gain,horizontal,enerphit_by_component,kWh,0,heating_demand.horizontal,Horizontal,394
+heating,gain,sum_opaque_areas,enerphit_by_component,kWh,1675.38149801,heating_demand.sum_opaque_areas,Sum opaque areas,395
+heating,gain,internal_gains,enerphit_by_component,kWh,4766.92461868,heating_demand.internal_gains,Internal Gains,396
+heating,limit,demand_limit,enerphit_by_component,kWh,0,certification_limits.heat_demand_limit,Heat Demand Limit,363
+cooling,loss,cooling_demand_2,enerphit_by_component,kWh,2292.43927825,cooling_demand.cooling_demand_2,Cooling Demand,399
+cooling,loss,walls_ag,enerphit_by_component,kWh,1099.92091947,cooling_demand.walls_ag,Walls (AG),400
+cooling,loss,walls_bg,enerphit_by_component,kWh,184.682222309,cooling_demand.walls_bg,Walls (BG),401
+cooling,loss,roofs,enerphit_by_component,kWh,78.8239581262,cooling_demand.roofs,Roofs,402
+cooling,loss,floor_slabs,enerphit_by_component,kWh,401.480395563,cooling_demand.floor_slabs,Floor Slabs,403
+cooling,loss,windows,enerphit_by_component,kWh,842.830096359,cooling_demand.windows,Windows,407
+cooling,loss,thermal_bridges,enerphit_by_component,kWh,217.341992886,cooling_demand.thermal_bridges,Thermal Bridges,409
+cooling,loss,ventilation_basic,enerphit_by_component,kWh,679.167726074,cooling_demand.ventilation_basic,Ventilation (Basic),412
+cooling,loss,ventilation_addn_l,enerphit_by_component,kWh,356.787086566,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),413
+cooling,gain,north,enerphit_by_component,kWh,179.491115683,cooling_demand.north,North,414
+cooling,gain,east,enerphit_by_component,kWh,650.026861789,cooling_demand.east,East,415
+cooling,gain,south,enerphit_by_component,kWh,610.916377044,cooling_demand.south,South,416
+cooling,gain,west,enerphit_by_component,kWh,78.0163789885,cooling_demand.west,West,417
+cooling,gain,horizontal,enerphit_by_component,kWh,0,cooling_demand.horizontal,Horizontal,418
+cooling,gain,sum_opaque_areas,enerphit_by_component,kWh,1170.00211909,cooling_demand.sum_opaque_areas,Sum opaque areas,419
+cooling,gain,internal_gains,enerphit_by_component,kWh,2986.8644265,cooling_demand.internal_gains,Internal Gains,420
+cooling,limit,demand_limit,enerphit_by_component,kWh,0,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,366
 heating,loss,walls_ag,enerphit_by_demand,kWh,3150.87757819,heating_demand.walls_ag,Walls (AG),376
 heating,loss,walls_bg,enerphit_by_demand,kWh,110.557647147,heating_demand.walls_bg,Walls (BG),377
 heating,loss,roofs,enerphit_by_demand,kWh,681.495789773,heating_demand.roofs,Roofs,378

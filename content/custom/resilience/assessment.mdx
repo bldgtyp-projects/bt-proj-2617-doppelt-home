@@ -23,21 +23,38 @@ Each simulation window runs for nine days: one day of normal operation before th
 and one day of recovery after power is restored. The model splits into six zones, one for each occupied level:
 **Garden**, **Parlor**, **Second**, **Third**, **Fourth**, and **Penthouse**. Results are reported per zone.
 
-The envelope simulated is the **Recommended** package described in the rest of this report: R-20 interior insulation
+The envelope simulated is the recommended package described in the rest of this report: R-20 interior insulation
 at the masonry walls, R-60 at the roof, R-23 under the new basement slab, R-9 at the party wall,
-<Var k="narrative.certification.ph_ach_limit" /> ACH50, and triple glazing at U-<Var k="narrative.windows.ph_window_u_value" />
-with a <Var k="narrative.user_defined.rec_window_shgc" /> SHGC.
+<Var k="narrative.certification.ph_ach_limit" /> ACH50, and triple glazing at
+U-<Var k="narrative.windows.ph_window_u_value" /> Btu/hr-ft<sup>2</sup>-F and a
+<Var k="narrative.user_defined.rec_window_shgc" /> SHGC. Both runs now carry the current glazing package.
 
 <div class="btwr-callout btwr-callout--critical">
   <strong>Design implication</strong>
   <span>
-    Neither test passes. The **summer Heat Index criterion fails decisively**, and the **winter SET criterion fails
-    marginally**. The two failures have different causes and different remedies. The winter result is close enough
-    that ordinary envelope refinement would close it. The summer result comes from indoor humidity during a week
-    without power in a New York heat wave, and no realistic amount of insulation or shading closes that. The two
-    sections that follow give the numbers and the recommended response.
+    Neither test passes, and both miss on their second criterion rather than their life-safety criterion. In summer
+    the house records **zero hours** in the 'Extreme Danger' Heat Index band, clearing that threshold by 4.9 °C, but
+    it accumulates **41 to 42 hours in the 'Danger' band** against an allowance of zero, and **3 'deadly days'**
+    against an allowance of zero. In winter the house records **zero hours** below the 2 °C [36 °F] SET life-safety
+    threshold, but accumulates **294 to 318 °F-Hours** below 12 °C [54 °F] SET against a 216 °F-Hour allowance. Both
+    failures are driven by heat that accumulates over several days without relief, and both have the same short list
+    of remedies. The two sections that follow give the numbers.
   </span>
 </div>
+
+#### The governing criteria
+
+The REVIVE standard sets two criteria per season, and a thermal block must satisfy both.
+
+| Season | Criterion | Source |
+| --- | --- | --- |
+| Summer | Zero hours in the 'Danger' or 'Extreme Danger' Heat Index bands | §6.4.2(a) |
+| Summer | Zero 'deadly days' per Mora et al. | §6.4.2(b) |
+| Winter | Zero hours below 2 °C [36 °F] SET | §6.3.2(a) |
+| Winter | No more than 216 °F-Hours below 12 °C [54 °F] SET | §6.3.2(b) |
+
+The summer criterion is stricter than it first appears. The 'Danger' band begins at 39.4 °C [103 °F] Heat Index, well
+below the 51.7 °C [125 °F] 'Extreme Danger' threshold, and the allowance for both is zero.
 
 #### How to read these results
 
@@ -45,3 +62,14 @@ Phius REVIVE is a stress test rather than a design-condition analysis. A buildin
 normal operation, and the recommended package delivers a large comfort and durability improvement over the existing
 house. What the test establishes is what happens when the power is out for a week, which is worth knowing for a house
 that will stand another century.
+
+<div class="btwr-callout">
+  <strong>Where the design still has room to move</strong>
+  <span>
+    Both seasons are sensitive to decisions that are still open. In summer the largest of these is shading, interior
+    and exterior, which is not yet specified and which the sections below show to be worth more than any other
+    passive measure available. In winter the remaining levers are airtightness and thermal-bridge detailing, both
+    already scheduled. In both seasons, on-site power and storage is the one measure that changes the outcome
+    decisively rather than incrementally.
+  </span>
+</div>

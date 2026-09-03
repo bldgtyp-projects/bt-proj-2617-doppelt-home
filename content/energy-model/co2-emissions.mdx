@@ -4,25 +4,19 @@ title: "CO2 Emissions"
 dek: "Connect energy use to operational carbon impacts."
 ---
 
-Carbon Dioxide and other types of pollution which results from energy consumption are mainly responsible for the
-increased warming of the earth's atmosphere and water. Reducing the risk of global climate change means cutting all
-CO<sub>2e</sub> (CO<sub>2</sub> Equivalent) emissions related to buildings, industry and transportation across all
-sectors. There is much debate about the specific targets these reductions should achieve. One useful method
-suggests that by 2030 each individual will need to meet an annual 'Carbon Budget' of roughly 2.3 tons-CO<sub>2e</sub> per person
-for all activities. That would put an average individual's annual carbon emissions at approximately 1
-ton-CO<sub>2e</sub> / year related to their housing and building inhabitation, 1 ton-CO<sub>2e</sub> / year for their transportation, and
-another 0.3 tons-CO<sub>2e</sub> / year for food. For reference, a single US-to-Europe round trip flight currently releases
-approximately 4 tons of warming gases into the atmosphere. The 1 ton/person figure for building emissions gives us a
-useful benchmark for this building's annual CO<sub>2e</sub> emissions. Given an average annual occupancy of 
-approximately <Var k="building.total_num_occupants" /> people, this building should ideally see a total annual 
-CO<sub>2e</sub> emissions footprint of less than about <Var k="narrative.co2.target_tons" /> tons-CO<sub>2e</sub> / year.
+Carbon dioxide and the other pollution that comes from burning fuel are the main driver of warming in the earth's
+atmosphere and oceans. Limiting that warming means cutting CO<sub>2e</sub> (CO<sub>2</sub> equivalent) emissions from
+buildings, industry and transportation. The specific target is debated. One widely used budget puts each person at
+roughly 2.3 tons-CO<sub>2e</sub> per year by 2030 for all activities: about 1 ton for housing, 1 ton for
+transportation, and 0.3 tons for food. A single US-to-Europe round trip flight releases about 4 tons on its own.
+At an average annual occupancy of <Var k="building.total_num_occupants" /> people, the 1 ton per person housing
+figure puts this building's target at under about <Var k="narrative.co2.target_tons" /> tons-CO<sub>2e</sub> per
+year.
 
-Based on the modeled source energy and fuel types for the various energy uses of the building we can approximate the
-average annual CO<sub>2e</sub> emissions which will result. CO<sub>2e</sub> emission totals shown below are those which result from fuel usage
-by the building for heating, cooling, hot-water and all other plug-loads. The total amount of CO<sub>2e</sub> emitted as a result
-of each use-type depends on both the amount of fuel used as well as the type of fuel (gas, electricity, etc.). Although
-fuel-fired heating systems are permitted by Code, for this evaluation we have modeled all variants with electric-powered
-heat-pump systems only.
+The modeled source energy and fuel types give an approximate annual CO<sub>2e</sub> figure. The totals below cover
+fuel used for heating, cooling, hot water and all other plug loads. What each end use emits depends on how much fuel
+it burns and which fuel it is (gas, electricity, etc.). Code permits fuel-fired heating, but we modeled every variant
+with electric heat pumps only.
 
 Output Emission Rates used are from the <strong><Var k="narrative.co2.epa_subgrid_name" /></strong> Subregion. For more information on these factors see 
 the [EPA eGRID Data Explorer](https://www.epa.gov/egrid/data-explorer). Source Energy Factors for all fuel types are taken

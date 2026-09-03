@@ -9,55 +9,89 @@ import summerHeatIndexEnhancement from "./summer_heat_index.js?raw";
 
 The **Phius REVIVE** protocol uses the [Heat Index](https://bigladdersoftware.com/epx/docs/22-2/engineering-reference/resilience-metrics.html#heat-index) temperature to judge perceived thermal
 habitability during the test-period. The results below plot the Heat Index for each zone across the full summer week.
-Minimum compliance with the **Phius REVIVE** standard requires that the building demonstrate:
+Compliance requires that every zone demonstrate both of the following:
 
-- 0-hours of **Heat Index** in the 'Extreme Danger' zone ( > 52 °C [125 °F] ).
+- 0 hours of **Heat Index** in the 'Danger' band ( > 39.4 °C [103 °F] ) or the 'Extreme Danger' band ( > 51.7 °C [125 °F] )
+- 0 **'deadly days'**, where the daily mean zone temperature exceeds the Mora survivability threshold for that day's mean humidity
 
 <div class="btwr-callout btwr-callout--critical">
   <strong>Result: does not comply</strong>
   <span>
-Every zone breaks the 'Extreme Danger' threshold by a wide margin. Across the seven-day outage each level records
-**29 to 30 hours** in 'Extreme Danger' against an allowance of zero, plus roughly 36 hours in 'Danger', 22 hours in
-'Extreme Caution' and 56 hours in 'Caution'. Peak Heat Index reaches **55.7 °C [132.3 °F]** at the garden level and
-stays above 54.8 °C [130.7 °F] in every other zone. The house does not stay habitable through a week-long summer
-outage.
+    The house clears the 'Extreme Danger' threshold with room to spare and then fails on the 'Danger' band. Peak Heat
+    Index reaches **46.8 °C [116.2 °F]** at the garden level and stays below 45.5 °C [113.8 °F] in the coolest zone,
+    so every zone records **0 hours in 'Extreme Danger'**, a margin of 4.9 °C below that threshold. Against an
+    allowance of zero, however, each zone accumulates **41 to 42 hours in 'Danger'**, plus 37 to 39 hours in 'Extreme
+    Caution' and 47 to 50 hours in 'Caution'. Every zone also records **3 'deadly days'**, on July 8, 9 and 10,
+    against an allowance of zero.
   </span>
 </div>
 
-#### Humidity drives this, not temperature
+#### The failure is heat accumulation, not a single peak hour
 
-This is the part of the result that determines what to do about it.
+This is what determines the response, and it is worth following carefully because it points away from the obvious
+remedies.
 
-Interior dry-bulb temperature peaks at **32.7 °C [90.9 °F]**, which on its own would put the house in the 'Extreme
-Caution' band. Interior relative humidity is what pushes the Heat Index into 'Extreme Danger'. It sits between 94% and
-97% at the peak and touches saturation several times during the week. The REVIVE weather file carries outdoor
-dewpoints as high as 30 °C [86 °F] during the event, so ventilating the house, through open windows or through the
-recovery ventilator, brings in air that is already near saturated. Occupant moisture then has nowhere to go once the
-dehumidification equipment is off.
+Interior dry-bulb temperature peaks at only **31.6 °C [88.9 °F]**, and interior relative humidity runs between 90%
+and 100%, touching saturation on several nights. Neither number is extreme on its own. What produces the result is
+that they persist. From July 6 through July 10 the outdoor temperature never falls below 29.0 °C [84.2 °F], so the
+window-opening control, which requires the interior to be at least 1.5 °C warmer than outside, **never triggers for
+five consecutive days**. Over those five days the house climbs steadily from 23.3 °C to 30.3 °C with no mechanism to
+shed heat other than 0.07 ACH of infiltration.
 
-The envelope does its job. Masonry mass and insulation hold interior dry-bulb 2 to 6 °C below outdoor peaks and
-flatten the daily swing, which is why the Heat Index falls back into the 'Caution' band each night. None of that
-touches a latent-load problem.
+The ventilative cooling itself works. When outdoor air finally becomes available late on July 10, the windows open at
+6 to 20 ACH and the Heat Index falls from 44 °C to 26 °C in five hours. The strategy is sound. The heat wave simply
+does not offer it an opening.
+
+#### Where the heat actually comes from
+
+Over the governing 47-hour window, heat delivered to the occupied zones divides as follows:
+
+| Path | Share |
+| --- | --- |
+| Windows, solar and conduction combined | 60% |
+| Occupants | 55% |
+| Exterior walls | 9% |
+| Roof | -6% |
+| Infiltration | -19% |
+
+The masonry walls are not the problem. Over that window the brick absorbed 176 kWh and delivered only 9 kWh to the
+interior, because the insulation sits inboard of the mass. The wall is doing exactly what a heavy insulated masonry
+assembly should do. The roof and infiltration are net **losses**. Glazing and occupants carry the load, and occupant
+gain is fixed by the protocol.
 
 #### What would actually change the result
 
-1. **Backup power sized for dehumidification only.** A small battery or generator circuit serving a single
-   dehumidifier, or the ventilation unit plus a dehumidifier, moves this result further than any envelope change.
-   Latent removal is the binding constraint, and it needs electricity. This is what we would carry forward.
-2. **Exterior shading at the penthouse and the fourth-floor terrace glazing.** It lowers the sensible peak, improves
-   the daytime result, and is worth doing on its own merits. See [Summer Radiation](/windows/#summer-radiation).
-3. **A designated refuge level.** The garden level runs the same Heat Index as the rest of the house here, but it has
-   the most thermal mass and the least solar exposure, so a targeted measure pays off there first.
-4. **Night flushing will not work.** Opening the house at night during this event pulls in air at a dewpoint above
-   the interior dewpoint for much of the week. That strategy suits a dry climate and fails here.
+1. **Specify the interior blinds tightly.** Interior shading is worth far more than it is usually given credit for
+   here, and the performance swing between products is large. A dark or open-weave fabric passing 80% of incident
+   solar removes under 10% of the gain and is close to no shade at all. A white roller or venetian blind at 15% to
+   30% solar transmittance and 55% to 70% reflectance is three to four times more effective. This is a
+   specification decision rather than a construction cost, which makes it the cheapest available move.
+2. **Add exterior shading, which the standard expects anyway.** REVIVE §6.4.3(a) prescribes **exterior** blinds
+   that close above 100 W/m<sup>2</sup> of incident radiation. Exterior devices stop solar before it crosses the
+   glass, so they outperform any interior product and they are the strongest passive measure available on this
+   building. A rooftop canopy over the penthouse, fixed or operable louvers at the fourth-floor terrace glazing, and
+   deciduous planting at the rear are all worth carrying into the next phase. See
+   [Summer Radiation](/windows/#summer-radiation).
+3. **Lower the glazing SHGC.** The package currently carries
+   <Var k="narrative.user_defined.rec_window_shgc" /> SHGC. Moving toward 0.35 or below cuts the largest single gain
+   path directly. It costs some winter solar gain, and the summer case governs here.
+4. **Backup power for cooling, which the protocol explicitly contemplates.** REVIVE §6.4.3(b) allows a compliance
+   path in which a heat pump runs on on-site renewable power, falling back to a 27 °C [80.6 °F] setback when no
+   renewable power is available. Paired with the penthouse-roof PV array already shown on the drawing set and a
+   modest battery, this is the one measure that closes the gap with certainty rather than by degrees. Given how much
+   of the residual load is occupant heat and humidity that no envelope measure can remove, we would carry this
+   forward as the primary recommendation.
+5. **Night flushing is already working and does not need enlarging.** The house vents at up to 20 ACH the moment
+   outdoor conditions permit. Adding operable area will not help, because the binding constraint is the number of
+   hours when outdoor air is cool enough to use, not the size of the opening.
 
 <div class="btwr-callout">
-  <strong>Verify before this drives a design decision</strong>
+  <strong>How firm is this result</strong>
   <span>
-    The result depends on the modeled window-operation and infiltration assumptions during the outage, and on the
-    REVIVE occupancy and internal-moisture schedule. Confirm those inputs before this finding justifies equipment or
-    envelope spending. The direction of the result is solid. The exact count of 'Extreme Danger' hours is sensitive to
-    them.
+    The direction of the finding is solid: this house will get uncomfortably hot in a week-long summer outage, and
+    the load is dominated by glazing and by the occupants themselves. The margin to the 'Danger' threshold is less
+    firm, because it depends on shading decisions that have not been made yet. Both of the shading measures above
+    move the result the same way, and together they are worth more than the numbers on this page currently reflect.
   </span>
 </div>
 

@@ -14,25 +14,90 @@ for. It meets no PHI energy-demand threshold, and closing that gap costs floor a
 exchange for a certificate. No incentive or regulatory requirement here attaches to the plaque. Build the recommended
 package well, verify it with blower-door testing and commissioning, and skip the certification submission.
 
-#### If a certificate is still wanted, EnerPHit by Component is the route
+That recommendation is about the submission, not the assemblies. The package we are recommending does meet the
+EnerPHit component limits as modeled, so the option below stays open at little added cost if the owner wants it.
 
-PHI's EnerPHit standard offers two paths. The **energy-demand method** requires a whole-building heating demand of
-<Var k="narrative.certification.enph_hd_limit" /> kWh/m<sup>2</sup>-yr, which as shown above needs roughly R-60
-everywhere plus high-solar-gain glazing. The **component method** sets a per-assembly requirement instead and ignores
-the whole-building demand number. For this climate zone the governing component limits are:
+#### If a certificate is still wanted, PHI offers two routes
 
-| Component | EnerPHit component limit | Recommended package |
+EnerPHit is PHI's retrofit standard, and it can be earned two ways. The **component method** sets a requirement for
+each assembly and ignores the whole-building demand figure. The **energy demand method** ignores the individual
+assemblies and sets a whole-building heating demand limit instead. A project satisfies one or the other, never a
+blend of the two. Both routes must additionally meet the general EnerPHit criteria for airtightness and renewable
+primary energy, and both are judged against this building's PHPP climate zone, Warm-temperate.
+
+We modeled both. They are the last two variants shown throughout this report.
+
+#### EnerPHit by Component
+
+This route sets a maximum U-value per assembly. Because this is a landmarked masonry building insulated from the
+inside, the walls are judged against the interior-insulation limit, which is the more forgiving of the two. Roofs and
+floor slabs are judged against the exterior-insulation limit even when the insulation sits inboard of the structure.
+
+| Component | EnerPHit limit | Recommended package | |
+| --- | --- | --- | --- |
+| Wall, interior insulation | R-<Var k="narrative.certification.enph_ag_int_limit" /> minimum | R-19.9 | meets |
+| Roof | R-<Var k="narrative.certification.enph_ag_ext_limit" /> minimum | R-60.6 | meets |
+| Floor slab and walls against ground | set by PHPP from this site's degree days | R-23 slab | meets |
+| Windows, installed | U-<Var k="narrative.certification.enph_uw_limit" /> maximum | U-<Var k="narrative.windows.ph_window_u_value" /> | meets |
+| Airtightness | <Var k="narrative.certification.ph_ach_limit" /> ACH50 | <Var k="narrative.user_defined.rec_ach50" /> ACH50 | meets |
+| Ventilation heat recovery | 75% minimum | <Var k="narrative.user_defined.erv_heat_recovery_pct" />% | meets |
+| Renewable primary energy | 105 kWh/m<sup>2</sup>-yr maximum | 86 kWh/m<sup>2</sup>-yr | meets |
+
+As modeled the package clears every line, which is why this variant carries the component-method name. The windows
+were the last item to close: at an installed U-<Var k="narrative.windows.ph_window_u_value" /> they now sit under both
+the EnerPHit limit of U-<Var k="narrative.certification.enph_uw_limit" /> and the PHI comfort threshold of
+U-<Var k="narrative.windows.comfort_target_u_value" />. The party wall drops out of the requirements because it faces
+a conditioned neighbour.
+
+Under this route the whole-building heating demand is **14.2 kBtu/ft<sup>2</sup>-yr [44.9 kWh/m<sup>2</sup>-yr]**, and
+no limit applies to it. Peak heating load is about 35,000 Btu/h and peak sensible cooling about 15,600 Btu/h.
+
+Two cautions on reading that as a pass. These are modeled design targets, not verified construction, and the
+component method is judged on the as-built assemblies. The window number is an installed U-value, so it holds only
+if the frame and the reveal detailing hold.
+
+#### EnerPHit by Demand
+
+This route ignores the individual assemblies and asks only that whole-building heating demand fall below
+<Var k="narrative.certification.enph_hd_limit" /> kWh/m<sup>2</sup>-yr
+[6.3 kBtu/ft<sup>2</sup>-yr] for this climate zone. Reaching it from a landmarked masonry shell with a large
+north-facing front elevation takes a substantially deeper package:
+
+| Component | Recommended package | Package required by demand method |
 | --- | --- | --- |
-| Opaque envelope to exterior air | R-<Var k="narrative.certification.enph_ag_ext_limit" /> minimum | R-<Var k="narrative.user_defined.rec_wall_r_value" /> walls, R-<Var k="narrative.user_defined.rec_roof_r_value" /> roof |
-| Wall with interior insulation | R-<Var k="narrative.certification.enph_ag_int_limit" /> minimum | R-<Var k="narrative.user_defined.rec_wall_r_value" /> |
-| Windows, installed | U-<Var k="narrative.certification.enph_uw_limit" /> maximum | U-<Var k="narrative.windows.ph_window_u_value" /> |
-| Airtightness | <Var k="narrative.certification.ph_ach_limit" /> ACH50 | <Var k="narrative.user_defined.rec_ach50" /> ACH50 |
-| Ventilation heat recovery | 75% minimum | <Var k="narrative.user_defined.erv_heat_recovery_pct" />% |
+| Exterior walls | R-19.9 | **R-60** |
+| Walls against ground | R-19.9 | **R-60** |
+| Party wall | R-<Var k="narrative.user_defined.rec_party_wall_r_value" /> | **R-60** |
+| Basement slab | R-23 | **R-60** |
+| Roof | R-60.6 | R-60.6 |
+| Window SHGC | <Var k="narrative.user_defined.rec_window_shgc" /> | **0.55** |
 
-The recommended package clears or nearly clears every line. The windows are the one item needing a step up, from
-U-<Var k="narrative.windows.ph_window_u_value" /> to U-<Var k="narrative.certification.enph_uw_limit" /> installed,
-which is a frame and installation-detail change within the same product class. The party wall drops out of the
-component requirements because it faces a conditioned neighbor.
+Even with all of that, the result lands on the line rather than clearly inside it:
+
+| Criterion | Limit | Result | |
+| --- | --- | --- | --- |
+| Heating demand | 20.0 kWh/m<sup>2</sup>-yr | 20.1 | **misses by 0.5%** |
+| Total cooling and dehumidification | 16.0 kWh/m<sup>2</sup>-yr | 10.5 | meets |
+| Dehumidification component | 1.0 kWh/m<sup>2</sup>-yr | 1.7 | **exceeds** |
+| Renewable primary energy | <Var k="narrative.certification.enph_per_limit" /> kWh/m<sup>2</sup>-yr | 62.9 | meets |
+| Airtightness | <Var k="narrative.certification.ph_ach_limit" /> ACH50 | 1.0 | meets |
+
+Three things follow from that table. The heating target is missed, narrowly, after adding roughly three times the
+wall insulation and insulating the party wall to R-60, which costs real floor area on every level. The
+dehumidification figure goes the wrong way, because the glazing needed to pass the heating target admits more summer
+sun. And the 0.55 SHGC this route depends on runs directly against the
+<Var k="narrative.user_defined.rec_window_shgc" /> SHGC recommended for summer comfort in the
+[Resilience](/resilience/) section. The demand route and the summer overheating result pull in opposite directions on
+the same piece of glass.
+
+<div class="btwr-callout">
+  <strong>Why the component route is the one to keep open</strong>
+  <span>
+    The component route is met by the package we are already recommending, at no added cost and with no loss of floor
+    area. The demand route requires a deeper, more expensive and less comfortable building, and on this model it still
+    misses. If certification is pursued, it should be by component.
+  </span>
+</div>
 
 <div class="btwr-callout">
   <strong>What this means for the decision</strong>

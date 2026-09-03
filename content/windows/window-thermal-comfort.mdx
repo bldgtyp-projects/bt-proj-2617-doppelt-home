@@ -13,9 +13,8 @@ Localized discomfort from radiant temperature asymmetry, a difference in the tem
 body, decides whether perimeter heating can be eliminated. Where the asymmetry exceeds a certain level, a compensating
 heat source is needed to offset it, normally a radiator under the window.
 
-Many engineering reference standards put ideal thermal comfort at temperature differences below 7.6°F [4.2°K] between
-all the surfaces around a person's body. Windows matter most here, because they produce the coldest surface
-temperatures in the building during winter.
+Thermal comfort standards put the limit at a difference below 7.6°F [4.2°K] between the surfaces around a person's
+body. Windows matter most here, because they run the coldest surface temperatures in the building during winter.
 
 For <Var k="narrative.energy_code.zone" />'s winter comfort-design weather conditions [ <Var k="narrative.climate.ashrae_winter_design_temp_F"/>°F (<Var k="narrative.climate.ashrae_winter_design_temp_C"/>°C) ], Passive House certification guidelines for
 this climate recommend windows with an installed R-value above <Var k="narrative.windows.comfort_target_r_value" /> hr-ft2-F/Btu [ U-value
@@ -23,11 +22,11 @@ below <Var k="narrative.windows.comfort_target_u_value" /> Btu/hr-ft2-F ]. Those
 comfort. For smaller windows with a lower 'view-factor', less visible to the occupants, slightly lower R-values may still hit the comfort target.
 
 The recommended variant is modeled at an installed U-value of <Var k="narrative.windows.ph_window_u_value" />
-Btu/hr-ft<sup>2</sup>-F, which sits just above the comfort threshold. Specify the package at
-<Var k="narrative.windows.comfort_target_u_value" /> Btu/hr-ft<sup>2</sup>-F installed or better. On this building
-that matters most at the rear extension and the penthouse, where the glazing runs close to full height and people sit
-right beside it. The small punched openings on the front elevation have a much lower view factor and are less
-sensitive.
+Btu/hr-ft<sup>2</sup>-F [ R-<Var k="narrative.windows.ph_window_r_value" /> ], which clears the comfort threshold.
+Perimeter heating can come out on that basis. Hold that number through design development, because it is an installed
+value and the margin over the threshold is thin. On this building it matters most at the rear extension and the
+penthouse, where the glazing runs close to full height and people sit right beside it. The small punched openings on
+the front elevation have a much lower view factor and are less sensitive.
 
 <div class="btwr-callout btwr-callout--critical">
   <strong>Installed U-value, not glass U-value</strong>

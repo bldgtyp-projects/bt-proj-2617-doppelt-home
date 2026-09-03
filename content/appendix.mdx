@@ -9,6 +9,7 @@ dek: "Keep traceability available, but out of the primary decision narrative."
 | Item | Value |
 | --- | --- |
 | Energy model | PHPP 10.6 EN |
+| Recommended variant | EnerPHit By Component |
 | Climate data set | US0055c-New York, PHI climate zone 4 (warm-temperate) |
 | Resilience model | EnergyPlus via Honeybee, Phius REVIVE 2024 protocol |
 | Resilience weather | Phius REVIVE 2024, New York J.F.K. Intl. AP 744860 TMY3 |
@@ -43,7 +44,10 @@ The variant tables carry the assembly names used in the energy model. They map t
 - Mechanical equipment is modeled as generic all-electric heat-pump systems. Equipment selection, load calculations
   and duct design are by others.
 - The window package for the landmarked front elevation is unresolved pending the Landmarks discussion.
-- Re-run the Phius REVIVE summer case once the glazing, shading and ventilation assumptions are fixed.
+- Interior and exterior shading are not yet specified. Both carry more weight in the summer resilience result than
+  any other passive measure, and the outage analysis will be revisited once products are selected.
+- Ground heat transfer in the outage analysis uses a simplified boundary condition. A two-dimensional ground model is
+  carried to a later phase.
 
 #### Units
 
