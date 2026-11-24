@@ -32,6 +32,8 @@ publishing:
 custom_pages:
 - slug: resilience
   label: Resilience
+- slug: energy-code
+  label: Energy Code
 narrative:
   certification:
     target: PHI EnerPHit, Component Method (optional)
